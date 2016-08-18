@@ -28,7 +28,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "enUS", true);
 
 if L then
---@do-not-package@
 	-- Classes
 	L["Death Knight"] = "Death Knight";
 	L["Demon Hunter"] = "Demon Hunter";
@@ -62,6 +61,4 @@ if L then
 	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Celadine the Fatekeeper <Dreamgrove Researcher>";
 	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
---@end-do-not-package@
---@localization(locale="enUS", format="lua_additive_table")@
 end

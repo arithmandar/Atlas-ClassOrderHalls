@@ -1,0 +1,11 @@
+$Id$
+Atlas, a World of Warcraft instance map browser
+Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+
+==============
+= Change Log =
+==============
+
+v1.34.00 (Aug. XX, 2016)
+------------------------
+- Initial version for WoW Legion

@@ -68,9 +68,39 @@ local myData = {
 		{ WHIT.." 3) "..L["Sister Lilith <Recruiter>"], 10005 };
 		{ WHIT.." 4) "..L["Leafbeard the Storied <Ancient of Lore>"], 10006 };
 		{ WHIT.." 5) "..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10007 };
-		{ WHIT.." 6) "..L["Skylord Omnuron <Mission Specialist>"], 10008 };
+		{ WHIT.." 6) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10008 };
+		{ WHIT.." 7) "..L["Seed of Ages"], 10009 };
+		{ WHIT.." 8) "..L["Skylord Omnuron <Mission Specialist>"], 10010 };
 		{ INDENT..WHIT..L["Scouting Map"] };
-		{ WHIT.." 7) "..L["Training Dummies"], 10009 };
+		{ WHIT.." 9) "..L["Training Dummies"], 10011 };
+	};
+	CH_Priest = {
+		ZoneName = { L["Priest"]..ALC["Hyphen"]..BZ["Netherlight Temple"] };
+		WorldMapID = "1040";
+		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		{ WHIT.." 1) "..L["Betild Deepanvil <Master Artifer>"], 10002 };
+		{ INDENT..WHIT..L["Altar of Light and Shadow"] };
+		{ WHIT.." 2) "..L["Juvess the Duskwhisperer <Keeper of Scrolls>"], 10003 };
+		{ WHIT.." 3) "..L["Meridelle Lightspark <Logistics>"], 10004 };
+		{ WHIT.." 4) "..L["Alonsus Faol <Bishop of Secrets>"], 10005 };
+		{ INDENT..WHIT..L["Command Map"] };
+		{ WHIT.." 5) "..L["Dark Cleric Cecille <Priest Trainer>"], 10006 }
+		{ WHIT.." 6) "..L["Training Dummies"], 10007 };
+	};
+	CH_Warrior = {
+		ZoneName = { L["Warrior"]..ALC["Hyphen"]..BZ["Skyhold"] };
+		WorldMapID = "1035";
+		{ WHIT.." 1) "..L["Aerylia <Stormflight Master>"], 10001 };
+		{ INDENT..GREY..L["Travel to Dalaran"] };
+		{ WHIT.." 2) "..L["Skyseer Ghrent"], 10002 };
+		{ INDENT..WHIT..L["Eye of Odyn"] };
+		{ WHIT.." 3) "..L["Quartermaster Durnolf"], 10003 };
+		{ WHIT.." 4) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10004 };
+		{ WHIT.." 5) "..L["Master Smith Helgar"], 10005 };
+		{ INDENT..WHIT..L["Forge of Odyn"] };
+		{ WHIT.." 6) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10006 };
+		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
+		{ WHIT.." 8) "..Atlas_GetBossName("Odyn", 1489), 10008 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
 	};
 };
 

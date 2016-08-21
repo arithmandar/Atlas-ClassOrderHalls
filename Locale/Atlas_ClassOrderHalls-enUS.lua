@@ -46,6 +46,7 @@ if L then
 	L["Portal to Dalaran"] = "Portal to Dalaran";
 	L["Forge of the Guardian"] = "Forge of the Guardian";
 	L["Scouting Map"] = "Scouting Map";
+	L["Command Map"] = "Command Map";
 	L["Training Dummies"] = "Training Dummies";
 	-- Mage Hall
 	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
@@ -61,4 +62,23 @@ if L then
 	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Celadine the Fatekeeper <Dreamgrove Researcher>";
 	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
+	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>";
+	L["Seed of Ages"] = "Seed of Ages";
+	-- Priest
+	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
+	L["Betild Deepanvil <Master Artifer>"] = "Betild Deepanvil <Master Artifer>";
+	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>";
+	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>";
+	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
+	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
+	-- Warrior
+	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>";
+	L["Quartermaster Durnolf"] = "Quartermaster Durnolf";
+	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Stonecarver <Keeper of Legends>";
+	L["Master Smith Helgar"] = "Master Smith Helgar";
+	L["Forge of Odyn"] = "Forge of Odyn";
+	L["Weaponmaster Asvard <Warrior Trainer>"] = "Weaponmaster Asvard <Warrior Trainer>";
+	L["Skyseer Ghrent"] = "Skyseer Ghrent";
+	L["Eye of Odyn"] = "Eye of Odyn";
+	L["Travel to Dalaran"] = "Travel to Dalaran";
 end

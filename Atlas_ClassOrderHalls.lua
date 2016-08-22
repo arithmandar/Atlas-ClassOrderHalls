@@ -68,13 +68,22 @@ local myData = {
 		WorldMapID = "1052";
 		{ PURP.." A) "..L["Illidari Gateway"], 10001 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };
-
+		{ WHIT.." 1) "..L["Kayn Sunfury <Illidari>"], 10002 };
+		{ WHIT.." 2) "..L["Battlelord Gaardoun <Ashtongue Captain>"], 10003 };
+		{ WHIT.." 3) "..L["Scounting Map"], 10004 };
+		{ WHIT.." 4) "..L["Lady S'theno <Coilskar Captain>"], 10005 };
+		{ WHIT.." 5) "..L["Matron Mother Malevolence <Shivarra Captain>"], 10006 };
+		{ WHIT.." 6) "..L["Falara Nightsong <Illidari Provisioner>"], 10007 };
+		{ WHIT.." 7) "..L["Training Dummies"], 10008 };
+		{ WHIT.." 8) "..L["Jace Darkweaver <Illidari>"], 10009 };
+		{ WHIT.." 9) "..L["Vahu the Weathered <Illidari Researcher>"], 10010 };
+		{ WHIT.."10) "..L["Empowered Nether Crucible"], 10011 };
+		{ WHIT.."11) "..L["Cursed Forge of the Nathrezim"], 10012 };
 	};
 	CH_Druid = {
 		ZoneName = { L["Druid"]..ALC["Hyphen"]..BZ["The Dreamgrove"] };
 		Location = { BZ["The Dreamgrove"]..ALC["Comma"]..BZ["Val'sharah"] };
-		--WorldMapID = "";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		WorldMapID = "1077";
 		{ PURP.." A) "..L["Portal to Emerald Dreamway"], 10001 };
 		{ PURP.." B) "..L["Portal to Dalaran"], 10002 };
 		{ WHIT.." 1) "..L["Flight Master"], 10003 };

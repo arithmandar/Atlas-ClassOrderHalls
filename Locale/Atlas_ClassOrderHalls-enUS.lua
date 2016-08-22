@@ -60,6 +60,15 @@ if L then
 	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>";
 	-- Demon Hunter
 	L["Illidari Gateway"] = "Illidari Gateway";
+	L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>";
+	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>";
+	L["Lady S'theno <Coilskar Captain>"] = "Lady S'theno <Coilskar Captain>";
+	L["Matron Mother Malevolence <Shivarra Captain>"] = "Matron Mother Malevolence <Shivarra Captain>";
+	L["Falara Nightsong <Illidari Provisioner>"] = "Falara Nightsong <Illidari Provisioner>";
+	L["Jace Darkweaver <Illidari>"] = "Jace Darkweaver <Illidari>";
+	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>";
+	L["Empowered Nether Crucible"] = "Empowered Nether Crucible";
+	L["Cursed Forge of the Nathrezim"] = "Cursed Forge of the Nathrezim";
 	-- Druid
 	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
 	L["Flight Master"] = "Flight Master"

@@ -53,7 +53,7 @@ local myData = {
 		{ PURP.." B) "..L["Portal to another level"], 10002 };
 		{ WHIT.." 1) "..L["Flight Master"], 10003 };
 		{ WHIT.." 2) "..L["Siouxsie the Banshee <Mission Specialist>"], 10004 };
-		{ INDENT..WHIT..L["Scounting Map"] };
+		{ INDENT..WHIT..L["Scouting Map"] };
 		{ INDENT..WHIT..L["Highlord Darion Mograine"] };
 		{ WHIT.." 3) "..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10005 };
 		{ WHIT.." 4) "..L["Lord Thorval"], 10006 };
@@ -70,7 +70,7 @@ local myData = {
 		{ INDENT..GREY..L["Travel to Dalaran"] };
 		{ WHIT.." 1) "..L["Kayn Sunfury <Illidari>"], 10002 };
 		{ WHIT.." 2) "..L["Battlelord Gaardoun <Ashtongue Captain>"], 10003 };
-		{ WHIT.." 3) "..L["Scounting Map"], 10004 };
+		{ WHIT.." 3) "..L["Scouting Map"], 10004 };
 		{ WHIT.." 4) "..L["Lady S'theno <Coilskar Captain>"], 10005 };
 		{ WHIT.." 5) "..L["Matron Mother Malevolence <Shivarra Captain>"], 10006 };
 		{ WHIT.." 6) "..L["Falara Nightsong <Illidari Provisioner>"], 10007 };

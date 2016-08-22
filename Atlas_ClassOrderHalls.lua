@@ -47,7 +47,7 @@ local myCategory = L["Class Order Hall Maps"];
 local myData = {
 	CH_DeathKnight = {
 		ZoneName = { L["Death Knight"]..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
-		Location = { BZ["Acherus: The Ebon Hold"] };
+		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 		{ PURP.." B) "..L["Portal to another level"], 10002 };
@@ -61,10 +61,11 @@ local myData = {
 		{ WHIT.." 6) "..L["Quartermaster Ozorg <Rare Goods Vendor>"], 10008 };
 		{ WHIT.." 7) "..L["Grand Master Siegesmith Corvus"], 10009 };
 		{ INDENT..WHIT..L["Soul Forge"] };
-		{ WHIT.." 8) "..L["Lady Alistra <Death Knight Trainer>"], 10010 };	};
+		{ WHIT.." 8) "..L["Lady Alistra <Death Knight Trainer>"], 10010 };
+	};
 	CH_DemonHunter = {
 		ZoneName = { L["Demon Hunter"]..ALC["Hyphen"]..BZ["The Fel Hammer"] };
-		Location = { BZ["The Fel Hammer"] };
+		Location = { BZ["The Fel Hammer"]..ALC["Comma"]..BZ["Mardum, the Shattered Abyss"] };
 		WorldMapID = "1052";
 		{ PURP.." A) "..L["Illidari Gateway"], 10001 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };
@@ -99,9 +100,18 @@ local myData = {
 	};
 	CH_Hunter = {
 		ZoneName = { L["Hunter"]..ALC["Hyphen"]..BZ["Trueshot Lodge"] };
-		Location = { BZ["Trueshot Lodge"] };
-		--WorldMapID = "";
+		Location = { BZ["Trueshot Lodge"]..ALC["Comma"]..BZ["Highmountain"] };
+		WorldMapID = "1072";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		{ WHIT.." 1) "..L["Flight Master"], 10002 };
+		{ WHIT.." 2) "..L["Emmarel Shadewarden <Unseen Path>"], 10003 };
+		{ WHIT.." 3) "..L["Altar Keeper Biehn"], 10004 };
+		{ INDENT..WHIT..L["Altar of the Eternal Hunt"] };
+		{ WHIT.." 4) "..L["Outfitter Reyonlds <Unseen Path>"], 10005 };
+		{ WHIT.." 5) "..L["Tactician Tinderfell <Unseen Path>"], 10006 };
+		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 6) "..L["Holt Thunderhorn <Lore and Legends>"], 10007 };
+		{ INDENT..GREY..L["Tales of the Hunt"] };
 	};
 	CH_Mage = {
 		ZoneName = { L["Mage"]..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
@@ -119,13 +129,13 @@ local myData = {
 	};
 	CH_Monk = {
 		ZoneName = { L["Monk"]..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
-		Location = { BZ["Temple of Five Dawns"] };
+		Location = { BZ["Temple of Five Dawns"]..ALC["Comma"]..BZ["The Wandering Isle"] };
 		--WorldMapID = "";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 	};
 	CH_Paladin = {
 		ZoneName = { L["Paladin"]..ALC["Hyphen"]..BZ["Sanctum of Light"] };
-		Location = { BZ["Sanctum of Light"] };
+		Location = { BZ["Sanctum of Light"]..ALC["Comma"]..BZ["Light's Hope Chapel"] };
 		--WorldMapID = "";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 	};
@@ -145,13 +155,13 @@ local myData = {
 	};
 	CH_Rogue = {
 		ZoneName = { L["Rogue"]..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
-		Location = { BZ["The Hall of Shadows"] };
+		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["The Underbelly"]..ALC["Comma"]..BZ["Dalaran"] };
 		--WorldMapID = "";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 	};
 	CH_Shaman = {
 		ZoneName = { L["Shaman"]..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
-		Location = { BZ["The Heart of Azeroth"] };
+		Location = { BZ["The Heart of Azeroth"]..ALC["Comma"]..BZ["The Maelstrom"] };
 		--WorldMapID = "";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 	};
@@ -163,7 +173,7 @@ local myData = {
 	};
 	CH_Warrior = {
 		ZoneName = { L["Warrior"]..ALC["Hyphen"]..BZ["Skyhold"] };
-		Location = { BZ["Skyhold"] };
+		Location = { BZ["Skyhold"]..ALC["Comma"]..BZ["Halls of Valor"]..ALC["Comma"]..BZ["Stormheim"] };
 		WorldMapID = "1035";
 		{ WHIT.." 1) "..L["Aerylia <Stormflight Master>"], 10001 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };

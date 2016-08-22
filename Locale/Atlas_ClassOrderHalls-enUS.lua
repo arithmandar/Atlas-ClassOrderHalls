@@ -79,6 +79,15 @@ if L then
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
 	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>";
 	L["Seed of Ages"] = "Seed of Ages";
+	-- Hunter
+	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>";
+	L["Altar Keeper Biehn"] = "Altar Keeper Biehn";
+	L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
+	L["Outfitter Reyonlds <Unseen Path>"] = "Outfitter Reyonlds <Unseen Path>";
+	L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>";
+	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
+	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>";
+	L["Tales of the Hunt"] = "Tales of the Hunt";
 	-- Mage
 	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
 	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>";

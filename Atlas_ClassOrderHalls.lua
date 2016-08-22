@@ -48,14 +48,27 @@ local myData = {
 	CH_DeathKnight = {
 		ZoneName = { L["Death Knight"]..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
 		Location = { BZ["Acherus: The Ebon Hold"] };
-		--WorldMapID = "";
+		WorldMapID = "1021";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
-	};
+		{ PURP.." B) "..L["Portal to another level"], 10002 };
+		{ WHIT.." 1) "..L["Flight Master"], 10003 };
+		{ WHIT.." 2) "..L["Siouxsie the Banshee <Mission Specialist>"], 10004 };
+		{ INDENT..WHIT..L["Scounting Map"] };
+		{ INDENT..WHIT..L["Highlord Darion Mograine"] };
+		{ WHIT.." 3) "..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10005 };
+		{ WHIT.." 4) "..L["Lord Thorval"], 10006 };
+		{ WHIT.." 5) "..L["Training Dummies"], 10007 };
+		{ WHIT.." 6) "..L["Quartermaster Ozorg <Rare Goods Vendor>"], 10008 };
+		{ WHIT.." 7) "..L["Grand Master Siegesmith Corvus"], 10009 };
+		{ INDENT..WHIT..L["Soul Forge"] };
+		{ WHIT.." 8) "..L["Lady Alistra <Death Knight Trainer>"], 10010 };	};
 	CH_DemonHunter = {
 		ZoneName = { L["Demon Hunter"]..ALC["Hyphen"]..BZ["The Fel Hammer"] };
 		Location = { BZ["The Fel Hammer"] };
-		--WorldMapID = "";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		WorldMapID = "1052";
+		{ PURP.." A) "..L["Illidari Gateway"], 10001 };
+		{ INDENT..GREY..L["Travel to Dalaran"] };
+
 	};
 	CH_Druid = {
 		ZoneName = { L["Druid"]..ALC["Hyphen"]..BZ["The Dreamgrove"] };

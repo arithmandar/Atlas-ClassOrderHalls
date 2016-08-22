@@ -44,16 +44,22 @@ if L then
 	-- Common
 	L["Class Order Hall Maps"] = "Class Order Hall Maps";
 	L["Portal to Dalaran"] = "Portal to Dalaran";
-	L["Forge of the Guardian"] = "Forge of the Guardian";
 	L["Scouting Map"] = "Scouting Map";
 	L["Command Map"] = "Command Map";
 	L["Training Dummies"] = "Training Dummies";
-	-- Mage Hall
-	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
-	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>";
-	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>";
-	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>";
-	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>";
+	L["Travel to Dalaran"] = "Travel to Dalaran";
+	-- Death Knight
+	L["Portal to another level"] = "Portal to another level";
+	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>";
+	L["Highlord Darion Mograine"] = "Highlord Darion Mograine";
+	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Dreadmoore <Ebon Blade Archivist>";
+	L["Lord Thorval"] = "Lord Thorval";
+	L["Quartermaster Ozorg <Rare Goods Vendor>"] = "Quartermaster Ozorg <Rare Goods Vendor>";
+	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus";
+	L["Soul Forge"] = "Soul Forge";
+	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>";
+	-- Demon Hunter
+	L["Illidari Gateway"] = "Illidari Gateway";
 	-- Druid
 	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
 	L["Flight Master"] = "Flight Master"
@@ -64,6 +70,15 @@ if L then
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
 	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>";
 	L["Seed of Ages"] = "Seed of Ages";
+	-- Mage
+	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
+	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>";
+	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>";
+	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>";
+	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>";
+	L["Forge of the Guardian"] = "Forge of the Guardian";
+	-- Monk
+	-- Paladin
 	-- Priest
 	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
 	L["Betild Deepanvil <Master Artifer>"] = "Betild Deepanvil <Master Artifer>";
@@ -71,6 +86,9 @@ if L then
 	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>";
 	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
 	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
+	-- Rogue
+	-- Shaman
+	-- Warlock
 	-- Warrior
 	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>";
 	L["Quartermaster Durnolf"] = "Quartermaster Durnolf";

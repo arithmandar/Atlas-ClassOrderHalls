@@ -48,6 +48,7 @@ if L then
 	L["Command Map"] = "Command Map";
 	L["Training Dummies"] = "Training Dummies";
 	L["Travel to Dalaran"] = "Travel to Dalaran";
+	L["Entrance"] = "Entrance";
 	-- Death Knight
 	L["Portal to another level"] = "Portal to another level";
 	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>";
@@ -96,7 +97,20 @@ if L then
 	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>";
 	L["Forge of the Guardian"] = "Forge of the Guardian";
 	-- Monk
+	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>";
+	L["Portal to Peak of Serenity"] = "Portal to Peak of Serenity";
+	L["Master Hsu <Mission Master>"] = "Master Hsu <Mission Master>";
+	L["Elder Xang <Monk Trainer>"] = "Elder Xang <Monk Trainer>";
+	L["Iron-Body Ponshu <Senior Master Ox>"] = "Iron-Body Ponshu <Senior Master Ox>";
+	L["Forge of the Roaring Mountain"] = "Forge of the Roaring Mountain";
+	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>";
 	-- Paladin
+	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
+	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";
+	L["Katherine the Pure <Palatin Trainer>"] = "Katherine the Pure <Palatin Trainer>";
+	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>";
+	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
+	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>";
 	-- Priest
 	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
 	L["Betild Deepanvil <Master Artifer>"] = "Betild Deepanvil <Master Artifer>";

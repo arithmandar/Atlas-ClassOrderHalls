@@ -130,14 +130,30 @@ local myData = {
 	CH_Monk = {
 		ZoneName = { L["Monk"]..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
 		Location = { BZ["Temple of Five Dawns"]..ALC["Comma"]..BZ["The Wandering Isle"] };
-		--WorldMapID = "";
+		WorldMapID = "1044";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		{ PURP.." B) "..L["Portal to Peak of Serenity"], 10002 };
+		{ WHIT.." 1) "..L["Caydori Brightstar <Purveyor of Rare Goods>"], 10003 };
+		{ WHIT.." 2) "..L["Master Hsu <Mission Master>"], 10004 };
+		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 3) "..L["Elder Xang <Monk Trainer>"], 10005 };
+		{ WHIT.." 4) "..L["Iron-Body Ponshu <Senior Master Ox>"], 10006 };
+		{ INDENT..WHIT..L["Forge of the Roaring Mountain"] };
+		{ WHIT.." 5) "..L["Lorewalker Cho <Head Archivist>"], 10007 };
 	};
 	CH_Paladin = {
 		ZoneName = { L["Paladin"]..ALC["Hyphen"]..BZ["Sanctum of Light"] };
 		Location = { BZ["Sanctum of Light"]..ALC["Comma"]..BZ["Light's Hope Chapel"] };
 		--WorldMapID = "";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		{ BLUE.." A) "..L["Entrance"], 10001 };
+		{ PURP.." A) "..L["Portal to Dalaran"], 10002 };
+		{ WHIT.." 1) "..L["Sister Elda <Keeper of the Ancient Tomes>"], 10003 };
+		{ WHIT.." 2) "..L["Eadric the Pure <Quartermaster>"], 10004 };
+		{ WHIT.." 3) "..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10005 };
+		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 4) "..L["Katherine the Pure <Palatin Trainer>"], 10006 };
+		{ WHIT.." 5) "..L["Vindicator Baatun <Paladin Trainer>"], 10007 };
+		{ WHIT.." 6) "..L["Altar of Ancient Kings"], 10008 };
 	};
 	CH_Priest = {
 		ZoneName = { L["Priest"]..ALC["Hyphen"]..BZ["Netherlight Temple"] };

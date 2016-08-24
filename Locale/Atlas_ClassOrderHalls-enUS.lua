@@ -128,6 +128,14 @@ if L then
 	L["Rouge Trainers"] = "Rouge Trainers";
 	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>";
 	-- Shaman
+	L["Aggra <Shaman Trainer>"] = "Aggra <Shaman Trainer>";
+	L["Elementalist Janai <Earthen Ring>"] = "Elementalist Janai <Earthen Ring>";
+	L["Maelstrom Pillar"] = "Maelstrom Pillar";
+	L["Puzzlemaster Lo <The Earthen Ring>"] = "Puzzlemaster Lo <The Earthen Ring>";
+	L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "Flamesmith Lanying <Earthen Ring Quartermaster>";
+	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Windspeaker <Keeper of Legends>";
+	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>";
+	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>";
 	-- Warlock
 	-- Warrior
 	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>";

@@ -144,7 +144,7 @@ local myData = {
 	CH_Paladin = {
 		ZoneName = { L["Paladin"]..ALC["Hyphen"]..BZ["Sanctum of Light"] };
 		Location = { BZ["Sanctum of Light"]..ALC["Comma"]..BZ["Light's Hope Chapel"] };
-		--WorldMapID = "";
+		WorldMapID = "23";
 		{ BLUE.." A) "..L["Entrance"], 10001 };
 		{ PURP.." A) "..L["Portal to Dalaran"], 10002 };
 		{ WHIT.." 1) "..L["Sister Elda <Keeper of the Ancient Tomes>"], 10003 };
@@ -172,7 +172,7 @@ local myData = {
 	CH_Rogue = {
 		ZoneName = { L["Rogue"]..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
 		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["Dalaran"] };
-		WorldMapID = "1014";
+		WorldMapID = { "1014", "4" };
 		{ BLUE.." A) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Glorious Goods"], 10010 };
 		{ BLUE.." B) "..ALC["Connection"]..ALC["Hyphen"]..BZ["One More Glass"], 10011 };
 		{ BLUE.." C) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tanks for Everything"], 10012 };
@@ -191,8 +191,18 @@ local myData = {
 	CH_Shaman = {
 		ZoneName = { L["Shaman"]..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
 		Location = { BZ["The Heart of Azeroth"]..ALC["Comma"]..BZ["The Maelstrom"] };
-		--WorldMapID = "";
+		WorldMapID = "1057";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		{ WHIT.." 1) "..L["Training Dummies"], 10002 };
+		{ WHIT.." 2) "..L["Aggra <Shaman Trainer>"], 10003 };
+		{ WHIT.." 3) "..L["Elementalist Janai <Earthen Ring>"], 10004 };
+		{ INDENT..WHIT..L["Maelstrom Pillar"] };
+		{ WHIT.." 4) "..L["Puzzlemaster Lo <The Earthen Ring>"], 10005 };
+		{ WHIT.." 5) "..L["Flamesmith Lanying <Earthen Ring Quartermaster>"], 10006 };
+		{ WHIT.." 6) "..L["Advisor Sevel <The Earthen Ring>"], 10007 };
+		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 7) "..L["Gorma Windspeaker <Keeper of Legends>"], 10008 };
+		{ WHIT.." 8) "..L["Tribemother Torra <Shaman Trainer>"], 10009 };
 	};
 	CH_Warlock = {
 		ZoneName = { L["Warlock"]..ALC["Hyphen"]..BZ["Dreadscar Rift"] };

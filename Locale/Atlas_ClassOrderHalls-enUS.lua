@@ -49,8 +49,10 @@ if L then
 	L["Training Dummies"] = "Training Dummies";
 	L["Travel to Dalaran"] = "Travel to Dalaran";
 	L["Entrance"] = "Entrance";
+	L["Ramp to lower floor"] = "Ramp to lower floor";
+	L["Ramp to top floor"] = "Ramp to top floor";
 	-- Death Knight
-	L["Portal to another level"] = "Portal to another level";
+	L["Portal to another floor"] = "Portal to another floor";
 	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>";
 	L["Highlord Darion Mograine"] = "Highlord Darion Mograine";
 	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Dreadmoore <Ebon Blade Archivist>";
@@ -84,7 +86,7 @@ if L then
 	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>";
 	L["Altar Keeper Biehn"] = "Altar Keeper Biehn";
 	L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
-	L["Outfitter Reyonlds <Unseen Path>"] = "Outfitter Reyonlds <Unseen Path>";
+	L["Outfitter Reynolds <Unseen Path>"] = "Outfitter Reynolds <Unseen Path>";
 	L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>";
 	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
 	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>";
@@ -107,19 +109,19 @@ if L then
 	-- Paladin
 	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
 	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";
-	L["Katherine the Pure <Palatin Trainer>"] = "Katherine the Pure <Palatin Trainer>";
+	L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>";
 	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>";
 	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
 	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>";
 	-- Priest
 	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
-	L["Betild Deepanvil <Master Artifer>"] = "Betild Deepanvil <Master Artifer>";
+	L["Betild Deepanvil <Master Artificer>"] = "Betild Deepanvil <Master Artificer>";
 	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>";
 	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>";
 	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
 	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
 	-- Rogue
-	L["Madam Gosu <Black Market Liason>"] = "Madam Gosu <Black Market Liason>";
+	L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>";
 	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt";
 	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>";
 	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>";
@@ -137,6 +139,17 @@ if L then
 	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>";
 	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>";
 	-- Warlock
+	L["Calydus"] = "Calydus";
+	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>";
+	L["Felblood Altar"] = "Felblood Altar";
+	L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Dreadscar Blacksmith>";
+	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Flamescowl <Council of the Black Harvest>";
+	L["Dreadscar Battle Plans"] = "Dreadscar Battle Plans";
+	L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin the Darkbinder <Mission Strategist>";
+	L["Demonic Gateway"] = "Demonic Gateway";
+	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>";
+	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>";
+	L["Jared <Recruiter>"] = "Jared <Recruiter>";
 	-- Warrior
 	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>";
 	L["Quartermaster Durnolf"] = "Quartermaster Durnolf";

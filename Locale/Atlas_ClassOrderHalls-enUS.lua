@@ -119,6 +119,14 @@ if L then
 	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
 	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
 	-- Rogue
+	L["Madam Gosu <Black Market Liason>"] = "Madam Gosu <Black Market Liason>";
+	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt";
+	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>";
+	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>";
+	L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned";
+	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>";
+	L["Rouge Trainers"] = "Rouge Trainers";
+	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>";
 	-- Shaman
 	-- Warlock
 	-- Warrior

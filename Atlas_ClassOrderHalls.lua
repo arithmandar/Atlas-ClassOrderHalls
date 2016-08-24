@@ -171,9 +171,22 @@ local myData = {
 	};
 	CH_Rogue = {
 		ZoneName = { L["Rogue"]..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
-		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["The Underbelly"]..ALC["Comma"]..BZ["Dalaran"] };
-		--WorldMapID = "";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
+		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["Dalaran"] };
+		WorldMapID = "1014";
+		{ BLUE.." A) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Glorious Goods"], 10010 };
+		{ BLUE.." B) "..ALC["Connection"]..ALC["Hyphen"]..BZ["One More Glass"], 10011 };
+		{ BLUE.." C) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tanks for Everything"], 10012 };
+		{ BLUE.." D) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tunnel of Woe"], 10013 };
+		{ WHIT.." 1) "..L["Madam Gosu <Black Market Liason>"], 10001 };
+		{ WHIT.." 2) "..L["Lord Jorach Ravenholdt"], 10002 };
+		{ WHIT.." 3) "..L["Filius Sparkstache <Archivist>"], 10003 };
+		{ WHIT.." 4) "..L["Marin Noggenfogger <Baron of Gadgetzan>"], 10004 };
+		{ WHIT.." 5) "..L["Crucible of the Uncrowned"], 10005 };
+		{ WHIT.." 6) "..L["Nikki the Gossip <Tales fo Adventure and Profit>"], 10006 };
+		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 7) "..L["Rouge Trainers"], 10007 };
+		{ WHIT.." 8) "..L["Training Dummies"], 10008 };
+		{ WHIT.." 9) "..L["Kelsey Steelspark <Quartermaster>"], 10009 };
 	};
 	CH_Shaman = {
 		ZoneName = { L["Shaman"]..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
@@ -185,7 +198,6 @@ local myData = {
 		ZoneName = { L["Warlock"]..ALC["Hyphen"]..BZ["Dreadscar Rift"] };
 		Location = { BZ["Dreadscar Rift"] };
 		--WorldMapID = "";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10001 };
 	};
 	CH_Warrior = {
 		ZoneName = { L["Warrior"]..ALC["Hyphen"]..BZ["Skyhold"] };

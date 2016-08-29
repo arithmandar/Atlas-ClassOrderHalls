@@ -129,6 +129,7 @@ local myData = {
 		{ INDENT..WHIT..L["Scouting Map"] };
 		{ WHIT.." 6) "..L["Holt Thunderhorn <Lore and Legends>"], 10006 };
 		{ INDENT..GREY..L["Tales of the Hunt"] };
+		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
 	};
 	CH_Mage = {
 		ZoneName = { CL["MAGE"]..L["Mage"]..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
@@ -137,11 +138,11 @@ local myData = {
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
 		{ WHIT.." 1) "..L["Forge of the Guardian"], 10001 };
 		{ WHIT.." 2) "..L["Edirah <Tirisgarde Researcher>"], 10002 };
-		{ WHIT.." 3) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10003 };
-		{ WHIT.." 4) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10004 };
-		{ WHIT.." 5) "..L["Archmage Omniara <Recruiter>"], 10005 };
-		{ WHIT.." 6) "..L["Archmage Melis <Mistress of Flame>"], 10006 };
+		{ WHIT.." 3) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10003 };
+		{ WHIT.." 4) "..L["Archmage Omniara <Recruiter>"], 10004 };
+		{ WHIT.." 5) "..L["Archmage Melis <Mistress of Flame>"], 10005 };
 		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.." 6) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10006 };
 		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
 	};
 	CH_Monk = {
@@ -150,18 +151,21 @@ local myData = {
 		WorldMapID = "1044";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
 		{ PURP.." B) "..L["Portal to Peak of Serenity"], 10102 };
+		{ PURP.." C) "..L["Transportation Mandala"], 10103 };
 		{ WHIT.." 1) "..L["Caydori Brightstar <Purveyor of Rare Goods>"], 10001 };
 		{ WHIT.." 2) "..L["Master Hsu <Mission Master>"], 10002 };
 		{ INDENT..WHIT..L["Scouting Map"] };
 		{ WHIT.." 3) "..L["Elder Xang <Monk Trainer>"], 10003 };
 		{ WHIT.." 4) "..L["Iron-Body Ponshu <Senior Master Ox>"], 10004 };
 		{ INDENT..WHIT..L["Forge of the Roaring Mountain"] };
+		{ INDENT..WHIT..L["Lao Li the Quiet <Monk Trainer>"]..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
 		{ WHIT.." 5) "..L["Lorewalker Cho <Head Archivist>"], 10005 };
+		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
 	};
 	CH_Paladin = {
 		ZoneName = { CL["PALADIN"]..L["Paladin"]..ALC["Hyphen"]..BZ["Sanctum of Light"] };
 		Location = { BZ["Sanctum of Light"]..ALC["Comma"]..BZ["Light's Hope Chapel"] };
-		WorldMapID = "23";
+		--WorldMapID = "23";
 		{ BLUE.." A) "..L["Entrance"], 10101 };
 		{ PURP.." A) "..L["Portal to Dalaran"], 10102 };
 		{ WHIT.." 1) "..L["Sister Elda <Keeper of the Ancient Tomes>"], 10001 };
@@ -169,7 +173,9 @@ local myData = {
 		{ WHIT.." 3) "..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10003 };
 		{ INDENT..WHIT..L["Scouting Map"] };
 		{ WHIT.." 4) "..L["Katherine the Pure <Paladin Trainer>"], 10004 };
+		{ INDENT..WHIT..L["Training Dummies"] };
 		{ WHIT.." 5) "..L["Vindicator Baatun <Paladin Trainer>"], 10005 };
+		{ INDENT..WHIT..L["Training Dummies"] };
 		{ WHIT.." 6) "..L["Altar of Ancient Kings"], 10006 };
 	};
 	CH_Priest = {
@@ -189,7 +195,8 @@ local myData = {
 	CH_Rogue = {
 		ZoneName = { CL["ROGUE"]..L["Rogue"]..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
 		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["Dalaran"] };
-		WorldMapID = { "1014", "4" };
+		WorldMapID = "1014";
+		DungeonLevel = "4";
 		{ BLUE.." A) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Glorious Goods"], 10101 };
 		{ BLUE.." B) "..ALC["Connection"]..ALC["Hyphen"]..BZ["One More Glass"], 10102 };
 		{ BLUE.." C) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tanks for Everything"], 10103 };

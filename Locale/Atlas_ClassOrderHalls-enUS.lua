@@ -106,6 +106,8 @@ if L then
 	L["Iron-Body Ponshu <Senior Master Ox>"] = "Iron-Body Ponshu <Senior Master Ox>";
 	L["Forge of the Roaring Mountain"] = "Forge of the Roaring Mountain";
 	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>";
+	L["Transportation Mandala"] = "Transportation Mandala";
+	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>";
 	-- Paladin
 	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
 	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";

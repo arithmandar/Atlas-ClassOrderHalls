@@ -6,6 +6,10 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.34.00 (Aug. XX, 2016)
+v1.34.00 (Aug. 31, 2016)
 ------------------------
 - Initial version for WoW Legion
+- Localization available:
+  - German (pas06)
+  - Simplified Chinese (ananhaid)
+  - Traditional Chinese (arith)

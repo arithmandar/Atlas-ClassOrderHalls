@@ -61,7 +61,7 @@ local myCategory = L["Class Order Hall Maps"];
 
 local myData = {
 	CH_DeathKnight = {
-		ZoneName = { CL["DEATHKNIGHT"]..L["Death Knight"]..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
+		ZoneName = { CL["DEATHKNIGHT"]..Atlas_GetClassName("DEATHKNIGHT")..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
 		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -79,7 +79,7 @@ local myData = {
 		{ WHIT.." 8) "..L["Lady Alistra <Death Knight Trainer>"], 10008 };
 	};
 	CH_DemonHunter = {
-		ZoneName = { CL["DEMONHUNTER"]..L["Demon Hunter"]..ALC["Hyphen"]..BZ["The Fel Hammer"] };
+		ZoneName = { CL["DEMONHUNTER"]..Atlas_GetClassName("DEMONHUNTER")..ALC["Hyphen"]..BZ["The Fel Hammer"] };
 		Location = { BZ["The Fel Hammer"]..ALC["Comma"]..BZ["Mardum, the Shattered Abyss"] };
 		WorldMapID = "1052";
 		{ PURP.." A) "..L["Illidari Gateway"], 10101 };
@@ -99,7 +99,7 @@ local myData = {
 		{ WHIT.."11) "..L["Cursed Forge of the Nathrezim"], 10011 };
 	};
 	CH_Druid = {
-		ZoneName = { CL["DRUID"]..L["Druid"]..ALC["Hyphen"]..BZ["The Dreamgrove"] };
+		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };
 		Location = { BZ["The Dreamgrove"]..ALC["Comma"]..BZ["Val'sharah"] };
 		WorldMapID = "1077";
 		{ PURP.." A) "..L["Portal to Emerald Dreamway"], 10101 };
@@ -116,7 +116,7 @@ local myData = {
 		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
 	};
 	CH_Hunter = {
-		ZoneName = { CL["HUNTER"]..L["Hunter"]..ALC["Hyphen"]..BZ["Trueshot Lodge"] };
+		ZoneName = { CL["HUNTER"]..Atlas_GetClassName("HUNTER")..ALC["Hyphen"]..BZ["Trueshot Lodge"] };
 		Location = { BZ["Trueshot Lodge"]..ALC["Comma"]..BZ["Highmountain"] };
 		WorldMapID = "1072";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -132,7 +132,7 @@ local myData = {
 		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
 	};
 	CH_Mage = {
-		ZoneName = { CL["MAGE"]..L["Mage"]..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
+		ZoneName = { CL["MAGE"]..Atlas_GetClassName("MAGE")..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
 		Location = { BZ["Hall of the Guardian"]..ALC["Comma"]..BZ["Dalaran"] };
 		WorldMapID = "1068";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -146,7 +146,7 @@ local myData = {
 		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
 	};
 	CH_Monk = {
-		ZoneName = { CL["MONK"]..L["Monk"]..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
+		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
 		Location = { BZ["Temple of Five Dawns"]..ALC["Comma"]..BZ["The Wandering Isle"] };
 		WorldMapID = "1044";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -163,7 +163,7 @@ local myData = {
 		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
 	};
 	CH_Paladin = {
-		ZoneName = { CL["PALADIN"]..L["Paladin"]..ALC["Hyphen"]..BZ["Sanctum of Light"] };
+		ZoneName = { CL["PALADIN"]..Atlas_GetClassName("PALADIN")..ALC["Hyphen"]..BZ["Sanctum of Light"] };
 		Location = { BZ["Sanctum of Light"]..ALC["Comma"]..BZ["Light's Hope Chapel"] };
 		--WorldMapID = "23";
 		{ BLUE.." A) "..L["Entrance"], 10101 };
@@ -179,7 +179,7 @@ local myData = {
 		{ WHIT.." 6) "..L["Altar of Ancient Kings"], 10006 };
 	};
 	CH_Priest = {
-		ZoneName = { CL["PRIEST"]..L["Priest"]..ALC["Hyphen"]..BZ["Netherlight Temple"] };
+		ZoneName = { CL["PRIEST"]..Atlas_GetClassName("PRIEST")..ALC["Hyphen"]..BZ["Netherlight Temple"] };
 		Location = { BZ["Netherlight Temple"]..ALC["Comma"]..BZ["Dalaran"] };
 		WorldMapID = "1040";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -193,7 +193,7 @@ local myData = {
 		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
 	};
 	CH_Rogue = {
-		ZoneName = { CL["ROGUE"]..L["Rogue"]..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
+		ZoneName = { CL["ROGUE"]..Atlas_GetClassName("ROGUE")..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
 		Location = { BZ["The Hall of Shadows"]..ALC["Comma"]..BZ["Dalaran"] };
 		WorldMapID = "1014";
 		DungeonLevel = "4";
@@ -213,7 +213,7 @@ local myData = {
 		{ WHIT.." 9) "..L["Kelsey Steelspark <Quartermaster>"], 10009 };
 	};
 	CH_Shaman = {
-		ZoneName = { CL["SHAMAN"]..L["Shaman"]..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
+		ZoneName = { CL["SHAMAN"]..Atlas_GetClassName("SHAMAN")..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
 		Location = { BZ["The Heart of Azeroth"]..ALC["Comma"]..BZ["The Maelstrom"] };
 		WorldMapID = "1057";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -229,7 +229,7 @@ local myData = {
 		{ WHIT.." 8) "..L["Tribemother Torra <Shaman Trainer>"], 10008 };
 	};
 	CH_Warlock = {
-		ZoneName = { CL["WARLOCK"]..L["Warlock"]..ALC["Hyphen"]..BZ["Dreadscar Rift"] };
+		ZoneName = { CL["WARLOCK"]..Atlas_GetClassName("WARLOCK")..ALC["Hyphen"]..BZ["Dreadscar Rift"] };
 		Location = { BZ["Dreadscar Rift"] };
 		WorldMapID = "1050";
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
@@ -247,7 +247,7 @@ local myData = {
 		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
 	};
 	CH_Warrior = {
-		ZoneName = { CL["WARRIOR"]..L["Warrior"]..ALC["Hyphen"]..BZ["Skyhold"] };
+		ZoneName = { CL["WARRIOR"]..Atlas_GetClassName("WARRIOR")..ALC["Hyphen"]..BZ["Skyhold"] };
 		Location = { BZ["Skyhold"]..ALC["Comma"]..BZ["Halls of Valor"]..ALC["Comma"]..BZ["Stormheim"] };
 		WorldMapID = "1035";
 		{ PURP.." A) "..L["Aerylia <Stormflight Master>"], 10101 };

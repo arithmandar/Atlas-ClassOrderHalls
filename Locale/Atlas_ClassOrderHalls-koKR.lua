@@ -25,7 +25,7 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_Transportation", "koKR", false);
+local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "koKR", false);
 
 if L then
 --@localization(locale="koKR", format="lua_additive_table")@

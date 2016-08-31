@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -25,7 +25,7 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_Transportation", "esES", false);
+local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "esES", false);
 
 if L then
 --@localization(locale="esES", format="lua_additive_table")@

@@ -1,4 +1,4 @@
--- $Id$
+﻿-- $Id$
 --[[
 
 	Atlas, a World of Warcraft instance map browser
@@ -25,11 +25,18 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_Transportation", "zhTW", false);
+local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "zhTW", false);
 
 if L then
 --@do-not-package@
-
+L["Class Order Hall Maps"] = "職業大廳地圖"
+L["Entrance"] = "入口"
+L["Flight Master"] = "飛行管理員"
+L["Portal to another floor"] = "至另一層的傳送門"
+L["Portal to Dalaran"] = "達拉然傳送門"
+L["Portal to Emerald Dreamway"] = "翡翠夢途傳送門"
+L["Portal to Peak of Serenity"] = "寂靜峰傳送門"
+L["Training Dummies"] = "訓練假人"
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end

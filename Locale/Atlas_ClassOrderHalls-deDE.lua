@@ -25,7 +25,7 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_Transportation", "deDE", false);
+local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "deDE", false);
 
 if L then
 --@localization(locale="deDE", format="lua_additive_table")@

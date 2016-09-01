@@ -138,12 +138,16 @@ local myData = {
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
 		{ WHIT.." 1) "..L["Forge of the Guardian"], 10001 };
 		{ WHIT.." 2) "..L["Edirah <Tirisgarde Researcher>"], 10002 };
-		{ WHIT.." 3) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10003 };
-		{ WHIT.." 4) "..L["Archmage Omniara <Recruiter>"], 10004 };
-		{ WHIT.." 5) "..L["Archmage Melis <Mistress of Flame>"], 10005 };
+		{ WHIT.." 3) "..L["Meryl Felstorm"], 10003 };
+		{ INDENT..WHIT..L["Archmage Kalec <Kirin Tor>"] };
+		{ INDENT..WHIT..L["Archmage Modera <Kirin Tor>"] };
+		{ WHIT.." 4) "..L["Old Fillmaff <Tirisgarde Librarian>"], 10004 };
+		{ WHIT.." 5) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10005 };
+		{ WHIT.." 6) "..L["Archmage Omniara <Recruiter>"], 10006 };
+		{ WHIT.." 7) "..L["Archmage Melis <Mistress of Flame>"], 10007 };
 		{ INDENT..WHIT..L["Scouting Map"] };
-		{ WHIT.." 6) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10006 };
-		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
+		{ WHIT.." 8) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10008 };
+		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
 	};
 	CH_Monk = {
 		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };

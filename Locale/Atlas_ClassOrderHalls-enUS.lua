@@ -85,6 +85,10 @@ if L then
 	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>";
 	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>";
 	L["Forge of the Guardian"] = "Forge of the Guardian";
+	L["Old Fillmaff <Tirisgarde Librarian>"] = "Old Fillmaff <Tirisgarde Librarian>"; -- 107452
+	L["Meryl Felstorm"] = "Meryl Felstorm"; -- 102700
+	L["Archmage Kalec <Kirin Tor>"] = "Archmage Kalec <Kirin Tor>"; -- 108247
+	L["Archmage Modera <Kirin Tor>"] = "Archmage Modera <Kirin Tor>"; -- 108248
 	-- Monk
 	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>";
 	L["Portal to Peak of Serenity"] = "Portal to Peak of Serenity";
@@ -148,5 +152,4 @@ if L then
 	L["Weaponmaster Asvard <Warrior Trainer>"] = "Weaponmaster Asvard <Warrior Trainer>";
 	L["Skyseer Ghrent"] = "Skyseer Ghrent";
 	L["Eye of Odyn"] = "Eye of Odyn";
-	L["Travel to Dalaran"] = "Travel to Dalaran";
 end

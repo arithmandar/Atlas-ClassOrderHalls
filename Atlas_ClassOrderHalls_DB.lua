@@ -27,156 +27,158 @@
 
 local myDB = {
 	CH_DeathKnight = {
-		{ " A", 10101, 4, 313 }; -- Portal to Dalaran
-		{ " B", 10102, 49, 306 }; -- Portal to another floor
-		{ " B", 10102, 217, 108 }; -- Portal to another floor
-		{ " 1", 10001, 21, 288 }; -- Flight Master
-		{ " 2", 10002, 152, 366 }; -- Siouxsie the Banshee <Mission Specialist>
-		{ " 3", 10003, 147, 391 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
-		{ " 4", 10004, 243, 443 }; -- Lord Thorval
-		{ " 5", 10005, 327, 177 }; -- Training Dummies
-		{ " 6", 10006, 290, 115 }; -- Quartermaster Ozorg <Rare Goods Vendor>
-		{ " 7", 10007, 393, 210 }; -- Grand Master Siegesmith Corvus
-		{ " 8", 10008, 396, 153 }; -- Lady Alistra <Death Knight Trainer>
+		{ "A", 10101, 4, 313 }; -- Portal to Dalaran
+		{ "B", 10102, 49, 306 }; -- Portal to another floor
+		{ "B", 10102, 217, 108 }; -- Portal to another floor
+		{ "1", 10001, 21, 288 }; -- Flight Master
+		{ "2", 10002, 152, 366 }; -- Siouxsie the Banshee <Mission Specialist>
+		{ "3", 10003, 147, 391 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
+		{ "4", 10004, 243, 443 }; -- Lord Thorval
+		{ "5", 10005, 327, 177 }; -- Training Dummies
+		{ "6", 10006, 290, 115 }; -- Quartermaster Ozorg <Rare Goods Vendor>
+		{ "7", 10007, 393, 210 }; -- Grand Master Siegesmith Corvus
+		{ "8", 10008, 396, 153 }; -- Lady Alistra <Death Knight Trainer>
 	};
 	CH_DemonHunter = {
-		{ " A", 10101, 122, 416 }; -- Illidari Gateway
-		{ " A", 10102, 53, 247 }; -- Ramp to lower floor
-		{ " A", 10102, 193, 247 }; -- Ramp to lower floor
-		{ " B", 10103, 307, 247 }; -- Ramp to top floor
-		{ " B", 10103, 444, 247 }; -- Ramp to top floor
-		{ " 1", 10001, 122, 269 }; -- Kayn Sunfury <Illidari>
-		{ " 2", 10002, 100, 248 }; -- Battlelord Gaardoun <Ashtongue Captain>
-		{ " 3", 10003, 122, 248 }; -- Scouting Map
-		{ " 4", 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
-		{ " 5", 10005, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
-		{ " 6", 10006, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
-		{ " 7", 10007, 100, 94 }; -- Training Dummies
-		{ " 8", 10008, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{ " 9", 10009, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{ "A", 10101, 122, 416 }; -- Illidari Gateway
+		{ "A", 10102, 53, 247 }; -- Ramp to lower floor
+		{ "A", 10102, 193, 247 }; -- Ramp to lower floor
+		{ "B", 10103, 307, 247 }; -- Ramp to top floor
+		{ "B", 10103, 444, 247 }; -- Ramp to top floor
+		{ "1", 10001, 122, 269 }; -- Kayn Sunfury <Illidari>
+		{ "2", 10002, 100, 248 }; -- Battlelord Gaardoun <Ashtongue Captain>
+		{ "3", 10003, 122, 248 }; -- Scouting Map
+		{ "4", 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
+		{ "5", 10005, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
+		{ "6", 10006, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
+		{ "7", 10007, 100, 94 }; -- Training Dummies
+		{ "8", 10008, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{ "9", 10009, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
 		{ "10", 10010, 375, 249 }; -- Empowered Nether Crucible
 		{ "11", 10011, 374, 119 }; -- Cursed Forge of the Nathrezim
 	};
 	CH_Druid = {
-		{ " A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
-		{ " B", 10102, 346, 204 }; -- Portal to Dalaran
-		{ " 1", 10001, 391, 150 }; -- Flight Master
-		{ " 2", 10002, 207, 108 }; -- Amurra Thistledew <Proprietor>
-		{ " 3", 10003, 177, 111 }; -- Sister Lilith <Recruiter>
-		{ " 4", 10004, 145, 127 }; -- Leafbeard the Storied <Ancient of Lore>
-		{ " 5", 10005, 153, 145 }; -- Celadine the Fatekeeper <Dreamgrove Researcher>
-		{ " 6", 10006, 130, 264 }; -- Rensar Greathoof <Archdruid of the Grove>
-		{ " 7", 10007, 244, 257 }; -- Seed of Ages
-		{ " 8", 10008, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
-		{ " 9", 10009, 474, 282 }; -- Training Dummies
+		{ "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
+		{ "B", 10102, 346, 204 }; -- Portal to Dalaran
+		{ "1", 10001, 391, 150 }; -- Flight Master
+		{ "2", 10002, 207, 108 }; -- Amurra Thistledew <Proprietor>
+		{ "3", 10003, 177, 111 }; -- Sister Lilith <Recruiter>
+		{ "4", 10004, 145, 127 }; -- Leafbeard the Storied <Ancient of Lore>
+		{ "5", 10005, 153, 145 }; -- Celadine the Fatekeeper <Dreamgrove Researcher>
+		{ "6", 10006, 130, 264 }; -- Rensar Greathoof <Archdruid of the Grove>
+		{ "7", 10007, 244, 257 }; -- Seed of Ages
+		{ "8", 10008, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
+		{ "9", 10009, 474, 282 }; -- Training Dummies
 	};
 	CH_Hunter = {
-		{ " A", 10101, 234, 289 }; -- Portal to Dalaran
-		{ " 1", 10001, 163, 238 }; -- Flight Master
-		{ " 2", 10002, 209, 230 }; -- Emmarel Shadewarden <Unseen Path>
-		{ " 3", 10003, 228, 343 }; -- Altar Keeper Biehn
-		{ " 4", 10004, 210, 318 }; -- Outfitter Reynolds <Unseen Path>
-		{ " 5", 10005, 199, 308 }; -- Tactician Tinderfell <Unseen Path>
-		{ " 6", 10006, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
-		{ " 7", 10007, 273, 318 }; -- Training Dummies
-		{ " 7", 10007, 207, 291 }; -- Training Dummies
-		{ " 7", 10007, 188, 306 }; -- Training Dummies
+		{ "A", 10101, 234, 289 }; -- Portal to Dalaran
+		{ "1", 10001, 163, 238 }; -- Flight Master
+		{ "2", 10002, 209, 230 }; -- Emmarel Shadewarden <Unseen Path>
+		{ "3", 10003, 228, 343 }; -- Altar Keeper Biehn
+		{ "4", 10004, 210, 318 }; -- Outfitter Reynolds <Unseen Path>
+		{ "5", 10005, 199, 308 }; -- Tactician Tinderfell <Unseen Path>
+		{ "6", 10006, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
+		{ "7", 10007, 273, 318 }; -- Training Dummies
+		{ "7", 10007, 207, 291 }; -- Training Dummies
+		{ "7", 10007, 188, 306 }; -- Training Dummies
 	};
 	CH_Mage = {
-		{ " A", 10101, 249, 451 }; -- Portal to Dalaran
-		{ " 1", 10001, 252, 198 }; -- Forge of the Guardian
-		{ " 2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
-		{ " 3", 10003, 172, 263 }; -- Chronicler Elrianne <Class Hall Upgrades>
-		{ " 4", 10004, 334, 178 }; -- Archmage Omniara <Recruiter>
-		{ " 5", 10005, 417, 247 }; -- Archmage Melis <Mistress of Flame>
-		{ " 6", 10006, 389, 309 }; -- Jackson Watkins <Tirisgarde Quartermaster>
-		{ " 7", 10007, 132, 300 }; -- Training Dummies
+		{ "A", 10101, 249, 451 }; -- Portal to Dalaran
+		{ "1", 10001, 252, 198 }; -- Forge of the Guardian
+		{ "2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
+		{ "3", 10003, 225, 183 }; -- Meryl Felstorm
+		{ "4", 10004, 214, 199 }; -- Old Fillmaff <Tirisgarde Librarian>
+		{ "5", 10005, 172, 263 }; -- Chronicler Elrianne <Class Hall Upgrades>
+		{ "6", 10006, 334, 178 }; -- Archmage Omniara <Recruiter>
+		{ "7", 10007, 417, 247 }; -- Archmage Melis <Mistress of Flame>
+		{ "8", 10008, 389, 309 }; -- Jackson Watkins <Tirisgarde Quartermaster>
+		{ "9", 10009, 132, 300 }; -- Training Dummies
 	};
 	CH_Monk = {
-		{ " A", 10101, 264, 332 }; -- Portal to Dalaran
-		{ " B", 10102, 233, 310 }; -- Portal to Peak of Serenity
-		{ " C", 10103, 272, 243 }; -- Transportation Mandala
-		{ " C", 10103, 228, 243 }; -- Transportation Mandala
-		{ " 1", 10001, 237, 346 }; -- Caydori Brightstar <Purveyor of Rare Goods>
-		{ " 2", 10002, 268, 358 }; -- Master Hsu <Mission Master>
-		{ " 3", 10003, 291, 333 }; -- Elder Xang <Monk Trainer>
-		{ " 4", 10004, 250, 253 }; -- Iron-Body Ponshu <Senior Master Ox>
-		{ " 5", 10005, 189, 247 }; -- Lorewalker Cho <Head Archivist>
-		{ " 6", 10006, 283, 321 }; -- Training Dummies
-		{ " 6", 10006, 278, 282 }; -- Training Dummies
-		{ " 6", 10006, 229, 283 }; -- Training Dummies
+		{ "A", 10101, 264, 332 }; -- Portal to Dalaran
+		{ "B", 10102, 233, 310 }; -- Portal to Peak of Serenity
+		{ "C", 10103, 272, 243 }; -- Transportation Mandala
+		{ "C", 10103, 228, 243 }; -- Transportation Mandala
+		{ "1", 10001, 237, 346 }; -- Caydori Brightstar <Purveyor of Rare Goods>
+		{ "2", 10002, 268, 358 }; -- Master Hsu <Mission Master>
+		{ "3", 10003, 291, 333 }; -- Elder Xang <Monk Trainer>
+		{ "4", 10004, 250, 253 }; -- Iron-Body Ponshu <Senior Master Ox>
+		{ "5", 10005, 189, 247 }; -- Lorewalker Cho <Head Archivist>
+		{ "6", 10006, 283, 321 }; -- Training Dummies
+		{ "6", 10006, 278, 282 }; -- Training Dummies
+		{ "6", 10006, 229, 283 }; -- Training Dummies
 	};
 	CH_Paladin = {
-		{ " A", 10101, 102, 472 }; -- Entrance
-		{ " A", 10102, 75, 327 }; -- Portal to Dalaran
-		{ " 1", 10001, 75, 293 }; -- Sister Elda <Keeper of the Ancient Tomes>
-		{ " 2", 10002, 106, 315 }; -- Eadric the Pure <Quartermaster>
-		{ " 3", 10003, 192, 397 }; -- Lord Grayson Shadowbreaker <Mission Specialist>
-		{ " 4", 10004, 183, 245 }; -- Katherine the Pure <Paladin Trainer>
-		{ " 5", 10005, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
-		{ " 6", 10006, 353, 114 }; -- Altar of Ancient Kings
+		{ "A", 10101, 102, 472 }; -- Entrance
+		{ "A", 10102, 75, 327 }; -- Portal to Dalaran
+		{ "1", 10001, 75, 293 }; -- Sister Elda <Keeper of the Ancient Tomes>
+		{ "2", 10002, 106, 315 }; -- Eadric the Pure <Quartermaster>
+		{ "3", 10003, 192, 397 }; -- Lord Grayson Shadowbreaker <Mission Specialist>
+		{ "4", 10004, 183, 245 }; -- Katherine the Pure <Paladin Trainer>
+		{ "5", 10005, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
+		{ "6", 10006, 353, 114 }; -- Altar of Ancient Kings
 	};
 	CH_Priest = {
-		{ " A", 10101, 250, 374 }; -- Portal to Dalaran
-		{ " 1", 10001, 252, 108 }; -- Betild Deepanvil <Master Artificer>
-		{ " 2", 10002, 324, 130 }; -- Juvess the Duskwhisperer <Keeper of Scrolls>
-		{ " 3", 10003, 177, 117 }; -- Meridelle Lightspark <Logistics>
-		{ " 4", 10004, 248, 221 }; -- Alonsus Faol <Bishop of Secrets>
-		{ " 5", 10005, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
-		{ " 6", 10006, 170, 268 }; -- Training Dummies
+		{ "A", 10101, 250, 374 }; -- Portal to Dalaran
+		{ "1", 10001, 252, 108 }; -- Betild Deepanvil <Master Artificer>
+		{ "2", 10002, 324, 130 }; -- Juvess the Duskwhisperer <Keeper of Scrolls>
+		{ "3", 10003, 177, 117 }; -- Meridelle Lightspark <Logistics>
+		{ "4", 10004, 248, 221 }; -- Alonsus Faol <Bishop of Secrets>
+		{ "5", 10005, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
+		{ "6", 10006, 170, 268 }; -- Training Dummies
 	};
 	CH_Rogue = {
-		{ " A", 10101, 430, 356 }; -- Glorious Goods
-		{ " B", 10102, 247, 141 }; -- One More Glass
-		{ " C", 10103, 190, 154 }; -- Tanks for Everything
-		{ " D", 10104, 4, 424 }; -- Tunnel of Woe
-		{ " 1", 10001, 333, 235 }; -- Madam Gosu <Black Market Liaison>
-		{ " 2", 10002, 249, 339 }; -- Lord Jorach Ravenholdt
-		{ " 3", 10003, 236, 306 }; -- Filius Sparkstache <Archivist>
-		{ " 4", 10004, 198, 310 }; -- Marin Noggenfogger <Baron of Gadgetzan>
-		{ " 5", 10005, 181, 280 }; -- Crucible of the Uncrowned
-		{ " 6", 10006, 230, 230 }; -- Nikki the Gossip <Tales fo Adventure and Profit>
-		{ " 7", 10007, 175, 154 }; -- Rouge Trainers
-		{ " 8", 10008, 167, 172 }; -- Training Dummies
-		{ " 9", 10009, 181, 200 }; -- Kelsey Steelspark <Quartermaster>
+		{ "A", 10101, 430, 356 }; -- Glorious Goods
+		{ "B", 10102, 247, 141 }; -- One More Glass
+		{ "C", 10103, 190, 154 }; -- Tanks for Everything
+		{ "D", 10104, 4, 424 }; -- Tunnel of Woe
+		{ "1", 10001, 333, 235 }; -- Madam Gosu <Black Market Liaison>
+		{ "2", 10002, 249, 339 }; -- Lord Jorach Ravenholdt
+		{ "3", 10003, 236, 306 }; -- Filius Sparkstache <Archivist>
+		{ "4", 10004, 198, 310 }; -- Marin Noggenfogger <Baron of Gadgetzan>
+		{ "5", 10005, 181, 280 }; -- Crucible of the Uncrowned
+		{ "6", 10006, 230, 230 }; -- Nikki the Gossip <Tales fo Adventure and Profit>
+		{ "7", 10007, 175, 154 }; -- Rouge Trainers
+		{ "8", 10008, 167, 172 }; -- Training Dummies
+		{ "9", 10009, 181, 200 }; -- Kelsey Steelspark <Quartermaster>
 	};
 	CH_Shaman = {
-		{ " A", 10101, 240, 233 }; -- Portal to Dalaran
-		{ " 1", 10001, 298, 349 }; -- Training Dummies
-		{ " 2", 10002, 291, 369 }; -- Aggra <Shaman Trainer>
-		{ " 3", 10003, 244, 361 }; -- Elementalist Janai <Earthen Ring>
-		{ " 4", 10004, 204, 224 }; -- Puzzlemaster Lo <The Earthen Ring>
-		{ " 5", 10005, 249, 275 }; -- Flamesmith Lanying <Earthen Ring Quartermaster>
-		{ " 6", 10006, 272, 271 }; -- Advisor Sevel <The Earthen Ring>
-		{ " 7", 10007, 262, 218 }; -- Gorma Windspeaker <Keeper of Legends>
-		{ " 8", 10008, 254, 120 }; -- Tribemother Torra <Shaman Trainer>
+		{ "A", 10101, 240, 233 }; -- Portal to Dalaran
+		{ "1", 10001, 298, 349 }; -- Training Dummies
+		{ "2", 10002, 291, 369 }; -- Aggra <Shaman Trainer>
+		{ "3", 10003, 244, 361 }; -- Elementalist Janai <Earthen Ring>
+		{ "4", 10004, 204, 224 }; -- Puzzlemaster Lo <The Earthen Ring>
+		{ "5", 10005, 249, 275 }; -- Flamesmith Lanying <Earthen Ring Quartermaster>
+		{ "6", 10006, 272, 271 }; -- Advisor Sevel <The Earthen Ring>
+		{ "7", 10007, 262, 218 }; -- Gorma Windspeaker <Keeper of Legends>
+		{ "8", 10008, 254, 120 }; -- Tribemother Torra <Shaman Trainer>
 	};
 	CH_Warlock = {
-		{ " A", 10101, 482, 273 }; -- Portal to Dalaran
-		{ " B", 10102, 371, 224 }; -- Demonic Gateway
-		{ " B", 10102, 82, 48 }; -- Demonic Gateway
-		{ " 1", 10001, 307, 246 }; -- Calydus
-		{ " 2", 10002, 289, 259 }; -- Unjari Feltongue <The Heartbearer>
-		{ " 3", 10003, 292, 245 }; -- Felblood Altar
-		{ " 4", 10004, 392, 315 }; -- Lurr <Dreadscar Blacksmith>
-		{ " 5", 10005, 403, 304 }; -- Jared <Recruiter>
-		{ " 6", 10006, 428, 294 }; -- Gakin the Darkbinder <Mission Strategist>
-		{ " 7", 10007, 399, 255 }; -- Gigi Gigavoid <Black Harvest Quartermaster>
-		{ " 8", 10008, 390, 279 }; -- Mile Raitheborne <Head Archivist>
-		{ " 9", 10009, 250, 336 }; -- Training Dummies
-		{ " 9", 10009, 274, 365 }; -- Training Dummies
-		{ " 9", 10009, 303, 376 }; -- Training Dummies
-		{ " 9", 10009, 326, 341 }; -- Training Dummies
+		{ "A", 10101, 482, 273 }; -- Portal to Dalaran
+		{ "B", 10102, 371, 224 }; -- Demonic Gateway
+		{ "B", 10102, 82, 48 }; -- Demonic Gateway
+		{ "1", 10001, 307, 246 }; -- Calydus
+		{ "2", 10002, 289, 259 }; -- Unjari Feltongue <The Heartbearer>
+		{ "3", 10003, 292, 245 }; -- Felblood Altar
+		{ "4", 10004, 392, 315 }; -- Lurr <Dreadscar Blacksmith>
+		{ "5", 10005, 403, 304 }; -- Jared <Recruiter>
+		{ "6", 10006, 428, 294 }; -- Gakin the Darkbinder <Mission Strategist>
+		{ "7", 10007, 399, 255 }; -- Gigi Gigavoid <Black Harvest Quartermaster>
+		{ "8", 10008, 390, 279 }; -- Mile Raitheborne <Head Archivist>
+		{ "9", 10009, 250, 336 }; -- Training Dummies
+		{ "9", 10009, 274, 365 }; -- Training Dummies
+		{ "9", 10009, 303, 376 }; -- Training Dummies
+		{ "9", 10009, 326, 341 }; -- Training Dummies
 	};
 	CH_Warrior = {
-		{ " A", 10101, 245, 115 }; -- Aerylia <Stormflight Master>
-		{ " 1", 10001, 252, 58 }; -- Skyseer Ghrent
-		{ " 2", 10002, 224, 124 }; -- Quartermaster Durnolf
-		{ " 3", 10003, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
-		{ " 4", 10004, 108, 173 }; -- Master Smith Helgar
-		{ " 5", 10005, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ " 6", 10006, 436, 177 }; -- Training Dummies
-		{ " 7", 10007, 245, 432 }; -- Odyn
+		{ "A", 10101, 245, 115 }; -- Aerylia <Stormflight Master>
+		{ "1", 10001, 252, 58 }; -- Skyseer Ghrent
+		{ "2", 10002, 224, 124 }; -- Quartermaster Durnolf
+		{ "3", 10003, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
+		{ "4", 10004, 108, 173 }; -- Master Smith Helgar
+		{ "5", 10005, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "6", 10006, 436, 177 }; -- Training Dummies
+		{ "7", 10007, 245, 432 }; -- Odyn
 	};
 };
 

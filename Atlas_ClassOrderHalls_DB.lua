@@ -181,7 +181,7 @@ local myDB = {
 		{ "7", 10007, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
 		{ "8", 10008, 436, 177 }; -- Training Dummies
 		{ "9", 10009, 245, 432 }; -- Odyn
-		{ "10", 10010, 226, 422 }; -- Hymdall
+		-- { "10", 10010, 226, 422 }; -- Hymdall
 	};
 };
 

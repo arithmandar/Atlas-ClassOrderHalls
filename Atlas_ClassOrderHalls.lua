@@ -268,7 +268,7 @@ local myData = {
 		{ WHIT.." 7) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10007 };
 		{ WHIT.." 8) "..L["Training Dummies"], 10008 };
 		{ WHIT.." 9) "..Atlas_GetBossName("Odyn", 1489), 10009 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
-		{ WHIT.."10) "..L["Hymdall"], 10010 };
+		-- { WHIT.."10) "..L["Hymdall"], 10010 }; -- comment out as it looks like Hymdall won't be there all the time
 	};
 };
 

@@ -173,12 +173,15 @@ local myDB = {
 	CH_Warrior = {
 		{ "A", 10101, 245, 115 }; -- Aerylia <Stormflight Master>
 		{ "1", 10001, 252, 58 }; -- Skyseer Ghrent
-		{ "2", 10002, 224, 124 }; -- Quartermaster Durnolf
-		{ "3", 10003, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
-		{ "4", 10004, 108, 173 }; -- Master Smith Helgar
-		{ "5", 10005, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ "6", 10006, 436, 177 }; -- Training Dummies
-		{ "7", 10007, 245, 432 }; -- Odyn
+		{ "2", 10002, 277, 68 }; -- Captain Hjalmar Stahlstrom <Recruiter>
+		{ "3", 10003, 224, 124 }; -- Quartermaster Durnolf
+		{ "4", 10004, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
+		{ "5", 10005, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
+		{ "6", 10006, 108, 173 }; -- Master Smith Helgar
+		{ "7", 10007, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "8", 10008, 436, 177 }; -- Training Dummies
+		{ "9", 10009, 245, 432 }; -- Odyn
+		{ "10", 10010, 226, 422 }; -- Hymdall
 	};
 };
 

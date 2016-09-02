@@ -81,7 +81,7 @@ if L then
 	-- Mage
 	L["Edirah <Tirisgarde Researcher>"] = "艾迪洛 <提里斯護法研究員>";
 	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "傑克森·沃金斯 <提里斯護法軍需官>";
-	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>";
+	L["Chronicler Elrianne <Class Hall Upgrades>"] = "撰史者艾麗安 <職業大廳升級>";
 	L["Archmage Omniara <Recruiter>"] = "大法師歐妮雅拉 <招募員>";
 	L["Archmage Melis <Mistress of Flame>"] = "大法師梅莉絲 <烈焰大師>";
 	L["Forge of the Guardian"] = "守護者熔爐";
@@ -152,6 +152,9 @@ if L then
 	L["Weaponmaster Asvard <Warrior Trainer>"] = "武器大師亞斯華 <戰士訓練師>";
 	L["Skyseer Ghrent"] = "占天者甘特";
 	L["Eye of Odyn"] = "歐丁之眼";
+	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <招募員>";
+	L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>";
+	L["Hymdall"] = "海姆達爾";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end

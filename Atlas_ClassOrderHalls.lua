@@ -256,15 +256,19 @@ local myData = {
 		WorldMapID = "1035";
 		{ PURP.." A) "..L["Aerylia <Stormflight Master>"], 10101 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };
+		{ INDENT..GREY..BZ["Thunder Totem"] };
 		{ WHIT.." 1) "..L["Skyseer Ghrent"], 10001 };
 		{ INDENT..WHIT..L["Eye of Odyn"] };
-		{ WHIT.." 2) "..L["Quartermaster Durnolf"], 10002 };
-		{ WHIT.." 3) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10003 };
-		{ WHIT.." 4) "..L["Master Smith Helgar"], 10004 };
+		{ WHIT.." 2) "..L["Captain Hjalmar Stahlstrom <Recruiter>"], 10002 };
+		{ WHIT.." 3) "..L["Quartermaster Durnolf"], 10003 };
+		{ WHIT.." 4) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10004 };
+		{ WHIT.." 5) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10005 };
+		{ WHIT.." 6) "..L["Master Smith Helgar"], 10006 };
 		{ INDENT..WHIT..L["Forge of Odyn"] };
-		{ WHIT.." 5) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10005 };
-		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
-		{ WHIT.." 7) "..Atlas_GetBossName("Odyn", 1489), 10007 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ WHIT.." 7) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10007 };
+		{ WHIT.." 8) "..L["Training Dummies"], 10008 };
+		{ WHIT.." 9) "..Atlas_GetBossName("Odyn", 1489), 10009 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ WHIT.."10) "..L["Hymdall"], 10010 };
 	};
 };
 

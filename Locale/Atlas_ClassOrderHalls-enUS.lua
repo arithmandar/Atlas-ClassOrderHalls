@@ -144,12 +144,15 @@ if L then
 	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>";
 	L["Jared <Recruiter>"] = "Jared <Recruiter>";
 	-- Warrior
-	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>";
-	L["Quartermaster Durnolf"] = "Quartermaster Durnolf";
-	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Stonecarver <Keeper of Legends>";
-	L["Master Smith Helgar"] = "Master Smith Helgar";
+	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>"; -- 96679
+	L["Quartermaster Durnolf"] = "Quartermaster Durnolf"; -- 112392
+	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Stonecarver <Keeper of Legends>"; -- 111741
+	L["Master Smith Helgar"] = "Master Smith Helgar"; -- 96586
 	L["Forge of Odyn"] = "Forge of Odyn";
-	L["Weaponmaster Asvard <Warrior Trainer>"] = "Weaponmaster Asvard <Warrior Trainer>";
-	L["Skyseer Ghrent"] = "Skyseer Ghrent";
+	L["Weaponmaster Asvard <Warrior Trainer>"] = "Weaponmaster Asvard <Warrior Trainer>"; -- 112577
+	L["Skyseer Ghrent"] = "Skyseer Ghrent"; -- 100635
 	L["Eye of Odyn"] = "Eye of Odyn";
+	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recruiter>"; -- 106459
+	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>"; -- 107994 
+	L["Hymdall"] = "Hymdall"; -- 107987
 end

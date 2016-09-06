@@ -256,7 +256,7 @@ local myData = {
 		WorldMapID = "1035";
 		{ PURP.." A) "..L["Aerylia <Stormflight Master>"], 10101 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };
-		{ INDENT..GREY..BZ["Thunder Totem"] };
+--		{ INDENT..GREY..BZ["Thunder Totem"] }; -- looks like here we can travel to 4 of the mission locations, I am wondering if other classes also have similar transportation
 		{ WHIT.." 1) "..L["Skyseer Ghrent"], 10001 };
 		{ INDENT..WHIT..L["Eye of Odyn"] };
 		{ WHIT.." 2) "..L["Captain Hjalmar Stahlstrom <Recruiter>"], 10002 };

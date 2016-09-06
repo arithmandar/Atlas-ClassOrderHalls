@@ -28,7 +28,9 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "enUS", true);
 
 if L then
+	-- //////////////////////////
 	-- Common
+	-- //////////////////////////
 	L["Class Order Hall Maps"] = "Class Order Hall Maps";
 	L["Portal to Dalaran"] = "Portal to Dalaran";
 	L["Scouting Map"] = "Scouting Map";
@@ -38,7 +40,10 @@ if L then
 	L["Entrance"] = "Entrance";
 	L["Ramp to lower floor"] = "Ramp to lower floor";
 	L["Ramp to top floor"] = "Ramp to top floor";
+
+	-- //////////////////////////
 	-- Death Knight
+	-- //////////////////////////
 	L["Portal to another floor"] = "Portal to another floor";
 	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>";
 	L["Highlord Darion Mograine"] = "Highlord Darion Mograine";
@@ -48,7 +53,10 @@ if L then
 	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus";
 	L["Soul Forge"] = "Soul Forge";
 	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>";
+
+	-- //////////////////////////
 	-- Demon Hunter
+	-- //////////////////////////
 	L["Illidari Gateway"] = "Illidari Gateway";
 	L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>";
 	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>";
@@ -59,7 +67,10 @@ if L then
 	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>";
 	L["Empowered Nether Crucible"] = "Empowered Nether Crucible";
 	L["Cursed Forge of the Nathrezim"] = "Cursed Forge of the Nathrezim";
+
+	-- //////////////////////////
 	-- Druid
+	-- //////////////////////////
 	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
 	L["Flight Master"] = "Flight Master"
 	L["Sister Lilith <Recruiter>"] = "Sister Lilith <Recruiter>";
@@ -69,7 +80,10 @@ if L then
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
 	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>";
 	L["Seed of Ages"] = "Seed of Ages";
+
+	-- //////////////////////////
 	-- Hunter
+	-- //////////////////////////
 	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>";
 	L["Altar Keeper Biehn"] = "Altar Keeper Biehn";
 	L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
@@ -78,7 +92,10 @@ if L then
 	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
 	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>";
 	L["Tales of the Hunt"] = "Tales of the Hunt";
+
+	-- //////////////////////////
 	-- Mage
+	-- //////////////////////////
 	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
 	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>";
 	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>";
@@ -89,7 +106,10 @@ if L then
 	L["Meryl Felstorm"] = "Meryl Felstorm"; -- 102700
 	L["Archmage Kalec <Kirin Tor>"] = "Archmage Kalec <Kirin Tor>"; -- 108247
 	L["Archmage Modera <Kirin Tor>"] = "Archmage Modera <Kirin Tor>"; -- 108248
+
+	-- //////////////////////////
 	-- Monk
+	-- //////////////////////////
 	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>";
 	L["Portal to Peak of Serenity"] = "Portal to Peak of Serenity";
 	L["Master Hsu <Mission Master>"] = "Master Hsu <Mission Master>";
@@ -99,21 +119,30 @@ if L then
 	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>";
 	L["Transportation Mandala"] = "Transportation Mandala";
 	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>";
+
+	-- //////////////////////////
 	-- Paladin
+	-- //////////////////////////
 	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
 	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";
 	L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>";
 	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>";
 	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
 	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>";
+
+	-- //////////////////////////
 	-- Priest
+	-- //////////////////////////
 	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
 	L["Betild Deepanvil <Master Artificer>"] = "Betild Deepanvil <Master Artificer>";
 	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>";
 	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>";
 	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
 	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
+
+	-- //////////////////////////
 	-- Rogue
+	-- //////////////////////////
 	L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>";
 	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt";
 	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>";
@@ -122,7 +151,10 @@ if L then
 	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>";
 	L["Rouge Trainers"] = "Rouge Trainers";
 	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>";
+
+	-- //////////////////////////
 	-- Shaman
+	-- //////////////////////////
 	L["Aggra <Shaman Trainer>"] = "Aggra <Shaman Trainer>";
 	L["Elementalist Janai <Earthen Ring>"] = "Elementalist Janai <Earthen Ring>";
 	L["Maelstrom Pillar"] = "Maelstrom Pillar";
@@ -131,7 +163,10 @@ if L then
 	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Windspeaker <Keeper of Legends>";
 	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>";
 	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>";
+
+	-- //////////////////////////
 	-- Warlock
+	-- //////////////////////////
 	L["Calydus"] = "Calydus";
 	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>";
 	L["Felblood Altar"] = "Felblood Altar";
@@ -143,7 +178,10 @@ if L then
 	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>";
 	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>";
 	L["Jared <Recruiter>"] = "Jared <Recruiter>";
+
+	-- //////////////////////////
 	-- Warrior
+	-- //////////////////////////
 	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>"; -- 96679
 	L["Quartermaster Durnolf"] = "Quartermaster Durnolf"; -- 112392
 	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Stonecarver <Keeper of Legends>"; -- 111741

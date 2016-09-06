@@ -6,6 +6,13 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.01 (Sep. 06, 2016)
+------------------------
+- Mage map updated: added a few more NPCs' location
+- Warrior map updated: added a few more NPCs' location
+- Translation update: 
+  - German (pas06)
+
 v1.34.00 (Aug. 31, 2016)
 ------------------------
 - Initial version for WoW Legion

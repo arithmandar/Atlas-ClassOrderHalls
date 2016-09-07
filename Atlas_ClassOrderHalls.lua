@@ -92,11 +92,14 @@ local myData = {
 		{ WHIT.." 4) "..L["Lady S'theno <Coilskar Captain>"], 10004 };
 		{ WHIT.." 5) "..L["Matron Mother Malevolence <Shivarra Captain>"], 10005 };
 		{ WHIT.." 6) "..L["Falara Nightsong <Illidari Provisioner>"], 10006 };
-		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
-		{ WHIT.." 8) "..L["Jace Darkweaver <Illidari>"], 10008 };
-		{ WHIT.." 9) "..L["Vahu the Weathered <Illidari Researcher>"], 10009 };
-		{ WHIT.."10) "..L["Empowered Nether Crucible"], 10010 };
-		{ WHIT.."11) "..L["Cursed Forge of the Nathrezim"], 10011 };
+		{ WHIT.." 7) "..L["Asha Ravensong <Illidari>"], 10007 };
+		{ WHIT.." 8) "..L["Izal Whitemoon <Illidari Trainer>"], 10008 };
+		{ WHIT.." 9) "..L["Training Dummies"], 10000 };
+		{ WHIT.."10) "..L["Jace Darkweaver <Illidari>"], 10010 };
+		{ WHIT.."11) "..L["Vahu the Weathered <Illidari Researcher>"], 10011 };
+		{ WHIT.."12) "..L["Empowered Nether Crucible"], 10012 };
+		{ WHIT.."13) "..L["Cursed Forge of the Nathrezim"], 10013 };
+		{ WHIT.."14) "..L["Seer Akalu <Nathrezim Scholar>"], 10014 };
 	};
 	CH_Druid = {
 		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };
@@ -260,15 +263,16 @@ local myData = {
 		{ WHIT.." 1) "..L["Skyseer Ghrent"], 10001 };
 		{ INDENT..WHIT..L["Eye of Odyn"] };
 		{ WHIT.." 2) "..L["Captain Hjalmar Stahlstrom <Recruiter>"], 10002 };
-		{ WHIT.." 3) "..L["Quartermaster Durnolf"], 10003 };
-		{ WHIT.." 4) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10004 };
-		{ WHIT.." 5) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10005 };
-		{ WHIT.." 6) "..L["Master Smith Helgar"], 10006 };
+		{ WHIT.." 3) "..L["Savyn Valorborn <Recruiter>"], 10003 };
+		{ WHIT.." 4) "..L["Quartermaster Durnolf"], 10004 };
+		{ WHIT.." 5) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10005 };
+		{ WHIT.." 6) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10006 };
+		{ WHIT.." 7) "..L["Master Smith Helgar"], 10007 };
 		{ INDENT..WHIT..L["Forge of Odyn"] };
-		{ WHIT.." 7) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10007 };
-		{ WHIT.." 8) "..L["Training Dummies"], 10008 };
-		{ WHIT.." 9) "..Atlas_GetBossName("Odyn", 1489), 10009 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
-		-- { WHIT.."10) "..L["Hymdall"], 10010 }; -- comment out as it looks like Hymdall won't be there all the time
+		{ WHIT.." 8) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10008 };
+		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
+		{ WHIT.."10) "..Atlas_GetBossName("Odyn", 1489), 10010 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ WHIT.."11) "..L["Hymdall"], 10011 }; 
 	};
 };
 

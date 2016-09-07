@@ -58,15 +58,18 @@ if L then
 	-- Demon Hunter
 	-- //////////////////////////
 	L["Illidari Gateway"] = "Illidari Gateway";
-	L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>";
-	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>";
-	L["Lady S'theno <Coilskar Captain>"] = "Lady S'theno <Coilskar Captain>";
-	L["Matron Mother Malevolence <Shivarra Captain>"] = "Matron Mother Malevolence <Shivarra Captain>";
-	L["Falara Nightsong <Illidari Provisioner>"] = "Falara Nightsong <Illidari Provisioner>";
-	L["Jace Darkweaver <Illidari>"] = "Jace Darkweaver <Illidari>";
-	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>";
+	L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>"; -- 95240
+	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>"; -- 103025
+	L["Lady S'theno <Coilskar Captain>"] = "Lady S'theno <Coilskar Captain>"; -- 98624
+	L["Matron Mother Malevolence <Shivarra Captain>"] = "Matron Mother Malevolence <Shivarra Captain>"; -- 98632
+	L["Falara Nightsong <Illidari Provisioner>"] = "Falara Nightsong <Illidari Provisioner>"; -- 112407
+	L["Jace Darkweaver <Illidari>"] = "Jace Darkweaver <Illidari>"; -- 98646
+	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>"; -- 111736
 	L["Empowered Nether Crucible"] = "Empowered Nether Crucible";
 	L["Cursed Forge of the Nathrezim"] = "Cursed Forge of the Nathrezim";
+	L["Asha Ravensong <Illidari>"] = "Asha Ravensong <Illidari>"; -- 108326
+	L["Izal Whitemoon <Illidari Trainer>"] = "Izal Whitemoon <Illidari Trainer>"; -- 109965
+	L["Seer Akalu <Nathrezim Scholar>"] = "Seer Akalu <Nathrezim Scholar>"; -- 109596
 
 	-- //////////////////////////
 	-- Druid
@@ -193,4 +196,5 @@ if L then
 	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recruiter>"; -- 106459
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>"; -- 107994 
 	L["Hymdall"] = "Hymdall"; -- 107987
+	L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>"; -- 106460
 end

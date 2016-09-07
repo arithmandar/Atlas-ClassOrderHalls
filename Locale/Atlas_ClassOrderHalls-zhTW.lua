@@ -58,16 +58,19 @@ if L then
 	-- //////////////////////////
 	-- Demon Hunter
 	-- //////////////////////////
-	-- L["Illidari Gateway"] = "Illidari Gateway";
-	-- L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>";
-	-- L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>";
-	-- L["Lady S'theno <Coilskar Captain>"] = "Lady S'theno <Coilskar Captain>";
-	-- L["Matron Mother Malevolence <Shivarra Captain>"] = "Matron Mother Malevolence <Shivarra Captain>";
-	-- L["Falara Nightsong <Illidari Provisioner>"] = "Falara Nightsong <Illidari Provisioner>";
-	-- L["Jace Darkweaver <Illidari>"] = "Jace Darkweaver <Illidari>";
-	-- L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>";
-	-- L["Empowered Nether Crucible"] = "Empowered Nether Crucible";
-	-- L["Cursed Forge of the Nathrezim"] = "Cursed Forge of the Nathrezim";
+	L["Illidari Gateway"] = "伊利達瑞傳送門";
+	L["Kayn Sunfury <Illidari>"] = "凱恩·日怒 <伊利達瑞>";
+	L["Battlelord Gaardoun <Ashtongue Captain>"] = "戰鬥領主蓋爾道恩 <灰舌隊長>";
+	L["Lady S'theno <Coilskar Captain>"] = "絲瑟諾女士 <考斯卡隊長>";
+	L["Matron Mother Malevolence <Shivarra Captain>"] = "懷惡族姆 <希瓦拉隊長>";
+	L["Falara Nightsong <Illidari Provisioner>"] = "法萊菈·夜歌 <伊利達瑞補給官>";
+	L["Jace Darkweaver <Illidari>"] = "捷斯·暗織者 <伊利達瑞>";
+	L["Vahu the Weathered <Illidari Researcher>"] = "滄桑的瓦胡 <伊利達瑞研究員>";
+	L["Empowered Nether Crucible"] = "強化虛空法陣";
+	L["Cursed Forge of the Nathrezim"] = "納斯雷茲姆詛咒熔爐";
+	L["Asha Ravensong <Illidari>"] = "雅夏·鴉曲 <伊利達瑞>";
+	L["Izal Whitemoon <Illidari Trainer>"] = "伊薩爾·皎月 <伊利達瑞訓練師>";
+	L["Seer Akalu <Nathrezim Scholar>"] = "先知阿卡路 <納斯雷茲姆學者>";
 
 	-- //////////////////////////
 	-- Druid
@@ -78,7 +81,7 @@ if L then
 	L["Leafbeard the Storied <Ancient of Lore>"] = "『傳說者』萊鬚 <知識古樹>";
 	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "『命運守護者』伽拉丁 <幻夢之林研究員>";
 	L["Amurra Thistledew <Proprietor>"] = "安慕拉·薊露 <店長>";
-	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務關>";
+	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>";
 	L["Rensar Greathoof <Archdruid of the Grove>"] = "蘭薩·巨蹄 <林地大德魯伊>";
 	L["Seed of Ages"] = "遠古種子";
 
@@ -193,6 +196,7 @@ if L then
 	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <招募員>";
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>";
 	L["Hymdall"] = "海姆達爾";
+	L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end

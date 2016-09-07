@@ -51,11 +51,14 @@ local myDB = {
 		{ "4", 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
 		{ "5", 10005, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
 		{ "6", 10006, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
-		{ "7", 10007, 100, 94 }; -- Training Dummies
-		{ "8", 10008, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{ "9", 10009, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{ "10", 10010, 375, 249 }; -- Empowered Nether Crucible
-		{ "11", 10011, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{ "7", 10007, 103, 175 }; -- Asha Ravensong
+		{ "8", 10008, 140, 172 }; -- Izal Whitemoon
+		{ "9", 10009, 100, 94 }; -- Training Dummies
+		{ "10", 10010, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{ "11", 10011, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{ "12", 10012, 375, 249 }; -- Empowered Nether Crucible
+		{ "13", 10013, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{ "14", 10014, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
 		{ "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
@@ -174,14 +177,15 @@ local myDB = {
 		{ "A", 10101, 245, 115 }; -- Aerylia <Stormflight Master>
 		{ "1", 10001, 252, 58 }; -- Skyseer Ghrent
 		{ "2", 10002, 277, 68 }; -- Captain Hjalmar Stahlstrom <Recruiter>
-		{ "3", 10003, 224, 124 }; -- Quartermaster Durnolf
-		{ "4", 10004, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
-		{ "5", 10005, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
-		{ "6", 10006, 108, 173 }; -- Master Smith Helgar
-		{ "7", 10007, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ "8", 10008, 436, 177 }; -- Training Dummies
-		{ "9", 10009, 245, 432 }; -- Odyn
-		-- { "10", 10010, 226, 422 }; -- Hymdall
+		{ "3", 10003, 227, 68 }; -- Savyn Valorborn <Recruiter>
+		{ "4", 10004, 224, 124 }; -- Quartermaster Durnolf
+		{ "5", 10005, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
+		{ "6", 10006, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
+		{ "7", 10007, 108, 173 }; -- Master Smith Helgar
+		{ "8", 10008, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "9", 10009, 436, 177 }; -- Training Dummies
+		{ "10", 10010, 245, 432 }; -- Odyn
+		{ "11", 10011, 226, 422 }; -- Hymdall
 	};
 };
 

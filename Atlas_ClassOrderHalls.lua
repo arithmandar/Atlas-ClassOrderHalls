@@ -87,6 +87,7 @@ local myData = {
 		{ BLUE.." B) "..L["Ramp to top floor"], 10103 };
 		{ INDENT..GREY..L["Travel to Dalaran"] };
 		{ WHIT.." 1) "..L["Kayn Sunfury <Illidari>"], 10001 };
+		{ INDENT..WHIT..L["Kor'vas Bloodthorn <Illidari>"] };
 		{ WHIT.." 2) "..L["Battlelord Gaardoun <Ashtongue Captain>"], 10002 };
 		{ WHIT.." 3) "..L["Scouting Map"], 10003 };
 		{ WHIT.." 4) "..L["Lady S'theno <Coilskar Captain>"], 10004 };

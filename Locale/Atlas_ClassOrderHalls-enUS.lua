@@ -70,6 +70,7 @@ if L then
 	L["Asha Ravensong <Illidari>"] = "Asha Ravensong <Illidari>"; -- 108326
 	L["Izal Whitemoon <Illidari Trainer>"] = "Izal Whitemoon <Illidari Trainer>"; -- 109965
 	L["Seer Akalu <Nathrezim Scholar>"] = "Seer Akalu <Nathrezim Scholar>"; -- 109596
+	L["Kor'vas Bloodthorn <Illidari>"] = "Kor'vas Bloodthorn <Illidari>"; -- 103761
 
 	-- //////////////////////////
 	-- Druid

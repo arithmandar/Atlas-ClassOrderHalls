@@ -71,6 +71,7 @@ if L then
 	L["Asha Ravensong <Illidari>"] = "雅夏·鴉曲 <伊利達瑞>";
 	L["Izal Whitemoon <Illidari Trainer>"] = "伊薩爾·皎月 <伊利達瑞訓練師>";
 	L["Seer Akalu <Nathrezim Scholar>"] = "先知阿卡路 <納斯雷茲姆學者>";
+	L["Kor'vas Bloodthorn <Illidari>"] = "珂娃絲·血棘 <伊利達瑞>";
 
 	-- //////////////////////////
 	-- Druid

@@ -155,7 +155,7 @@ local myData = {
 		{ INDENT..WHIT..L["The Great Akazamzarak"] };
 		{ WHIT.." 8) "..L["Archmage Melis <Mistress of Flame>"], 10008 };
 		{ WHIT.." 9) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10009 };
-		{ WHIT.."10) "..L["Training Dummies"], 100010 };
+		{ WHIT.."10) "..L["Training Dummies"], 10010 };
 	};
 	CH_Monk = {
 		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };

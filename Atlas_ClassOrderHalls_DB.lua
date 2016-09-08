@@ -96,8 +96,8 @@ local myDB = {
 		{ "6", 10006, 417, 247 }; -- Archmage Omniara <Recruiter> 
 		{ "7", 10007, 394, 313 }; -- Scouting map
 		{ "8", 10008, 385, 322 }; -- Archmage Melis <Mistress of Flame>
-		{ "9", 10008, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
-		{ "10", 10009, 132, 300 }; -- Training Dummies
+		{ "9", 10009, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
+		{ "10", 10010, 132, 300 }; -- Training Dummies
 	};
 	CH_Monk = {
 		{ "A", 10101, 264, 332 }; -- Portal to Dalaran

@@ -49,17 +49,18 @@ local myDB = {
 		{ "2", 10002, 100, 248 }; -- Battlelord Gaardoun <Ashtongue Captain>
 		{ "3", 10003, 122, 248 }; -- Scouting Map
 		{ "4", 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
-		{ "5", 10005, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
-		{ "6", 10006, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
-		{ "7", 10007, 103, 175 }; -- Asha Ravensong
-		{ "8", 10008, 140, 172 }; -- Izal Whitemoon
-		{ "9", 10009, 100, 94 }; -- Training Dummies
-		{ "10", 10010, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{ "11", 10011, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{ "12", 10012, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
-		{ "13", 10013, 375, 249 }; -- Empowered Nether Crucible
-		{ "14", 10014, 374, 119 }; -- Cursed Forge of the Nathrezim
-		{ "15", 10015, 357, 129 }; -- Seer Akalu
+		{ "5", 10005, 112, 239 }; -- Belath Dawnblade <Illidari>
+		{ "6", 10006, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
+		{ "7", 10007, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
+		{ "8", 10008, 103, 175 }; -- Asha Ravensong
+		{ "9", 10009, 140, 172 }; -- Izal Whitemoon
+		{ "10", 10010, 100, 94 }; -- Training Dummies
+		{ "11", 10011, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{ "12", 10012, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{ "13", 10013, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
+		{ "14", 10014, 375, 249 }; -- Empowered Nether Crucible
+		{ "15", 10015, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{ "16", 10016, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
 		{ "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway

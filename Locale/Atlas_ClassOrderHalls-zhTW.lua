@@ -74,6 +74,7 @@ if L then
 	L["Seer Akalu <Nathrezim Scholar>"] = "先知阿卡路 <納斯雷茲姆學者>";
 	L["Kor'vas Bloodthorn <Illidari>"] = "珂娃絲·血棘 <伊利達瑞>";
 	L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <職業大廳升級>";
+	L["Belath Dawnblade <Illidari>"] = "貝拉斯·曦刃 <伊利達瑞>";
 
 	-- //////////////////////////
 	-- Druid

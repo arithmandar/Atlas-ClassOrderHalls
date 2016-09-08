@@ -41,6 +41,7 @@ if L then
 	L["Entrance"] = "入口"
 	L["Ramp to lower floor"] = "通往下層的斜坡";
 	L["Ramp to top floor"] = "通往上層的斜坡";
+	L["Recruit troops"] = "訓練部隊";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -72,6 +73,7 @@ if L then
 	L["Izal Whitemoon <Illidari Trainer>"] = "伊薩爾·皎月 <伊利達瑞訓練師>";
 	L["Seer Akalu <Nathrezim Scholar>"] = "先知阿卡路 <納斯雷茲姆學者>";
 	L["Kor'vas Bloodthorn <Illidari>"] = "珂娃絲·血棘 <伊利達瑞>";
+	L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <職業大廳升級>";
 
 	-- //////////////////////////
 	-- Druid
@@ -198,6 +200,7 @@ if L then
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>";
 	L["Hymdall"] = "海姆達爾";
 	L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>";
+	L["Travel to:"] = "旅行到:";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end

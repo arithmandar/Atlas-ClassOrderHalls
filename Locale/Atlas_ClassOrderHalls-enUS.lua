@@ -40,6 +40,7 @@ if L then
 	L["Entrance"] = "Entrance";
 	L["Ramp to lower floor"] = "Ramp to lower floor";
 	L["Ramp to top floor"] = "Ramp to top floor";
+	L["Recruit troops"] = "Recruit troops";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -71,6 +72,7 @@ if L then
 	L["Izal Whitemoon <Illidari Trainer>"] = "Izal Whitemoon <Illidari Trainer>"; -- 109965
 	L["Seer Akalu <Nathrezim Scholar>"] = "Seer Akalu <Nathrezim Scholar>"; -- 109596
 	L["Kor'vas Bloodthorn <Illidari>"] = "Kor'vas Bloodthorn <Illidari>"; -- 103761
+	L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Class Hall Upgrades>"; -- 110599
 
 	-- //////////////////////////
 	-- Druid
@@ -198,4 +200,5 @@ if L then
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>"; -- 107994 
 	L["Hymdall"] = "Hymdall"; -- 107987
 	L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>"; -- 106460
+	L["Travel to:"] = "Travel to:";
 end

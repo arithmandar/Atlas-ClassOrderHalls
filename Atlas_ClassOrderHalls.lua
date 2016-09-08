@@ -89,6 +89,7 @@ local myData = {
 		{ WHIT.." 1) "..L["Kayn Sunfury <Illidari>"], 10001 };
 		{ INDENT..WHIT..L["Kor'vas Bloodthorn <Illidari>"] };
 		{ WHIT.." 2) "..L["Battlelord Gaardoun <Ashtongue Captain>"], 10002 };
+		{ INDENT..GREY..L["Recruit troops"] };
 		{ WHIT.." 3) "..L["Scouting Map"], 10003 };
 		{ WHIT.." 4) "..L["Lady S'theno <Coilskar Captain>"], 10004 };
 		{ WHIT.." 5) "..L["Matron Mother Malevolence <Shivarra Captain>"], 10005 };
@@ -98,9 +99,10 @@ local myData = {
 		{ WHIT.." 9) "..L["Training Dummies"], 10000 };
 		{ WHIT.."10) "..L["Jace Darkweaver <Illidari>"], 10010 };
 		{ WHIT.."11) "..L["Vahu the Weathered <Illidari Researcher>"], 10011 };
-		{ WHIT.."12) "..L["Empowered Nether Crucible"], 10012 };
-		{ WHIT.."13) "..L["Cursed Forge of the Nathrezim"], 10013 };
-		{ WHIT.."14) "..L["Seer Akalu <Nathrezim Scholar>"], 10014 };
+		{ WHIT.."12) "..L["Loramus Thalipedes <Class Hall Upgrades>"], 10012 };
+		{ WHIT.."13) "..L["Empowered Nether Crucible"], 10013 };
+		{ WHIT.."14) "..L["Cursed Forge of the Nathrezim"], 10014 };
+		{ WHIT.."15) "..L["Seer Akalu <Nathrezim Scholar>"], 10015 };
 	};
 	CH_Druid = {
 		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };
@@ -259,21 +261,29 @@ local myData = {
 		Location = { BZ["Skyhold"]..ALC["Comma"]..BZ["Halls of Valor"]..ALC["Comma"]..BZ["Stormheim"] };
 		WorldMapID = "1035";
 		{ PURP.." A) "..L["Aerylia <Stormflight Master>"], 10101 };
-		{ INDENT..GREY..L["Travel to Dalaran"] };
---		{ INDENT..GREY..BZ["Thunder Totem"] }; -- looks like here we can travel to 4 of the mission locations, I am wondering if other classes also have similar transportation
+		{ INDENT..GREY..L["Travel to:"] };
+		{ INDENT..INDENT..GREY..BZ["Dalaran"] };
+		{ INDENT..INDENT..GREY..BZ["Azurewing Repose"]..ALC["Comma"]..BZ["Azsuna"] };
+		{ INDENT..INDENT..GREY..BZ["Lorlathil"]..ALC["Comma"]..BZ["Val'sharah"] };
+		{ INDENT..INDENT..GREY..BZ["Thunder Totem"]..ALC["Comma"]..BZ["Highmountain"] };
+		{ INDENT..INDENT..GREY..BZ["Valdisdall"]..ALC["Comma"]..BZ["Stormheim"] };
+		{ INDENT..INDENT..GREY..BZ["Meredil"]..ALC["Comma"]..BZ["Suramar"] };
 		{ WHIT.." 1) "..L["Skyseer Ghrent"], 10001 };
 		{ INDENT..WHIT..L["Eye of Odyn"] };
 		{ WHIT.." 2) "..L["Captain Hjalmar Stahlstrom <Recruiter>"], 10002 };
+		{ INDENT..GREY..L["Recruit troops"] };
 		{ WHIT.." 3) "..L["Savyn Valorborn <Recruiter>"], 10003 };
+		{ INDENT..GREY..L["Recruit troops"] };
 		{ WHIT.." 4) "..L["Quartermaster Durnolf"], 10004 };
 		{ WHIT.." 5) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10005 };
 		{ WHIT.." 6) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10006 };
 		{ WHIT.." 7) "..L["Master Smith Helgar"], 10007 };
 		{ INDENT..WHIT..L["Forge of Odyn"] };
 		{ WHIT.." 8) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10008 };
-		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
-		{ WHIT.."10) "..Atlas_GetBossName("Odyn", 1489), 10010 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ WHIT.." 9) "..BZ["Arena of Glory"], 10009 };
+		{ WHIT.."10) "..L["Training Dummies"], 10010 };
 		{ WHIT.."11) "..L["Hymdall"], 10011 }; 
+		{ WHIT.."12) "..Atlas_GetBossName("Odyn", 1489), 10012 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
 	};
 };
 

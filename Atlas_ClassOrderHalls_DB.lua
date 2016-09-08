@@ -56,9 +56,10 @@ local myDB = {
 		{ "9", 10009, 100, 94 }; -- Training Dummies
 		{ "10", 10010, 375, 355 }; -- Jace Darkweaver <Illidari>
 		{ "11", 10011, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{ "12", 10012, 375, 249 }; -- Empowered Nether Crucible
-		{ "13", 10013, 374, 119 }; -- Cursed Forge of the Nathrezim
-		{ "14", 10014, 357, 129 }; -- Seer Akalu
+		{ "12", 10012, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
+		{ "13", 10013, 375, 249 }; -- Empowered Nether Crucible
+		{ "14", 10014, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{ "15", 10015, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
 		{ "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
@@ -182,10 +183,11 @@ local myDB = {
 		{ "5", 10005, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
 		{ "6", 10006, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
 		{ "7", 10007, 108, 173 }; -- Master Smith Helgar
-		{ "8", 10008, 356, 177 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ "9", 10009, 436, 177 }; -- Training Dummies
-		{ "10", 10010, 245, 432 }; -- Odyn
+		{ "8", 10008, 356, 179 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "9", 10009, 390, 179 }; -- Arena of Glory
+		{ "10", 10010, 436, 179 }; -- Training Dummies
 		{ "11", 10011, 226, 422 }; -- Hymdall
+		{ "12", 10012, 245, 432 }; -- Odyn
 	};
 };
 

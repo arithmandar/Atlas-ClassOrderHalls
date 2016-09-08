@@ -112,6 +112,7 @@ if L then
 	L["Meryl Felstorm"] = "Meryl Felstorm"; -- 102700
 	L["Archmage Kalec <Kirin Tor>"] = "Archmage Kalec <Kirin Tor>"; -- 108247
 	L["Archmage Modera <Kirin Tor>"] = "Archmage Modera <Kirin Tor>"; -- 108248
+	L["The Great Akazamzarak"] = "The Great Akazamzarak"; -- 103092
 
 	-- //////////////////////////
 	-- Monk

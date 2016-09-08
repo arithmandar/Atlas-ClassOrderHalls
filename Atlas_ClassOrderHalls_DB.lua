@@ -92,11 +92,12 @@ local myDB = {
 		{ "2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
 		{ "3", 10003, 225, 183 }; -- Meryl Felstorm
 		{ "4", 10004, 214, 199 }; -- Old Fillmaff <Tirisgarde Librarian>
-		{ "5", 10005, 172, 263 }; -- Chronicler Elrianne <Class Hall Upgrades>
-		{ "6", 10006, 334, 178 }; -- Archmage Omniara <Recruiter>
-		{ "7", 10007, 417, 247 }; -- Archmage Melis <Mistress of Flame>
-		{ "8", 10008, 389, 309 }; -- Jackson Watkins <Tirisgarde Quartermaster>
-		{ "9", 10009, 132, 300 }; -- Training Dummies
+		{ "5", 10005, 334, 178 }; -- Chronicler Elrianne <Class Hall Upgrades> 
+		{ "6", 10006, 417, 247 }; -- Archmage Omniara <Recruiter> 
+		{ "7", 10007, 394, 313 }; -- Scouting map
+		{ "8", 10008, 385, 322 }; -- Archmage Melis <Mistress of Flame>
+		{ "9", 10008, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
+		{ "10", 10009, 132, 300 }; -- Training Dummies
 	};
 	CH_Monk = {
 		{ "A", 10101, 264, 332 }; -- Portal to Dalaran

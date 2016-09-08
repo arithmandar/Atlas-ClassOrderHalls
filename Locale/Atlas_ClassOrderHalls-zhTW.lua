@@ -112,6 +112,7 @@ if L then
 	L["Meryl Felstorm"] = "莫爾·魔風"; -- 102700
 	L["Archmage Kalec <Kirin Tor>"] = "大法師卡雷克 <祈倫托>"; -- 108247
 	L["Archmage Modera <Kirin Tor>"] = "大法師莫德菈 <祈倫托>"; -- 108248
+	L["The Great Akazamzarak"] = "魔術大師阿卡贊札拉克";
 
 	-- //////////////////////////
 	-- Monk

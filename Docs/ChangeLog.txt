@@ -9,7 +9,8 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 v1.34.02 (Sep. XX, 2016)
 ------------------------
 - Added 2nd recruiter, Arena of Glory, travel destinations, and recruiter's description to warriro map
-- Added few more NPCs to demon hunter map
+- Added few more NPCs to demon hunter and mage maps
+- Corrected Mage map's NPC coordinates
 
 v1.34.01 (Sep. 06, 2016)
 ------------------------

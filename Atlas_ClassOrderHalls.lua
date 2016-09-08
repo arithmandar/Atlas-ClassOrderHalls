@@ -150,10 +150,12 @@ local myData = {
 		{ WHIT.." 4) "..L["Old Fillmaff <Tirisgarde Librarian>"], 10004 };
 		{ WHIT.." 5) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10005 };
 		{ WHIT.." 6) "..L["Archmage Omniara <Recruiter>"], 10006 };
-		{ WHIT.." 7) "..L["Archmage Melis <Mistress of Flame>"], 10007 };
-		{ INDENT..WHIT..L["Scouting Map"] };
-		{ WHIT.." 8) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10008 };
-		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
+		{ INDENT..GREY..L["Recruit troops"] };
+		{ WHIT.." 7) "..L["Scouting Map"], 10007 };
+		{ INDENT..WHIT..L["The Great Akazamzarak"] };
+		{ WHIT.." 8) "..L["Archmage Melis <Mistress of Flame>"], 10008 };
+		{ WHIT.." 9) "..L["Jackson Watkins <Tirisgarde Quartermaster>"], 10009 };
+		{ WHIT.."10) "..L["Training Dummies"], 100010 };
 	};
 	CH_Monk = {
 		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };

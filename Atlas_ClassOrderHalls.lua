@@ -96,14 +96,16 @@ local myData = {
 		{ WHIT.." 6) "..L["Matron Mother Malevolence <Shivarra Captain>"], 10006 };
 		{ WHIT.." 7) "..L["Falara Nightsong <Illidari Provisioner>"], 10007 };
 		{ WHIT.." 8) "..L["Asha Ravensong <Illidari>"], 10008 };
-		{ WHIT.." 9) "..L["Izal Whitemoon <Illidari Trainer>"], 10009 };
-		{ WHIT.."10) "..L["Training Dummies"], 10010 };
-		{ WHIT.."11) "..L["Jace Darkweaver <Illidari>"], 10011 };
-		{ WHIT.."12) "..L["Vahu the Weathered <Illidari Researcher>"], 10012 };
-		{ WHIT.."13) "..L["Loramus Thalipedes <Class Hall Upgrades>"], 10013 };
-		{ WHIT.."14) "..L["Empowered Nether Crucible"], 10014 };
-		{ WHIT.."15) "..L["Cursed Forge of the Nathrezim"], 10015 };
-		{ WHIT.."16) "..L["Seer Akalu <Nathrezim Scholar>"], 10016 };
+		{ WHIT.." 9) "..L["Ariana Fireheart <Illidari>"], 10009 };
+		{ INDENT..GREY..L["Recruit troops"] };
+		{ WHIT.."10) "..L["Izal Whitemoon <Illidari Trainer>"], 10010 };
+		{ WHIT.."11) "..L["Training Dummies"], 10011 };
+		{ WHIT.."12) "..L["Jace Darkweaver <Illidari>"], 10012 };
+		{ WHIT.."13) "..L["Vahu the Weathered <Illidari Researcher>"], 10013 };
+		{ WHIT.."14) "..L["Loramus Thalipedes <Class Hall Upgrades>"], 10014 };
+		{ WHIT.."15) "..L["Empowered Nether Crucible"], 10015 };
+		{ WHIT.."16) "..L["Cursed Forge of the Nathrezim"], 10016 };
+		{ WHIT.."17) "..L["Seer Akalu <Nathrezim Scholar>"], 10017 };
 	};
 	CH_Druid = {
 		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };

@@ -74,6 +74,7 @@ if L then
 	L["Kor'vas Bloodthorn <Illidari>"] = "Kor'vas Bloodthorn <Illidari>"; -- 103761
 	L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Class Hall Upgrades>"; -- 110599
 	L["Belath Dawnblade <Illidari>"] = "Belath Dawnblade <Illidari>"; -- 108782
+	L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>"; -- 103760
 
 	-- //////////////////////////
 	-- Druid

@@ -115,6 +115,10 @@ if L then
 	L["Archmage Kalec <Kirin Tor>"] = "大法師卡雷克 <祈倫托>"; -- 108247
 	L["Archmage Modera <Kirin Tor>"] = "大法師莫德菈 <祈倫托>"; -- 108248
 	L["The Great Akazamzarak"] = "魔術大師阿卡贊札拉克";
+	L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"] = "大咒術師米米克 <特級法師招募員>";
+	L["Esara Verrinde <Magisters>"] = "伊薩拉·薇琳德 <博學者>";
+	L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "羅樊德威 <資深祈倫托學徒>";
+	L["Magister Varenthas <High Forgeguard>"] = "博學者瓦倫薩斯 <熔爐護法>";
 
 	-- //////////////////////////
 	-- Monk

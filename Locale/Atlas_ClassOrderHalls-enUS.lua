@@ -104,17 +104,21 @@ if L then
 	-- //////////////////////////
 	-- Mage
 	-- //////////////////////////
-	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>";
-	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>";
-	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>";
-	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>";
-	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>";
+	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>"; -- 110624
+	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>"; -- 112440
+	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>"; -- 108331
+	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>"; -- 106377
+	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>"; -- 108515
 	L["Forge of the Guardian"] = "Forge of the Guardian";
 	L["Old Fillmaff <Tirisgarde Librarian>"] = "Old Fillmaff <Tirisgarde Librarian>"; -- 107452
 	L["Meryl Felstorm"] = "Meryl Felstorm"; -- 102700
 	L["Archmage Kalec <Kirin Tor>"] = "Archmage Kalec <Kirin Tor>"; -- 108247
 	L["Archmage Modera <Kirin Tor>"] = "Archmage Modera <Kirin Tor>"; -- 108248
 	L["The Great Akazamzarak"] = "The Great Akazamzarak"; -- 103092
+	L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"] = "Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"; -- 106433
+	L["Esara Verrinde <Magisters>"] = "Esara Verrinde <Magisters>"; -- 108380
+	L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "Ravandwyr <Senior Kirin Tor Apprentice>"; -- 108377
+	L["Magister Varenthas <High Forgeguard>"] = "Magister Varenthas <High Forgeguard>"; -- 109642
 
 	-- //////////////////////////
 	-- Monk

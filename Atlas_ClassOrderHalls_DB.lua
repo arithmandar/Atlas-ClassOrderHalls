@@ -89,17 +89,21 @@ local myDB = {
 		{ "7", 10007, 188, 306 }; -- Training Dummies
 	};
 	CH_Mage = {
-		{ "A", 10101, 249, 451 }; -- Portal to Dalaran
-		{ "1", 10001, 252, 198 }; -- Forge of the Guardian
-		{ "2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
-		{ "3", 10003, 225, 183 }; -- Meryl Felstorm
-		{ "4", 10004, 214, 199 }; -- Old Fillmaff <Tirisgarde Librarian>
-		{ "5", 10005, 334, 178 }; -- Chronicler Elrianne <Class Hall Upgrades> 
-		{ "6", 10006, 417, 247 }; -- Archmage Omniara <Recruiter> 
-		{ "7", 10007, 394, 313 }; -- Scouting map
-		{ "8", 10008, 385, 322 }; -- Archmage Melis <Mistress of Flame>
-		{ "9", 10009, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
-		{ "10", 10010, 132, 300 }; -- Training Dummies
+		{  "A", 10101, 249, 451 }; -- Portal to Dalaran
+		{  "1", 10001, 252, 198 }; -- Forge of the Guardian
+		{  "2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
+		{  "3", 10003, 267, 175 }; -- Magister Varenthas
+		{  "4", 10004, 225, 183 }; -- Meryl Felstorm
+		{  "5", 10005, 214, 199 }; -- Old Fillmaff <Tirisgarde Librarian>
+		{  "6", 10006, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
+		{  "7", 10007, 333, 249} ;-- Esara Verrinde
+		{  "8", 10008, 311, 233 }; -- Ravandwyr
+		{  "9", 10009, 334, 178 }; -- Chronicler Elrianne <Class Hall Upgrades> 
+		{ "10", 10010, 417, 247 }; -- Archmage Omniara <Recruiter> 
+		{ "11", 10011, 394, 313 }; -- Scouting map
+		{ "12", 10012, 385, 322 }; -- Archmage Melis <Mistress of Flame>
+		{ "13", 10013, 132, 300 }; -- Training Dummies
+		{ "14", 10014, 156, 215 }; -- Grand Conjurer Mimic
 	};
 	CH_Monk = {
 		{ "A", 10101, 264, 332 }; -- Portal to Dalaran

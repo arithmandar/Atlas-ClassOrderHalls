@@ -6,6 +6,13 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.04 (Sep. 20, 2016)
+------------------------
+- Corrected the NPCs' positions in Druid map
+- Localization available:
+  - German (pas06)
+  - Simplified Chinese (ananhaid)
+
 v1.34.03 (Sep. 13, 2016)
 ------------------------
 - Added a few more NPCs to mage map

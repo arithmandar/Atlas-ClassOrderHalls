@@ -120,8 +120,8 @@ local myData = {
 		{ WHIT.." 3) "..L["Sister Lilith <Recruiter>"], 10003 };
 		{ WHIT.." 4) "..L["Leafbeard the Storied <Ancient of Lore>"], 10004 };
 		{ WHIT.." 5) "..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
-		{ WHIT.." 6) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10006 };
-		{ WHIT.." 7) "..L["Seed of Ages"], 10007 };
+		{ WHIT.." 6) "..L["Seed of Ages"], 10006 };
+		{ WHIT.." 7) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10007 };
 		{ WHIT.." 8) "..L["Skylord Omnuron <Mission Specialist>"], 10008 };
 		{ INDENT..WHIT..L["Scouting Map"] };
 		{ WHIT.." 9) "..L["Training Dummies"], 10009 };

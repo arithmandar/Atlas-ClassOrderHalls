@@ -6,7 +6,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.34.05 (Sep. XX, 2016)
+v1.34.05 (Sep. 28, 2016)
 ------------------------
 - Added few more NPCs to Druid map
 - Localization update:

@@ -115,6 +115,7 @@ local myData = {
 		WorldMapID = "1077";
 		{ PURP.." A) "..L["Portal to Emerald Dreamway"], 10101 };
 		{ PURP.." B) "..L["Portal to Dalaran"], 10102 };
+		{ BLUE.." A) "..BZ["Tel'Andu Barrow Den"], 10103 };
 		{ WHIT.." 1) "..L["Flight Master"], 10001 };
 		{ WHIT.." 2) "..L["Amurra Thistledew <Proprietor>"], 10002 };
 		{ WHIT.." 3) "..L["Sister Lilith <Recruiter>"], 10003 };
@@ -129,8 +130,9 @@ local myData = {
 		{ WHIT.." 8) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10008 };
 		{ WHIT.." 9) "..L["Keeper Remulos"], 10009 };
 		{ WHIT.."10) "..L["Lyessa Bloomwatcher <Guardian of G'Hanir>"], 10010 };
-		{ WHIT.."11) "..L["Skylord Omnuron <Mission Specialist>"], 10011 };
-		{ INDENT..WHIT..L["Scouting Map"] };
+		{ WHIT.."11) "..L["Scouting Map"], 10011 };
+		{ INDENT..WHIT..L["Skylord Omnuron <Mission Specialist>"] };
+		{ INDENT..WHIT..L["Mylune"] };
 		{ WHIT.."12) "..L["Zen'kiki"], 10012 };
 		{ WHIT.."13) "..L["Training Dummies"], 10013 };
 	};

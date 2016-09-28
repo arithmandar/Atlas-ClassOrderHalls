@@ -95,6 +95,7 @@ if L then
 	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>";
 	L["Zen'kiki"] = "贊基奇";
 	L["Yaris Darkclaw <Recruiter>"] = "亞里斯·暗爪 <招募員>";
+	L["Mylune"] = "蜜露恩";
 
 	-- //////////////////////////
 	-- Hunter

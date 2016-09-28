@@ -66,6 +66,7 @@ local myDB = {
 	CH_Druid = {
 		{  "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
 		{  "B", 10102, 346, 204 }; -- Portal to Dalaran
+		{  "A", 10103, 260, 123 }; -- Tel'Andu Barrow Den
 		{    1, 10001, 391, 150 }; -- Flight Master
 		{    2, 10002, 207, 108 }; -- Amurra Thistledew <Proprietor>
 		{    3, 10003, 177, 111 }; -- Sister Lilith <Recruiter>
@@ -76,7 +77,7 @@ local myDB = {
 		{    8, 10008, 244, 257 }; -- Rensar Greathoof <Archdruid of the Grove>
 		{    9, 10009, 244, 244 }; -- Keeper Remulos
 		{   10, 10010, 255, 254 }; -- Lyessa Bloomwatcher <Guardian of G'Hanir>
-		{   11, 10011, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
+		{   11, 10011, 312, 256 }; -- Scouting Map, Skylord Omnuron <Mission Specialist>, Mylune
 		{   12, 10012, 377, 259 }; -- Zen'kiki
 		{   13, 10013, 474, 282 }; -- Training Dummies
 	};

@@ -122,15 +122,17 @@ local myData = {
 		{ WHIT.." 4) "..L["Leafbeard the Storied <Ancient of Lore>"], 10004 };
 		{ INDENT..GREY..L["Class Hall Upgrades"] };
 		{ WHIT.." 5) "..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
-		{ WHIT.." 6) "..L["Seed of Ages"], 10006 };
+		{ WHIT.." 6) "..L["Yaris Darkclaw <Recruiter>"], 10006 };
+		{ INDENT..GREY..L["Recruit troops"] };
+		{ WHIT.." 7) "..L["Seed of Ages"], 10007 };
 		{ INDENT..WHIT..L["Tender Daranelle"] };
-		{ WHIT.." 7) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10007 };
-		{ WHIT.." 8) "..L["Keeper Remulos"], 10008 };
-		{ WHIT.." 9) "..L["Lyessa Bloomwatcher <Guardian of G'Hanir>"], 10009 };
-		{ WHIT.."10) "..L["Skylord Omnuron <Mission Specialist>"], 10010 };
+		{ WHIT.." 8) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10008 };
+		{ WHIT.." 9) "..L["Keeper Remulos"], 10009 };
+		{ WHIT.."10) "..L["Lyessa Bloomwatcher <Guardian of G'Hanir>"], 10010 };
+		{ WHIT.."11) "..L["Skylord Omnuron <Mission Specialist>"], 10011 };
 		{ INDENT..WHIT..L["Scouting Map"] };
-		{ WHIT.."11) "..L["Zen'kiki"], 10011 };
-		{ WHIT.."12) "..L["Training Dummies"], 10012 };
+		{ WHIT.."12) "..L["Zen'kiki"], 10012 };
+		{ WHIT.."13) "..L["Training Dummies"], 10013 };
 	};
 	CH_Hunter = {
 		ZoneName = { CL["HUNTER"]..Atlas_GetClassName("HUNTER")..ALC["Hyphen"]..BZ["Trueshot Lodge"] };

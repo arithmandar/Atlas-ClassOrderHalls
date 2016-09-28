@@ -94,6 +94,7 @@ if L then
 	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "萊耶莎·花衛 <格哈尼爾守衛者>";
 	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>";
 	L["Zen'kiki"] = "贊基奇";
+	L["Yaris Darkclaw <Recruiter>"] = "亞里斯·暗爪 <招募員>";
 
 	-- //////////////////////////
 	-- Hunter

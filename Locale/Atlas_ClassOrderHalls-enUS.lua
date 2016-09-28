@@ -93,6 +93,7 @@ if L then
 	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "Lyessa Bloomwatcher <Guardian of G'Hanir>"; -- 104577
 	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>"; -- 98002
 	L["Zen'kiki"] = "Zen'kiki"; --98784
+	L["Yaris Darkclaw <Recruiter>"] = "Yaris Darkclaw <Recruiter>";-- 106442
 
 	-- //////////////////////////
 	-- Hunter

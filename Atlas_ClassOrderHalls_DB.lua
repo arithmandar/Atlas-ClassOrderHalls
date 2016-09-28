@@ -71,13 +71,14 @@ local myDB = {
 		{    3, 10003, 177, 111 }; -- Sister Lilith <Recruiter>
 		{    4, 10004, 145, 127 }; -- Leafbeard the Storied <Ancient of Lore>
 		{    5, 10005, 153, 145 }; -- Celadine the Fatekeeper <Dreamgrove Researcher>
-		{    6, 10006, 130, 264 }; -- Seed of Ages
-		{    7, 10007, 244, 257 }; -- Rensar Greathoof <Archdruid of the Grove>
-		{    8, 10008, 244, 244 }; -- Keeper Remulos
-		{    9, 10009, 255, 254 }; -- Lyessa Bloomwatcher <Guardian of G'Hanir>
-		{   10, 10010, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
-		{   11, 10011, 377, 259 }; -- Zen'kiki
-		{   12, 10012, 474, 282 }; -- Training Dummies
+		{    6, 10006, 191, 156 }; -- Yaris Darkclaw <Recruiter>
+		{    7, 10007, 130, 264 }; -- Seed of Ages
+		{    8, 10008, 244, 257 }; -- Rensar Greathoof <Archdruid of the Grove>
+		{    9, 10009, 244, 244 }; -- Keeper Remulos
+		{   10, 10010, 255, 254 }; -- Lyessa Bloomwatcher <Guardian of G'Hanir>
+		{   11, 10011, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
+		{   12, 10012, 377, 259 }; -- Zen'kiki
+		{   13, 10013, 474, 282 }; -- Training Dummies
 	};
 	CH_Hunter = {
 		{ "A", 10101, 234, 289 }; -- Portal to Dalaran

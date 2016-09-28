@@ -118,13 +118,19 @@ local myData = {
 		{ WHIT.." 1) "..L["Flight Master"], 10001 };
 		{ WHIT.." 2) "..L["Amurra Thistledew <Proprietor>"], 10002 };
 		{ WHIT.." 3) "..L["Sister Lilith <Recruiter>"], 10003 };
+		{ INDENT..GREY..L["Recruit troops"] };
 		{ WHIT.." 4) "..L["Leafbeard the Storied <Ancient of Lore>"], 10004 };
+		{ INDENT..GREY..L["Class Hall Upgrades"] };
 		{ WHIT.." 5) "..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
 		{ WHIT.." 6) "..L["Seed of Ages"], 10006 };
+		{ INDENT..WHIT..L["Tender Daranelle"] };
 		{ WHIT.." 7) "..L["Rensar Greathoof <Archdruid of the Grove>"], 10007 };
-		{ WHIT.." 8) "..L["Skylord Omnuron <Mission Specialist>"], 10008 };
+		{ WHIT.." 8) "..L["Keeper Remulos"], 10008 };
+		{ WHIT.." 9) "..L["Lyessa Bloomwatcher <Guardian of G'Hanir>"], 10009 };
+		{ WHIT.."10) "..L["Skylord Omnuron <Mission Specialist>"], 10010 };
 		{ INDENT..WHIT..L["Scouting Map"] };
-		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
+		{ WHIT.."11) "..L["Zen'kiki"], 10011 };
+		{ WHIT.."12) "..L["Training Dummies"], 10012 };
 	};
 	CH_Hunter = {
 		ZoneName = { CL["HUNTER"]..Atlas_GetClassName("HUNTER")..ALC["Hyphen"]..BZ["Trueshot Lodge"] };

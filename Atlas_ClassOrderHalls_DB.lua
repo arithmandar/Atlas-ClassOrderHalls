@@ -30,14 +30,14 @@ local myDB = {
 		{ "A", 10101, 4, 313 }; -- Portal to Dalaran
 		{ "B", 10102, 49, 306 }; -- Portal to another floor
 		{ "B", 10102, 217, 108 }; -- Portal to another floor
-		{ "1", 10001, 21, 288 }; -- Flight Master
-		{ "2", 10002, 152, 366 }; -- Siouxsie the Banshee <Mission Specialist>
-		{ "3", 10003, 147, 391 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
-		{ "4", 10004, 243, 443 }; -- Lord Thorval
-		{ "5", 10005, 327, 177 }; -- Training Dummies
-		{ "6", 10006, 290, 115 }; -- Quartermaster Ozorg <Rare Goods Vendor>
-		{ "7", 10007, 393, 210 }; -- Grand Master Siegesmith Corvus
-		{ "8", 10008, 396, 153 }; -- Lady Alistra <Death Knight Trainer>
+		{  1, 10001, 21, 288 }; -- Flight Master
+		{  2, 10002, 152, 366 }; -- Siouxsie the Banshee <Mission Specialist>
+		{  3, 10003, 147, 391 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
+		{  4, 10004, 243, 443 }; -- Lord Thorval
+		{  5, 10005, 327, 177 }; -- Training Dummies
+		{  6, 10006, 290, 115 }; -- Quartermaster Ozorg <Rare Goods Vendor>
+		{  7, 10007, 393, 210 }; -- Grand Master Siegesmith Corvus
+		{  8, 10008, 396, 153 }; -- Lady Alistra <Death Knight Trainer>
 	};
 	CH_DemonHunter = {
 		{ "A", 10101, 122, 416 }; -- Illidari Gateway
@@ -45,36 +45,39 @@ local myDB = {
 		{ "A", 10102, 193, 247 }; -- Ramp to lower floor
 		{ "B", 10103, 307, 247 }; -- Ramp to top floor
 		{ "B", 10103, 444, 247 }; -- Ramp to top floor
-		{ "1", 10001, 122, 269 }; -- Kayn Sunfury <Illidari>
-		{ "2", 10002, 100, 248 }; -- Battlelord Gaardoun <Ashtongue Captain>
-		{ "3", 10003, 122, 248 }; -- Scouting Map
-		{ "4", 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
-		{ "5", 10005, 112, 239 }; -- Belath Dawnblade <Illidari>
-		{ "6", 10006, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
-		{ "7", 10007, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
-		{ "8", 10008, 103, 175 }; -- Asha Ravensong
-		{ "9", 10009, 123, 179 }; -- Ariana Fireheart <Illidari>
-		{ "10", 10010, 140, 172 }; -- Izal Whitemoon
-		{ "11", 10011, 100, 94 }; -- Training Dummies
-		{ "12", 10012, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{ "13", 10013, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{ "14", 10014, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
-		{ "15", 10015, 375, 249 }; -- Empowered Nether Crucible
-		{ "16", 10016, 374, 119 }; -- Cursed Forge of the Nathrezim
-		{ "17", 10017, 357, 129 }; -- Seer Akalu
+		{   1, 10001, 122, 269 }; -- Kayn Sunfury <Illidari>
+		{   2, 10002, 100, 248 }; -- Battlelord Gaardoun <Ashtongue Captain>
+		{   3, 10003, 122, 248 }; -- Scouting Map
+		{   4, 10004, 148, 248 }; -- Lady S'theno <Coilskar Captain>
+		{   5, 10005, 112, 239 }; -- Belath Dawnblade <Illidari>
+		{   6, 10006, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
+		{   7, 10007, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
+		{   8, 10008, 103, 175 }; -- Asha Ravensong
+		{   9, 10009, 123, 179 }; -- Ariana Fireheart <Illidari>
+		{  10, 10010, 140, 172 }; -- Izal Whitemoon
+		{  11, 10011, 100, 94 }; -- Training Dummies
+		{  12, 10012, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{  13, 10013, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{  14, 10014, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
+		{  15, 10015, 375, 249 }; -- Empowered Nether Crucible
+		{  16, 10016, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{  17, 10017, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
-		{ "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
-		{ "B", 10102, 346, 204 }; -- Portal to Dalaran
-		{ "1", 10001, 391, 150 }; -- Flight Master
-		{ "2", 10002, 207, 108 }; -- Amurra Thistledew <Proprietor>
-		{ "3", 10003, 177, 111 }; -- Sister Lilith <Recruiter>
-		{ "4", 10004, 145, 127 }; -- Leafbeard the Storied <Ancient of Lore>
-		{ "5", 10005, 153, 145 }; -- Celadine the Fatekeeper <Dreamgrove Researcher>
-		{ "6", 10006, 130, 264 }; -- Rensar Greathoof <Archdruid of the Grove>
-		{ "7", 10007, 244, 257 }; -- Seed of Ages
-		{ "8", 10008, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
-		{ "9", 10009, 474, 282 }; -- Training Dummies
+		{  "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
+		{  "B", 10102, 346, 204 }; -- Portal to Dalaran
+		{    1, 10001, 391, 150 }; -- Flight Master
+		{    2, 10002, 207, 108 }; -- Amurra Thistledew <Proprietor>
+		{    3, 10003, 177, 111 }; -- Sister Lilith <Recruiter>
+		{    4, 10004, 145, 127 }; -- Leafbeard the Storied <Ancient of Lore>
+		{    5, 10005, 153, 145 }; -- Celadine the Fatekeeper <Dreamgrove Researcher>
+		{    6, 10006, 130, 264 }; -- Seed of Ages
+		{    7, 10007, 244, 257 }; -- Rensar Greathoof <Archdruid of the Grove>
+		{    8, 10008, 244, 244 }; -- Keeper Remulos
+		{    9, 10009, 255, 254 }; -- Lyessa Bloomwatcher <Guardian of G'Hanir>
+		{   10, 10010, 312, 256 }; -- Skylord Omnuron <Mission Specialist>
+		{   11, 10011, 377, 259 }; -- Zen'kiki
+		{   12, 10012, 474, 282 }; -- Training Dummies
 	};
 	CH_Hunter = {
 		{ "A", 10101, 234, 289 }; -- Portal to Dalaran

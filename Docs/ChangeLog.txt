@@ -6,10 +6,16 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.05 (Sep. XX, 2016)
+------------------------
+- Added few more NPCs to Druid map
+- Localization update:
+  - German (MrGnaah)
+
 v1.34.04 (Sep. 20, 2016)
 ------------------------
 - Corrected the NPCs' positions in Druid map
-- Localization available:
+- Localization update:
   - German (pas06)
   - Simplified Chinese (ananhaid)
 

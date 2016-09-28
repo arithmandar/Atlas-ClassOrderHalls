@@ -42,6 +42,7 @@ if L then
 	L["Ramp to lower floor"] = "通往下層的斜坡";
 	L["Ramp to top floor"] = "通往上層的斜坡";
 	L["Recruit troops"] = "訓練部隊";
+	L["Class Hall Upgrades"] = "職業大廳升級";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -82,13 +83,17 @@ if L then
 	-- //////////////////////////
 	L["Portal to Emerald Dreamway"] = "翡翠夢途傳送門"
 	L["Flight Master"] = "飛行管理員"
+	L["Amurra Thistledew <Proprietor>"] = "安慕拉·薊露 <店長>";
 	L["Sister Lilith <Recruiter>"] = "莉莉絲姐妹 <招募員>";
 	L["Leafbeard the Storied <Ancient of Lore>"] = "『傳說者』萊鬚 <知識古樹>";
 	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "『命運守護者』伽拉丁 <幻夢之林研究員>";
-	L["Amurra Thistledew <Proprietor>"] = "安慕拉·薊露 <店長>";
-	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>";
-	L["Rensar Greathoof <Archdruid of the Grove>"] = "蘭薩·巨蹄 <林地大德魯伊>";
 	L["Seed of Ages"] = "遠古種子";
+	L["Tender Daranelle"] = "看管者達菈奈";
+	L["Rensar Greathoof <Archdruid of the Grove>"] = "蘭薩·巨蹄 <林地大德魯伊>";
+	L["Keeper Remulos"] = "守衛者雷姆洛斯";
+	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "萊耶莎·花衛 <格哈尼爾守衛者>";
+	L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>";
+	L["Zen'kiki"] = "贊基奇";
 
 	-- //////////////////////////
 	-- Hunter

@@ -41,6 +41,7 @@ if L then
 	L["Ramp to lower floor"] = "Ramp to lower floor";
 	L["Ramp to top floor"] = "Ramp to top floor";
 	L["Recruit troops"] = "Recruit troops";
+	L["Class Hall Upgrades"] = "Class Hall Upgrades";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -81,13 +82,17 @@ if L then
 	-- //////////////////////////
 	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
 	L["Flight Master"] = "Flight Master"
-	L["Sister Lilith <Recruiter>"] = "Sister Lilith <Recruiter>";
-	L["Leafbeard the Storied <Ancient of Lore>"] = "Leafbeard the Storied <Ancient of Lore>";
-	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Celadine the Fatekeeper <Dreamgrove Researcher>";
-	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";
-	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>";
-	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>";
+	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";  -- 112323
+	L["Sister Lilith <Recruiter>"] = "Sister Lilith <Recruiter>"; -- 108393
+	L["Leafbeard the Storied <Ancient of Lore>"] = "Leafbeard the Storied <Ancient of Lore>"; -- 97989
+	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Celadine the Fatekeeper <Dreamgrove Researcher>"; -- 111737
 	L["Seed of Ages"] = "Seed of Ages";
+	L["Tender Daranelle"] = "Tender Daranelle"; -- 109612
+	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>"; -- 101195
+	L["Keeper Remulos"] = "Keeper Remulos"; -- 103832
+	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "Lyessa Bloomwatcher <Guardian of G'Hanir>"; -- 104577
+	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>"; -- 98002
+	L["Zen'kiki"] = "Zen'kiki"; --98784
 
 	-- //////////////////////////
 	-- Hunter

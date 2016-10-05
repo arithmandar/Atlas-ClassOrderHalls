@@ -159,6 +159,7 @@ if L then
 	L["Moira Thaurissan <Queen of the Dark Iron>"] = "茉艾拉·索瑞森 <黑鐵女王>";
 	L["Prophet Velen"] = "預言者費倫";
 	L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭司>";
+	L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級>";
 
 	-- //////////////////////////
 	-- Rogue
@@ -212,8 +213,8 @@ if L then
 	L["Eye of Odyn"] = "歐丁之眼";
 	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <招募員>";
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>";
-	L["Hymdall"] = "海姆達爾";
 	L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>";
+	L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>";
 	L["Travel to:"] = "旅行到:";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@

@@ -229,8 +229,9 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 8) "..L["Prophet Velen"], 10008 };
 		{ WHIT.." 9) "..L["Delas Moonfang <Priestess of the Moon>"], 10009 };
-		{ WHIT.."10) "..L["Dark Cleric Cecille <Priest Trainer>"], 10010 };
-		{ WHIT.."11) "..L["Training Dummies"], 10011 };
+		{ WHIT.."10) "..L["Archon Torias <Class Hall Upgrades>"], 10010 };
+		{ WHIT.."11) "..L["Dark Cleric Cecille <Priest Trainer>"], 10011 };
+		{ WHIT.."12) "..L["Training Dummies"], 10012 };
 	};
 	CH_Rogue = {
 		ZoneName = { CL["ROGUE"]..Atlas_GetClassName("ROGUE")..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
@@ -305,15 +306,16 @@ local myData = {
 		{ WHIT.." 3) "..L["Savyn Valorborn <Recruiter>"], 10003 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 4) "..L["Quartermaster Durnolf"], 10004 };
-		{ WHIT.." 5) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10005 };
-		{ WHIT.." 6) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10006 };
-		{ WHIT.." 7) "..L["Forge of Odyn"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10007 };
+		{ WHIT.." 5) "..L["Haklang Ulfsson <Armaments Requisitioner>"], 10005 };
+		{ WHIT.." 6) "..L["Fjornson Stonecarver <Keeper of Legends>"], 10006 };
+		{ WHIT.." 7) "..L["Einar the Runecaster <Class Hall Upgrades>"], 10007 };
+		{ WHIT.." 8) "..L["Forge of Odyn"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10008 };
 		{ INDENT..WHIT..L["Master Smith Helgar"] };
-		{ WHIT.." 8) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10008 };
-		{ WHIT.." 9) "..BZ["Arena of Glory"], 10009 };
-		{ WHIT.."10) "..L["Training Dummies"], 10010 };
-		{ WHIT.."11) "..Atlas_GetBossName("Hymdall", 1485), 10011 }; -- Note that here we should use customized NPC ID as Hymdall here isn't a boss from dungeon.
-		{ WHIT.."12) "..Atlas_GetBossName("Odyn", 1489), 10012 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ WHIT.." 9) "..L["Weaponmaster Asvard <Warrior Trainer>"], 10009 };
+		{ WHIT.."10) "..BZ["Arena of Glory"], 10010 };
+		{ WHIT.."11) "..L["Training Dummies"], 10011 };
+		{ WHIT.."12) "..Atlas_GetBossName("Hymdall", 1485), 10012 }; -- Note that here we should use customized NPC ID as Hymdall here isn't a boss from dungeon.
+		{ WHIT.."13) "..Atlas_GetBossName("Odyn", 1489), 10013 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
 	};
 };
 

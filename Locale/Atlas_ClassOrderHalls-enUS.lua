@@ -159,6 +159,7 @@ if L then
 	L["Moira Thaurissan <Queen of the Dark Iron>"] = "Moira Thaurissan <Queen of the Dark Iron>"; -- 109776
 	L["Prophet Velen"] = "Prophet Velen"; -- 110557
 	L["Delas Moonfang <Priestess of the Moon>"] = "Delas Moonfang <Priestess of the Moon>"; -- 110571
+	L["Archon Torias <Class Hall Upgrades>"] = "Archon Torias <Class Hall Upgrades>"; -- 110725 
 
 	-- //////////////////////////
 	-- Rogue
@@ -212,7 +213,7 @@ if L then
 	L["Eye of Odyn"] = "Eye of Odyn";
 	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recruiter>"; -- 106459
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>"; -- 107994 
-	L["Hymdall"] = "Hymdall"; -- 107987
 	L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>"; -- 106460
+	L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>"; -- 110437
 	L["Travel to:"] = "Travel to:";
 end

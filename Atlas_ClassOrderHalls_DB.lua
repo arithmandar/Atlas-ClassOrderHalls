@@ -145,8 +145,9 @@ local myDB = {
 		{ "7", 10007, 258, 211 }; -- Moira Thaurissan <Queen of the Dark Iron>
 		{ "8", 10008, 239, 221 }; -- Prophet Velen
 		{ "9", 10009, 243, 232 }; -- Delas Moonfang <Priestess of the Moon>
-		{ "10", 10010, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
-		{ "11", 10011, 170, 268 }; -- Training Dummies
+		{ "10", 10010, 288, 193 }; -- Archon Torias <Class Hall Upgrades>
+		{ "11", 10011, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
+		{ "12", 10012, 170, 268 }; -- Training Dummies
 	};
 	CH_Rogue = {
 		{ "A", 10101, 430, 356 }; -- Glorious Goods
@@ -197,14 +198,15 @@ local myDB = {
 		{ "2", 10002, 277, 68 }; -- Captain Hjalmar Stahlstrom <Recruiter>
 		{ "3", 10003, 227, 68 }; -- Savyn Valorborn <Recruiter>
 		{ "4", 10004, 224, 124 }; -- Quartermaster Durnolf
-		{ "5", 10005, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
-		{ "6", 10006, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
-		{ "7", 10007, 108, 173 }; -- Master Smith Helgar
-		{ "8", 10008, 356, 179 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ "9", 10009, 390, 179 }; -- Arena of Glory
-		{ "10", 10010, 436, 179 }; -- Training Dummies
-		{ "11", 10011, 226, 422 }; -- Hymdall
-		{ "12", 10012, 245, 432 }; -- Odyn
+		{ "5", 10005, 275, 123 }; -- Haklang Ulfsson <Armaments Requisitioner>
+		{ "6", 10005, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
+		{ "7", 10006, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
+		{ "8", 10007, 108, 173 }; -- Master Smith Helgar
+		{ "9", 10008, 356, 179 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "10", 10009, 390, 179 }; -- Arena of Glory
+		{ "11", 10010, 436, 179 }; -- Training Dummies
+		{ "12", 10011, 226, 422 }; -- Hymdall
+		{ "13", 10012, 245, 432 }; -- Odyn
 	};
 };
 

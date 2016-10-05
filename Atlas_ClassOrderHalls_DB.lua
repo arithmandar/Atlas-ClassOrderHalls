@@ -138,10 +138,15 @@ local myDB = {
 		{ "A", 10101, 250, 374 }; -- Portal to Dalaran
 		{ "1", 10001, 252, 108 }; -- Betild Deepanvil <Master Artificer>
 		{ "2", 10002, 324, 130 }; -- Juvess the Duskwhisperer <Keeper of Scrolls>
-		{ "3", 10003, 177, 117 }; -- Meridelle Lightspark <Logistics>
-		{ "4", 10004, 248, 221 }; -- Alonsus Faol <Bishop of Secrets>
-		{ "5", 10005, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
-		{ "6", 10006, 170, 268 }; -- Training Dummies
+		{ "3", 10003, 188, 132 }; -- Grand Anchorite Gesslar <Recruiter>
+		{ "4", 10004, 177, 117 }; -- Meridelle Lightspark <Logistics>
+		{ "5", 10005, 248, 221 }; -- Command Map
+		{ "6", 10006, 263, 223 }; -- Alonsus Faol <Bishop of Secrets>
+		{ "7", 10007, 258, 211 }; -- Moira Thaurissan <Queen of the Dark Iron>
+		{ "8", 10008, 239, 221 }; -- Prophet Velen
+		{ "9", 10009, 243, 232 }; -- Delas Moonfang <Priestess of the Moon>
+		{ "10", 10010, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
+		{ "11", 10011, 170, 268 }; -- Training Dummies
 	};
 	CH_Rogue = {
 		{ "A", 10101, 430, 356 }; -- Glorious Goods

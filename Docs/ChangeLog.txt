@@ -6,6 +6,12 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.07 (Oct. XX, 2016)
+------------------------
+- Re-organize the class halls' description order by putting artifact power and scouting map as the leading item
+- Added description to highlight the artificat power
+- Added more NPCs to priest's class hall
+
 v1.34.06 (Oct. 03, 2016)
 ------------------------
 - Localization update:

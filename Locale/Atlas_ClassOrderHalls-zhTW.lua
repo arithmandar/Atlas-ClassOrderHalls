@@ -34,15 +34,11 @@ if L then
 	-- //////////////////////////
 	L["Class Order Hall Maps"] = "職業大廳地圖"
 	L["Portal to Dalaran"] = "達拉然傳送門"
-	L["Scouting Map"] = "偵查地圖";
-	L["Command Map"] = "指揮圖";
 	L["Training Dummies"] = "訓練假人"
 	L["Travel to Dalaran"] = "前往達拉然";
 	L["Entrance"] = "入口"
 	L["Ramp to lower floor"] = "通往下層的斜坡";
 	L["Ramp to top floor"] = "通往上層的斜坡";
-	L["Recruit troops"] = "訓練部隊";
-	L["Class Hall Upgrades"] = "職業大廳升級";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -82,7 +78,6 @@ if L then
 	-- Druid
 	-- //////////////////////////
 	L["Portal to Emerald Dreamway"] = "翡翠夢途傳送門"
-	L["Flight Master"] = "飛行管理員"
 	L["Amurra Thistledew <Proprietor>"] = "安慕拉·薊露 <店長>";
 	L["Sister Lilith <Recruiter>"] = "莉莉絲姐妹 <招募員>";
 	L["Leafbeard the Storied <Ancient of Lore>"] = "『傳說者』萊鬚 <知識古樹>";
@@ -153,12 +148,17 @@ if L then
 	-- //////////////////////////
 	-- Priest
 	-- //////////////////////////
+	L["Command Map"] = "指揮圖";
 	L["Altar of Light and Shadow"] = "光影祭壇";
 	L["Betild Deepanvil <Master Artificer>"] = "貝緹德·深砧 <大工藝師>";
 	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "『暮語者』喬維斯 <卷軸看守者>";
 	L["Meridelle Lightspark <Logistics>"] = "梅莉黛兒·火光 <後勤>";
 	L["Alonsus Faol <Bishop of Secrets>"] = "阿隆索斯·法奧 <機密主教>";
 	L["Dark Cleric Cecille <Priest Trainer>"] = "黑暗教士瑟希爾 <牧師訓練師>";
+	L["Grand Anchorite Gesslar <Recruiter>"] = "大隱士傑斯拉 <招募員>";
+	L["Moira Thaurissan <Queen of the Dark Iron>"] = "茉艾拉·索瑞森 <黑鐵女王>";
+	L["Prophet Velen"] = "預言者費倫";
+	L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭司>";
 
 	-- //////////////////////////
 	-- Rogue

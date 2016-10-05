@@ -33,15 +33,11 @@ if L then
 	-- //////////////////////////
 	L["Class Order Hall Maps"] = "Class Order Hall Maps";
 	L["Portal to Dalaran"] = "Portal to Dalaran";
-	L["Scouting Map"] = "Scouting Map";
-	L["Command Map"] = "Command Map";
 	L["Training Dummies"] = "Training Dummies";
 	L["Travel to Dalaran"] = "Travel to Dalaran";
 	L["Entrance"] = "Entrance";
 	L["Ramp to lower floor"] = "Ramp to lower floor";
 	L["Ramp to top floor"] = "Ramp to top floor";
-	L["Recruit troops"] = "Recruit troops";
-	L["Class Hall Upgrades"] = "Class Hall Upgrades";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -81,7 +77,6 @@ if L then
 	-- Druid
 	-- //////////////////////////
 	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
-	L["Flight Master"] = "Flight Master"
 	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";  -- 112323
 	L["Sister Lilith <Recruiter>"] = "Sister Lilith <Recruiter>"; -- 108393
 	L["Leafbeard the Storied <Ancient of Lore>"] = "Leafbeard the Storied <Ancient of Lore>"; -- 97989
@@ -153,12 +148,17 @@ if L then
 	-- //////////////////////////
 	-- Priest
 	-- //////////////////////////
+	L["Command Map"] = "Command Map";
 	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
-	L["Betild Deepanvil <Master Artificer>"] = "Betild Deepanvil <Master Artificer>";
-	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>";
-	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>";
-	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>";
-	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>";
+	L["Betild Deepanvil <Master Artificer>"] = "Betild Deepanvil <Master Artificer>"; -- 102709
+	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>"; -- 111738
+	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>"; -- 112401
+	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>"; -- 110564
+	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>"; -- 112576
+	L["Grand Anchorite Gesslar <Recruiter>"] = "Grand Anchorite Gesslar <Recruiter>"; -- 106450
+	L["Moira Thaurissan <Queen of the Dark Iron>"] = "Moira Thaurissan <Queen of the Dark Iron>"; -- 109776
+	L["Prophet Velen"] = "Prophet Velen"; -- 110557
+	L["Delas Moonfang <Priestess of the Moon>"] = "Delas Moonfang <Priestess of the Moon>"; -- 110571
 
 	-- //////////////////////////
 	-- Rogue

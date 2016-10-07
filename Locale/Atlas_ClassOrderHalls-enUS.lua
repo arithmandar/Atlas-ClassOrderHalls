@@ -43,14 +43,14 @@ if L then
 	-- Death Knight
 	-- //////////////////////////
 	L["Portal to another floor"] = "Portal to another floor";
-	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>";
-	L["Highlord Darion Mograine"] = "Highlord Darion Mograine";
-	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Dreadmoore <Ebon Blade Archivist>";
-	L["Lord Thorval"] = "Lord Thorval";
-	L["Quartermaster Ozorg <Rare Goods Vendor>"] = "Quartermaster Ozorg <Rare Goods Vendor>";
-	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus";
+	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>"; -- 93568
+	L["Highlord Darion Mograine"] = "Highlord Darion Mograine"; -- 93437
+	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Dreadmoore <Ebon Blade Archivist>"; -- 97111
+	L["Lord Thorval"] = "Lord Thorval"; -- 97134
+	L["Quartermaster Ozorg <Rare Goods Vendor>"] = "Quartermaster Ozorg <Rare Goods Vendor>"; -- 93550
+	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus"; -- 97072
 	L["Soul Forge"] = "Soul Forge";
-	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>";
+	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>"; -- 93509
 
 	-- //////////////////////////
 	-- Demon Hunter
@@ -125,25 +125,25 @@ if L then
 	-- //////////////////////////
 	-- Monk
 	-- //////////////////////////
-	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>";
+	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>"; -- 112338
 	L["Portal to Peak of Serenity"] = "Portal to Peak of Serenity";
-	L["Master Hsu <Mission Master>"] = "Master Hsu <Mission Master>";
-	L["Elder Xang <Monk Trainer>"] = "Elder Xang <Monk Trainer>";
-	L["Iron-Body Ponshu <Senior Master Ox>"] = "Iron-Body Ponshu <Senior Master Ox>";
+	L["Master Hsu <Mission Master>"] = "Master Hsu <Mission Master>"; -- 99179
+	L["Elder Xang <Monk Trainer>"] = "Elder Xang <Monk Trainer>"; -- 101749
+	L["Iron-Body Ponshu <Senior Master Ox>"] = "Iron-Body Ponshu <Senior Master Ox>"; -- 100438
 	L["Forge of the Roaring Mountain"] = "Forge of the Roaring Mountain";
-	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>";
+	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>"; -- 106942
 	L["Transportation Mandala"] = "Transportation Mandala";
-	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>";
+	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>"; -- 101757
 
 	-- //////////////////////////
 	-- Paladin
 	-- //////////////////////////
-	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
-	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";
-	L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>";
-	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>";
+	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>"; -- 91190
+	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>"; -- 90250
+	L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>"; -- 92313
+	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>"; -- 92316
 	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
-	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>";
+	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>"; -- 100196
 
 	-- //////////////////////////
 	-- Priest
@@ -165,41 +165,41 @@ if L then
 	-- //////////////////////////
 	-- Rogue
 	-- //////////////////////////
-	L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>";
-	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt";
-	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>";
-	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>";
+	L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>"; -- 103791
+	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt"; -- 113362
+	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>"; -- 102641
+	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>"; -- 102594
 	L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned";
-	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>";
+	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>"; -- 98092
 	L["Rouge Trainers"] = "Rouge Trainers";
-	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>";
+	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>"; -- 105986
 
 	-- //////////////////////////
 	-- Shaman
 	-- //////////////////////////
-	L["Aggra <Shaman Trainer>"] = "Aggra <Shaman Trainer>";
-	L["Elementalist Janai <Earthen Ring>"] = "Elementalist Janai <Earthen Ring>";
+	L["Aggra <Shaman Trainer>"] = "Aggra <Shaman Trainer>"; -- 99531
+	L["Elementalist Janai <Earthen Ring>"] = "Elementalist Janai <Earthen Ring>"; -- 109464
 	L["Maelstrom Pillar"] = "Maelstrom Pillar";
-	L["Puzzlemaster Lo <The Earthen Ring>"] = "Puzzlemaster Lo <The Earthen Ring>";
-	L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "Flamesmith Lanying <Earthen Ring Quartermaster>";
-	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Windspeaker <Keeper of Legends>";
-	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>";
-	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>";
+	L["Puzzlemaster Lo <The Earthen Ring>"] = "Puzzlemaster Lo <The Earthen Ring>"; -- 103004
+	L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "Flamesmith Lanying <Earthen Ring Quartermaster>"; -- 112318
+	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Windspeaker <Keeper of Legends>"; -- 111739
+	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>"; -- 111922
+	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>"; -- 96746
 
 	-- //////////////////////////
 	-- Warlock
 	-- //////////////////////////
-	L["Calydus"] = "Calydus";
-	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>";
+	L["Calydus"] = "Calydus"; -- 101097
+	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>"; -- 109686
 	L["Felblood Altar"] = "Felblood Altar";
-	L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Dreadscar Blacksmith>";
-	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Flamescowl <Council of the Black Harvest>";
+	L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Dreadscar Blacksmith>"; -- 101913
+	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Flamescowl <Council of the Black Harvest>"; -- 104795
 	L["Dreadscar Battle Plans"] = "Dreadscar Battle Plans";
-	L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin the Darkbinder <Mission Strategist>";
+	L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin the Darkbinder <Mission Strategist>"; -- 106199
 	L["Demonic Gateway"] = "Demonic Gateway";
-	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>";
-	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>";
-	L["Jared <Recruiter>"] = "Jared <Recruiter>";
+	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>"; -- 112434
+	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>"; -- 111740
+	L["Jared <Recruiter>"] = "Jared <Recruiter>"; -- 106217
 
 	-- //////////////////////////
 	-- Warrior

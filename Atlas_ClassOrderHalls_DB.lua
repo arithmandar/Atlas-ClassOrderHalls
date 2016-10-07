@@ -146,8 +146,9 @@ local myDB = {
 		{ "8", 10008, 239, 221 }; -- Prophet Velen
 		{ "9", 10009, 243, 232 }; -- Delas Moonfang <Priestess of the Moon>
 		{ "10", 10010, 288, 193 }; -- Archon Torias <Class Hall Upgrades>
-		{ "11", 10011, 176, 252 }; -- Dark Cleric Cecille <Priest Trainer>
-		{ "12", 10012, 170, 268 }; -- Training Dummies
+		{ "11", 10011, 188, 253 }; -- Vicar Eliza <Recruiter>
+		{ "12", 10012, 173, 248 }; -- Dark Cleric Cecille <Priest Trainer>
+		{ "13", 10013, 170, 268 }; -- Training Dummies
 	};
 	CH_Rogue = {
 		{ "A", 10101, 430, 356 }; -- Glorious Goods

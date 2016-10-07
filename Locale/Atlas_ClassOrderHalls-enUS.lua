@@ -94,13 +94,13 @@ if L then
 	-- //////////////////////////
 	-- Hunter
 	-- //////////////////////////
-	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>";
-	L["Altar Keeper Biehn"] = "Altar Keeper Biehn";
+	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>"; -- 107317
+	L["Altar Keeper Biehn"] = "Altar Keeper Biehn"; -- 102940
 	L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
-	L["Outfitter Reynolds <Unseen Path>"] = "Outfitter Reynolds <Unseen Path>";
-	L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>";
+	L["Outfitter Reynolds <Unseen Path>"] = "Outfitter Reynolds <Unseen Path>"; -- 103693
+	L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>"; -- 103023
 	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
-	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>";
+	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>"; -- 98737
 	L["Tales of the Hunt"] = "Tales of the Hunt";
 
 	-- //////////////////////////
@@ -160,6 +160,7 @@ if L then
 	L["Prophet Velen"] = "Prophet Velen"; -- 110557
 	L["Delas Moonfang <Priestess of the Moon>"] = "Delas Moonfang <Priestess of the Moon>"; -- 110571
 	L["Archon Torias <Class Hall Upgrades>"] = "Archon Torias <Class Hall Upgrades>"; -- 110725 
+	L["Vicar Eliza <Recruiter>"] = "Vicar Eliza <Recruiter>"; -- 106451
 
 	-- //////////////////////////
 	-- Rogue

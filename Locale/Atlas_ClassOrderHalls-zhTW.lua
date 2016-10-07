@@ -95,13 +95,13 @@ if L then
 	-- //////////////////////////
 	-- Hunter
 	-- //////////////////////////
-	-- L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>";
-	-- L["Altar Keeper Biehn"] = "Altar Keeper Biehn";
-	-- L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
-	-- L["Outfitter Reynolds <Unseen Path>"] = "Outfitter Reynolds <Unseen Path>";
-	-- L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>";
-	-- L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>";
-	-- L["Tales of the Hunt"] = "Tales of the Hunt";
+	L["Emmarel Shadewarden <Unseen Path>"] = "艾瑪芮爾·影衛 <隱獵團>";
+	L["Altar Keeper Biehn"] = "祭壇看守者畢恩";
+	L["Altar of the Eternal Hunt"] = "永獵祭壇";
+	L["Outfitter Reynolds <Unseen Path>"] = "服飾商列諾斯 <隱獵團>";
+	L["Tactician Tinderfell <Unseen Path>"] = "謀士柴薪 <隱獵團>";
+	L["Holt Thunderhorn <Lore and Legends>"] = "浩特·雷角 <故事與傳說>";
+	L["Tales of the Hunt"] = "大獵殺傳奇";
 
 	-- //////////////////////////
 	-- Mage
@@ -160,6 +160,7 @@ if L then
 	L["Prophet Velen"] = "預言者費倫";
 	L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭司>";
 	L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級>";
+	L["Vicar Eliza <Recruiter>"] = "伊莉莎牧師 <招募員>";
 
 	-- //////////////////////////
 	-- Rogue

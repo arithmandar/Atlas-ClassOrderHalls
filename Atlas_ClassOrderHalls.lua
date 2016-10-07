@@ -226,12 +226,13 @@ local myData = {
 		{ WHIT.." 5) "..L["Command Map"]..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"], 10005 };
 		{ WHIT.." 6) "..L["Alonsus Faol <Bishop of Secrets>"], 10006 };
 		{ WHIT.." 7) "..L["Moira Thaurissan <Queen of the Dark Iron>"], 10007 };
-		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 8) "..L["Prophet Velen"], 10008 };
 		{ WHIT.." 9) "..L["Delas Moonfang <Priestess of the Moon>"], 10009 };
 		{ WHIT.."10) "..L["Archon Torias <Class Hall Upgrades>"], 10010 };
-		{ WHIT.."11) "..L["Dark Cleric Cecille <Priest Trainer>"], 10011 };
-		{ WHIT.."12) "..L["Training Dummies"], 10012 };
+		{ WHIT.."11) "..L["Vicar Eliza <Recruiter>"], 10011 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.."12) "..L["Dark Cleric Cecille <Priest Trainer>"], 10012 };
+		{ WHIT.."13) "..L["Training Dummies"], 10013 };
 	};
 	CH_Rogue = {
 		ZoneName = { CL["ROGUE"]..Atlas_GetClassName("ROGUE")..ALC["Hyphen"]..BZ["The Hall of Shadows"] };

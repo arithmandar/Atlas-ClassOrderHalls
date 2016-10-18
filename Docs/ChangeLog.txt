@@ -6,6 +6,12 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.34.09 (Oct. 18, 2016)
+------------------------
+- Added more NPCs to hunter's class hall
+- Localization update:
+  - Simplified Chinese (ananhaid)
+
 v1.34.08 (Oct. 07, 2016)
 ------------------------
 - Translation added (NPC only): 
@@ -16,7 +22,7 @@ v1.34.08 (Oct. 07, 2016)
 
 v1.34.07 (Oct. 07, 2016)
 ------------------------
-- Re-organize the class halls' description order by putting artifact power and scouting map as the leading item
+- Re-organized the class halls' description order by putting artifact power and scouting map as the leading item
 - Added description to highlight the artificat power
 - Added more NPCs to priest's class hall
 - Added Haklang Ulfsson <Armaments Requisitioner> to warrior's class hall

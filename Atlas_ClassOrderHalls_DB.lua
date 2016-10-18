@@ -92,6 +92,9 @@ local myDB = {
 		{ "7", 10007, 273, 318 }; -- Training Dummies
 		{ "7", 10007, 207, 291 }; -- Training Dummies
 		{ "7", 10007, 188, 306 }; -- Training Dummies
+		{ "8", 10008, 202, 277 }; -- Lenara <Recruiter>
+		{ "9", 10009, 289, 322 }; -- Survivalist Bahn <Class Hall Upgrades>
+		{ "10", 10010, 283, 257 }; -- Sampson <Recruiter>
 	};
 	CH_Mage = {
 		{  "A", 10101, 249, 451 }; -- Portal to Dalaran

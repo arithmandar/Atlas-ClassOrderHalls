@@ -102,6 +102,11 @@ if L then
 	L["Tactician Tinderfell <Unseen Path>"] = "謀士柴薪 <隱獵團>";
 	L["Holt Thunderhorn <Lore and Legends>"] = "浩特·雷角 <故事與傳說>";
 	L["Tales of the Hunt"] = "大獵殺傳奇";
+	L["Loren Stormhoof <Skyhorn Emissary>"] = "洛倫·風暴之蹄 <天角部族使者>";
+	L["Lenara <Recruiter>"] = "蕾娜拉 <招募員>";
+	L["Survivalist Bahn <Class Hall Upgrades>"] = "生存專家巴恩 <職業大廳升級>";
+	L["Sampson <Recruiter>"] = "山普森 <招募員>";
+	L["Pan the Kind Hand <Stable Master>"] = "『仁慈之手』盼 <獸欄管理員>";
 
 	-- //////////////////////////
 	-- Mage

@@ -150,7 +150,14 @@ local myData = {
 		{ INDENT..WHIT..L["Tactician Tinderfell <Unseen Path>"] };
 		{ WHIT.." 6) "..L["Holt Thunderhorn <Lore and Legends>"], 10006 };
 		{ INDENT..GREY..L["Tales of the Hunt"] };
+		{ INDENT..GREY..L["Loren Stormhoof <Skyhorn Emissary>"] };
 		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
+		{ WHIT.." 8) "..L["Lenara <Recruiter>"], 10008 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.." 9) "..L["Survivalist Bahn <Class Hall Upgrades>"], 10009 };
+		{ WHIT.."10) "..L["Sampson <Recruiter>"], 10010 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ INDENT..WHIT..L["Pan the Kind Hand <Stable Master>"] };
 	};
 	CH_Mage = {
 		ZoneName = { CL["MAGE"]..Atlas_GetClassName("MAGE")..ALC["Hyphen"]..BZ["Hall of the Guardian"] };

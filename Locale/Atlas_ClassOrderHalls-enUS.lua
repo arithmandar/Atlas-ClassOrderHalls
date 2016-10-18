@@ -102,6 +102,11 @@ if L then
 	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
 	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>"; -- 98737
 	L["Tales of the Hunt"] = "Tales of the Hunt";
+	L["Loren Stormhoof <Skyhorn Emissary>"] = "Loren Stormhoof <Skyhorn Emissary>"; -- 107315
+	L["Lenara <Recruiter>"] = "Lenara <Recruiter>"; -- 106444
+	L["Survivalist Bahn <Class Hall Upgrades>"] = "Survivalist Bahn <Class Hall Upgrades>"; -- 108050
+	L["Sampson <Recruiter>"] = "Sampson <Recruiter>"; -- 106446
+	L["Pan the Kind Hand <Stable Master>"] = "Pan the Kind Hand <Stable Master>"; -- 100661
 
 	-- //////////////////////////
 	-- Mage

@@ -32,192 +32,197 @@ if L then
 	-- //////////////////////////
 	-- Common
 	-- //////////////////////////
-	L["Class Order Hall Maps"] = "Class Order Hall Maps";
-	L["Portal to Dalaran"] = "Portal to Dalaran";
-	L["Training Dummies"] = "Training Dummies";
-	L["Travel to Dalaran"] = "Travel to Dalaran";
-	L["Entrance"] = "Entrance";
-	L["Ramp to lower floor"] = "Ramp to lower floor";
-	L["Ramp to top floor"] = "Ramp to top floor";
+	-- L["Class Order Hall Maps"] = ""
+	-- L["Portal to Dalaran"] = ""
+	-- L["Training Dummies"] = ""
+	-- L["Travel to Dalaran"] = ""
+	-- L["Entrance"] = ""
+	-- L["Ramp to lower floor"] = ""
+	-- L["Ramp to top floor"] = ""
 
 	-- //////////////////////////
 	-- Death Knight
 	-- //////////////////////////
-	L["Portal to another floor"] = "Portal to another floor";
-	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie the Banshee <Mission Specialist>"; -- 93568
-	L["Highlord Darion Mograine"] = "Highlord Darion Mograine"; -- 93437
-	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Dreadmoore <Ebon Blade Archivist>"; -- 97111
-	L["Lord Thorval"] = "Lord Thorval"; -- 97134
-	L["Quartermaster Ozorg <Rare Goods Vendor>"] = "Quartermaster Ozorg <Rare Goods Vendor>"; -- 93550
-	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus"; -- 97072
-	L["Soul Forge"] = "Soul Forge";
-	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>"; -- 93509
+	-- L["Portal to another floor"] = ""
+	L["Siouxsie the Banshee <Mission Specialist>"] = "Siouxsie la banshee <Spécialiste de mission>"
+	L["Highlord Darion Mograine"] = "Généralissime Darion Mograine"
+	L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "Illanna Landesfroit <Archiviste de la Lame d’ébène>"
+	L["Lord Thorval"] = "Seigneur Thorval"
+	L["Quartermaster Ozorg <Rare Goods Vendor>"] = "Intendant Ozorg <Vendeur de fournitures rares>"
+	L["Grand Master Siegesmith Corvus"] = "Corvus le grand maître poliorcète"
+	-- L["Soul Forge"] = ""
+	L["Lady Alistra <Death Knight Trainer>"] = "Dame Alistra <Maître des chevaliers de la mort>"
 
 	-- //////////////////////////
 	-- Demon Hunter
 	-- //////////////////////////
-	L["Illidari Gateway"] = "Illidari Gateway";
-	L["Kayn Sunfury <Illidari>"] = "Kayn Sunfury <Illidari>"; -- 95240
-	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Battlelord Gaardoun <Ashtongue Captain>"; -- 103025
-	L["Lady S'theno <Coilskar Captain>"] = "Lady S'theno <Coilskar Captain>"; -- 98624
-	L["Matron Mother Malevolence <Shivarra Captain>"] = "Matron Mother Malevolence <Shivarra Captain>"; -- 98632
-	L["Falara Nightsong <Illidari Provisioner>"] = "Falara Nightsong <Illidari Provisioner>"; -- 112407
-	L["Jace Darkweaver <Illidari>"] = "Jace Darkweaver <Illidari>"; -- 98646
-	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu the Weathered <Illidari Researcher>"; -- 111736
-	L["Empowered Nether Crucible"] = "Empowered Nether Crucible";
-	L["Cursed Forge of the Nathrezim"] = "Cursed Forge of the Nathrezim";
-	L["Asha Ravensong <Illidari>"] = "Asha Ravensong <Illidari>"; -- 108326
-	L["Izal Whitemoon <Illidari Trainer>"] = "Izal Whitemoon <Illidari Trainer>"; -- 109965
-	L["Seer Akalu <Nathrezim Scholar>"] = "Seer Akalu <Nathrezim Scholar>"; -- 109596
-	L["Kor'vas Bloodthorn <Illidari>"] = "Kor'vas Bloodthorn <Illidari>"; -- 103761
-	L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Class Hall Upgrades>"; -- 110599
-	L["Belath Dawnblade <Illidari>"] = "Belath Dawnblade <Illidari>"; -- 108782
-	L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>"; -- 103760
+	-- L["Illidari Gateway"] = ""
+	L["Kayn Sunfury <Illidari>"] = "Kayn Solfurie <Illidari>"
+	L["Battlelord Gaardoun <Ashtongue Captain>"] = "Seigneur de bataille Gaardoun <Capitaine cendrelangue>"
+	L["Lady S'theno <Coilskar Captain>"] = "Dame S’theno <Capitaine glissentaille>"
+	L["Matron Mother Malevolence <Shivarra Captain>"] = "Matrone Maléficiae <Capitaine shivarra>"
+	L["Falara Nightsong <Illidari Provisioner>"] = "Falara Chantenuit <Approvisionneuse illidari>"
+	L["Jace Darkweaver <Illidari>"] = "Jace Sombretisse <Illidari>"
+	L["Vahu the Weathered <Illidari Researcher>"] = "Vahu le Buriné <Chercheur illidari>"
+	-- L["Empowered Nether Crucible"] = ""
+	-- L["Cursed Forge of the Nathrezim"] = ""
+	L["Asha Ravensong <Illidari>"] = "Asha Chantecorbeau <Illidari>"
+	L["Izal Whitemoon <Illidari Trainer>"] = "Izal Blanchelune <Instructrice illidari>"
+	L["Seer Akalu <Nathrezim Scholar>"] = "Voyant Akalu <Erudit nathrezim>"
+	L["Kor'vas Bloodthorn <Illidari>"] = "Kor’vas Roncesang <Illidari>"
+	L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Améliorations de domaine de classe>"
+	L["Belath Dawnblade <Illidari>"] = "Belath Aubelame <Illidari>"
+	L["Ariana Fireheart <Illidari>"] = "Ariana Flammecœur <Illidari>"
 
 	-- //////////////////////////
 	-- Druid
 	-- //////////////////////////
-	L["Portal to Emerald Dreamway"] = "Portal to Emerald Dreamway";
-	L["Amurra Thistledew <Proprietor>"] = "Amurra Thistledew <Proprietor>";  -- 112323
-	L["Sister Lilith <Recruiter>"] = "Sister Lilith <Recruiter>"; -- 108393
-	L["Leafbeard the Storied <Ancient of Lore>"] = "Leafbeard the Storied <Ancient of Lore>"; -- 97989
-	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Celadine the Fatekeeper <Dreamgrove Researcher>"; -- 111737
-	L["Seed of Ages"] = "Seed of Ages";
-	L["Tender Daranelle"] = "Tender Daranelle"; -- 109612
-	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Greathoof <Archdruid of the Grove>"; -- 101195
-	L["Keeper Remulos"] = "Keeper Remulos"; -- 103832
-	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "Lyessa Bloomwatcher <Guardian of G'Hanir>"; -- 104577
-	L["Skylord Omnuron <Mission Specialist>"] = "Skylord Omnuron <Mission Specialist>"; -- 98002
-	L["Zen'kiki"] = "Zen'kiki"; --98784
-	L["Yaris Darkclaw <Recruiter>"] = "Yaris Darkclaw <Recruiter>"; -- 106442
-	L["Mylune"] = "Mylune"; -- 113525
+	-- L["Portal to Emerald Dreamway"] = ""
+	L["Amurra Thistledew <Proprietor>"] = "Amurra Charderosée <Propriétaire>"
+	L["Sister Lilith <Recruiter>"] = "Sœur Lilith <Recruteuse>"
+	L["Leafbeard the Storied <Ancient of Lore>"] = "Barbe-Feuillue le Légendaire <Ancien du savoir>"
+	L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "Céladine la Gardienne du destin <Chercheuse de la Sylverêve>"
+	-- L["Seed of Ages"] = ""
+	L["Tender Daranelle"] = "Sylvenière Daranelle"
+	L["Rensar Greathoof <Archdruid of the Grove>"] = "Rensar Hautsabot <Archidruide du Bosquet>"
+	L["Keeper Remulos"] = "Gardien Remulos"
+	L["Lyessa Bloomwatcher <Guardian of G'Hanir>"] = "Lyessa Gardefleur <Gardienne de G’Hanir>"
+	L["Skylord Omnuron <Mission Specialist>"] = "Seigneur du ciel Omnuron <Spécialiste de mission>"
+	L["Zen'kiki"] = "Zen’Kiki"
+	L["Yaris Darkclaw <Recruiter>"] = "Yaris Sombregriffe <Recruteur>"
+	-- L["Mylune"] = ""
 
 	-- //////////////////////////
 	-- Hunter
 	-- //////////////////////////
-	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Shadewarden <Unseen Path>"; -- 107317
-	L["Altar Keeper Biehn"] = "Altar Keeper Biehn"; -- 102940
-	L["Altar of the Eternal Hunt"] = "Altar of the Eternal Hunt";
-	L["Outfitter Reynolds <Unseen Path>"] = "Outfitter Reynolds <Unseen Path>"; -- 103693
-	L["Tactician Tinderfell <Unseen Path>"] = "Tactician Tinderfell <Unseen Path>"; -- 103023
+	L["Emmarel Shadewarden <Unseen Path>"] = "Emmarel Ombregarde <Sentier invisible>"
+	L["Altar Keeper Biehn"] = "Biehn le gardien de l’autel"
+	-- L["Altar of the Eternal Hunt"] = ""
+	L["Outfitter Reynolds <Unseen Path>"] = "Reynolds le tailleur <Sentier invisible>"
+	L["Tactician Tinderfell <Unseen Path>"] = "Tacticienne Chutebois <Sentier invisible>"
 	-- L["Halduron Brightwing <Ranger-General of the Farstriders>"] = "Halduron Brightwing <Ranger-General of the Farstriders>";
-	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Thunderhorn <Lore and Legends>"; -- 98737
-	L["Tales of the Hunt"] = "Tales of the Hunt";
+	L["Holt Thunderhorn <Lore and Legends>"] = "Holt Corne-Tonnerre <Fables et légendes>"
+	-- L["Tales of the Hunt"] = ""
+	L["Loren Stormhoof <Skyhorn Emissary>"] = "Loren Sabot-Tempête <Emissaire corne-céleste>"
+	L["Lenara <Recruiter>"] = "Lenara <Recruteuse>"
+	L["Survivalist Bahn <Class Hall Upgrades>"] = "Survivaliste Bahn <Améliorations de domaine de classe>"
+	L["Sampson <Recruiter>"] = "Sampson <Recruteur>"
+	L["Pan the Kind Hand <Stable Master>"] = "Pan l’Affectueuse <Maître des écuries>"
 
 	-- //////////////////////////
 	-- Mage
 	-- //////////////////////////
-	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Tirisgarde Researcher>"; -- 110624
-	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Tirisgarde Quartermaster>"; -- 112440
-	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chronicler Elrianne <Class Hall Upgrades>"; -- 108331
-	L["Archmage Omniara <Recruiter>"] = "Archmage Omniara <Recruiter>"; -- 106377
-	L["Archmage Melis <Mistress of Flame>"] = "Archmage Melis <Mistress of Flame>"; -- 108515
-	L["Forge of the Guardian"] = "Forge of the Guardian";
-	L["Old Fillmaff <Tirisgarde Librarian>"] = "Old Fillmaff <Tirisgarde Librarian>"; -- 107452
-	L["Meryl Felstorm"] = "Meryl Felstorm"; -- 102700
-	L["Archmage Kalec <Kirin Tor>"] = "Archmage Kalec <Kirin Tor>"; -- 108247
-	L["Archmage Modera <Kirin Tor>"] = "Archmage Modera <Kirin Tor>"; -- 108248
-	L["The Great Akazamzarak"] = "The Great Akazamzarak"; -- 103092
-	L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"] = "Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"; -- 106433
-	L["Esara Verrinde <Magisters>"] = "Esara Verrinde <Magisters>"; -- 108380
-	L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "Ravandwyr <Senior Kirin Tor Apprentice>"; -- 108377
-	L["Magister Varenthas <High Forgeguard>"] = "Magister Varenthas <High Forgeguard>"; -- 109642
+	L["Edirah <Tirisgarde Researcher>"] = "Edirah <Chercheuse de la Tirisgarde>"
+	L["Jackson Watkins <Tirisgarde Quartermaster>"] = "Jackson Watkins <Intendant de la Tirisgarde>"
+	L["Chronicler Elrianne <Class Hall Upgrades>"] = "Chroniqueuse Elrianne <Améliorations de domaine de classe>"
+	L["Archmage Omniara <Recruiter>"] = "Archimage Omniara <Recruteuse>"
+	L["Archmage Melis <Mistress of Flame>"] = "Archimage Melis <Maîtresse des flammes>"
+	-- L["Forge of the Guardian"] = ""
+	L["Old Fillmaff <Tirisgarde Librarian>"] = "Vieux Fillmaff <Bibliothécaire de la Tirisgarde>"
+	L["Meryl Felstorm"] = "Meryl Gangrorage"
+	L["Archmage Kalec <Kirin Tor>"] = "Archimage Kalec <Kirin Tor>"
+	L["Archmage Modera <Kirin Tor>"] = "Archimage Modera <Kirin Tor>"
+	L["The Great Akazamzarak"] = "Le grand Akazamzarak"
+	L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"] = "Grande adjuratrice Caméléon <Recruteuse de mages extraordinaire>"
+	L["Esara Verrinde <Magisters>"] = "Esara Verrinde <Magistères>"
+	L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "Ravandwyr <Apprenti en chef du Kirin Tor>"
+	L["Magister Varenthas <High Forgeguard>"] = "Magistère Varenthas <Grand gardeforge>"
 
 	-- //////////////////////////
 	-- Monk
 	-- //////////////////////////
-	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brightstar <Purveyor of Rare Goods>"; -- 112338
-	L["Portal to Peak of Serenity"] = "Portal to Peak of Serenity";
-	L["Master Hsu <Mission Master>"] = "Master Hsu <Mission Master>"; -- 99179
-	L["Elder Xang <Monk Trainer>"] = "Elder Xang <Monk Trainer>"; -- 101749
-	L["Iron-Body Ponshu <Senior Master Ox>"] = "Iron-Body Ponshu <Senior Master Ox>"; -- 100438
-	L["Forge of the Roaring Mountain"] = "Forge of the Roaring Mountain";
-	L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>"; -- 106942
-	L["Transportation Mandala"] = "Transportation Mandala";
-	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>"; -- 101757
+	L["Caydori Brightstar <Purveyor of Rare Goods>"] = "Caydori Brillétoile <Pourvoyeuse de fournitures rares>"
+	-- L["Portal to Peak of Serenity"] = ""
+	L["Master Hsu <Mission Master>"] = "Maître Hsu <Maître des missions>"
+	L["Elder Xang <Monk Trainer>"] = "Ancien Xang <Maître des moines>"
+	L["Iron-Body Ponshu <Senior Master Ox>"] = "Ponshu, le Corps de Fer <Grand buffle supérieur>"
+	-- L["Forge of the Roaring Mountain"] = ""
+	L["Lorewalker Cho <Head Archivist>"] = "Chroniqueur Cho <Archiviste en chef>"
+	-- L["Transportation Mandala"] = ""
+	L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li le Tranquille <Maître des moines>"
 
 	-- //////////////////////////
 	-- Paladin
 	-- //////////////////////////
-	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>"; -- 91190
-	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>"; -- 90250
-	L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>"; -- 92313
-	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>"; -- 92316
-	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
-	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>"; -- 100196
+	L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sœur Elda <Gardienne des tomes anciens>"
+	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Seigneur Grayson Brisombre <Spécialiste de mission>"
+	L["Katherine the Pure <Paladin Trainer>"] = "Katherine la Pure <Maître des paladins>"
+	L["Vindicator Baatun <Paladin Trainer>"] = "Redresseur de torts Baatun <Maître des paladins>"
+	-- L["Altar of Ancient Kings"] = ""
+	L["Eadric the Pure <Quartermaster>"] = "Eadric le Pur <Intendant>"
 
 	-- //////////////////////////
 	-- Priest
 	-- //////////////////////////
-	L["Command Map"] = "Command Map";
-	L["Altar of Light and Shadow"] = "Altar of Light and Shadow";
-	L["Betild Deepanvil <Master Artificer>"] = "Betild Deepanvil <Master Artificer>"; -- 102709
-	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvess the Duskwhisperer <Keeper of Scrolls>"; -- 111738
-	L["Meridelle Lightspark <Logistics>"] = "Meridelle Lightspark <Logistics>"; -- 112401
-	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Bishop of Secrets>"; -- 110564
-	L["Dark Cleric Cecille <Priest Trainer>"] = "Dark Cleric Cecille <Priest Trainer>"; -- 112576
-	L["Grand Anchorite Gesslar <Recruiter>"] = "Grand Anchorite Gesslar <Recruiter>"; -- 106450
-	L["Moira Thaurissan <Queen of the Dark Iron>"] = "Moira Thaurissan <Queen of the Dark Iron>"; -- 109776
-	L["Prophet Velen"] = "Prophet Velen"; -- 110557
-	L["Delas Moonfang <Priestess of the Moon>"] = "Delas Moonfang <Priestess of the Moon>"; -- 110571
-	L["Archon Torias <Class Hall Upgrades>"] = "Archon Torias <Class Hall Upgrades>"; -- 110725 
-	L["Vicar Eliza <Recruiter>"] = "Vicar Eliza <Recruiter>"; -- 106451
+	-- L["Command Map"] = ""
+	-- L["Altar of Light and Shadow"] = ""
+	L["Betild Deepanvil <Master Artificer>"] = "Betild Largenclume <Maître artificier>"
+	L["Juvess the Duskwhisperer <Keeper of Scrolls>"] = "Juvesse Bruisse-soir <Gardienne des parchemins>"
+	L["Meridelle Lightspark <Logistics>"] = "Méridelle Feuzopoudre <Logistique>"
+	L["Alonsus Faol <Bishop of Secrets>"] = "Alonsus Faol <Evêque des secrets>"
+	L["Dark Cleric Cecille <Priest Trainer>"] = "Sombre clerc Cecille <Maître des prêtres>"
+	L["Grand Anchorite Gesslar <Recruiter>"] = "Grand anachorète Gesslar <Recruteur>"
+	L["Moira Thaurissan <Queen of the Dark Iron>"] = "Moira Thaurissan <Reine des Sombrefers>"
+	L["Prophet Velen"] = "Prophète Velen"
+	L["Delas Moonfang <Priestess of the Moon>"] = "Délas Croc-de-Lune <Prêtresse de la lune>"
+	L["Archon Torias <Class Hall Upgrades>"] = "Archonte Torias <Améliorations de domaine de classe>"
+	L["Vicar Eliza <Recruiter>"] = "Vicaire Eliza <Recruteuse>"
 
 	-- //////////////////////////
 	-- Rogue
 	-- //////////////////////////
-	L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>"; -- 103791
-	L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt"; -- 113362
-	L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>"; -- 102641
-	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>"; -- 102594
-	L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned";
-	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>"; -- 98092
-	L["Rouge Trainers"] = "Rouge Trainers";
-	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>"; -- 105986
+	L["Madam Gosu <Black Market Liaison>"] = "Madame Gosu <Agent de liaison du marché noir>"
+	L["Lord Jorach Ravenholdt"] = "Seigneur Jorach Ravenholdt"
+	L["Filius Sparkstache <Archivist>"] = "Filius Étinstache <Archiviste>"
+	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Brouillecaboche <Baron de Gadgetzan>"
+	-- L["Crucible of the Uncrowned"] = ""
+	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki la Pipelette <Promesses d’aventures et d’enrichissement>"
+	-- L["Rouge Trainers"] = ""
+	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Etinçacier <Intendante>"
 
 	-- //////////////////////////
 	-- Shaman
 	-- //////////////////////////
-	L["Aggra <Shaman Trainer>"] = "Aggra <Shaman Trainer>"; -- 99531
-	L["Elementalist Janai <Earthen Ring>"] = "Elementalist Janai <Earthen Ring>"; -- 109464
-	L["Maelstrom Pillar"] = "Maelstrom Pillar";
-	L["Puzzlemaster Lo <The Earthen Ring>"] = "Puzzlemaster Lo <The Earthen Ring>"; -- 103004
-	L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "Flamesmith Lanying <Earthen Ring Quartermaster>"; -- 112318
-	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Windspeaker <Keeper of Legends>"; -- 111739
-	L["Tribemother Torra <Shaman Trainer>"] = "Tribemother Torra <Shaman Trainer>"; -- 111922
-	L["Advisor Sevel <The Earthen Ring>"] = "Advisor Sevel <The Earthen Ring>"; -- 96746
+	L["Aggra <Shaman Trainer>"] = "Aggra <Maître des chamans>"
+	L["Elementalist Janai <Earthen Ring>"] = "Elémentaliste Janai <Cercle terrestre>"
+	-- L["Maelstrom Pillar"] = ""
+	L["Puzzlemaster Lo <The Earthen Ring>"] = "Maître des énigmes Lo <Cercle terrestre>"
+	L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "Forge-flammes Lanying <Intendant du Cercle terrestre>"
+	L["Gorma Windspeaker <Keeper of Legends>"] = "Gorma Parlevent <Gardienne des légendes>"
+	L["Tribemother Torra <Shaman Trainer>"] = "Mère de tribu Torra <Maître des chamans>"
+	L["Advisor Sevel <The Earthen Ring>"] = "Conseiller Sevel <Cercle terrestre>"
 
 	-- //////////////////////////
 	-- Warlock
 	-- //////////////////////////
-	L["Calydus"] = "Calydus"; -- 101097
-	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>"; -- 109686
-	L["Felblood Altar"] = "Felblood Altar";
-	L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Dreadscar Blacksmith>"; -- 101913
-	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Flamescowl <Council of the Black Harvest>"; -- 104795
-	L["Dreadscar Battle Plans"] = "Dreadscar Battle Plans";
-	L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin the Darkbinder <Mission Strategist>"; -- 106199
-	L["Demonic Gateway"] = "Demonic Gateway";
-	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>"; -- 112434
-	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>"; -- 111740
-	L["Jared <Recruiter>"] = "Jared <Recruiter>"; -- 106217
+	-- L["Calydus"] = ""
+	L["Unjari Feltongue <The Heartbearer>"] = "Unjari Gangrelangue <La Porte-Cœur>"
+	-- L["Felblood Altar"] = ""
+	L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Forgeron de Scareffroi>"
+	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Hargneflamme <Conseil de la Moisson noire>"
+	-- L["Dreadscar Battle Plans"] = ""
+	L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin le Tisse-noir <Stratège des missions>"
+	-- L["Demonic Gateway"] = ""
+	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavide <Intendante de la Moisson noire>"
+	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Archiviste en chef>"
+	L["Jared <Recruiter>"] = "Jared <Recruteur>"
 
 	-- //////////////////////////
 	-- Warrior
 	-- //////////////////////////
-	L["Aerylia <Stormflight Master>"] = "Aerylia <Stormflight Master>"; -- 96679
-	L["Quartermaster Durnolf"] = "Quartermaster Durnolf"; -- 112392
-	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Stonecarver <Keeper of Legends>"; -- 111741
-	L["Master Smith Helgar"] = "Master Smith Helgar"; -- 96586
-	L["Forge of Odyn"] = "Forge of Odyn";
-	L["Weaponmaster Asvard <Warrior Trainer>"] = "Weaponmaster Asvard <Warrior Trainer>"; -- 112577
-	L["Skyseer Ghrent"] = "Skyseer Ghrent"; -- 100635
-	L["Eye of Odyn"] = "Eye of Odyn";
-	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recruiter>"; -- 106459
-	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>"; -- 107994 
-	L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>"; -- 106460
-	L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>"; -- 110437
-	L["Travel to:"] = "Travel to:";
+	L["Aerylia <Stormflight Master>"] = "Aerylia <Maître de vol et des tempêtes>"
+	L["Quartermaster Durnolf"] = "Intendant Durnolf"
+	L["Fjornson Stonecarver <Keeper of Legends>"] = "Fjornson Gravepierre <Gardien des légendes>"
+	L["Master Smith Helgar"] = "Maître forgeron Helgar"
+	-- L["Forge of Odyn"] = ""
+	L["Weaponmaster Asvard <Warrior Trainer>"] = "Maître d’armes Asvard <Maître des guerriers>"
+	L["Skyseer Ghrent"] = "Ghrent l’Œil-des-Cieux"
+	-- L["Eye of Odyn"] = ""
+	L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Capitaine Hjalmar Stahlstrom <Recruteur>"
+	L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar le Lanceur de runes <Améliorations de domaine de classe>"
+	L["Savyn Valorborn <Recruiter>"] = "Savyn Fierné <Recruteuse>"
+	L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Réquisition d’armement>"
+	-- L["Travel to:"] = ""
 --@end-do-not-package@
 --@localization(locale="frFR", format="lua_additive_table")@
 end

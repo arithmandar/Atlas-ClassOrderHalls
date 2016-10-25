@@ -6,6 +6,15 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.00 (Oct. XX, 2016)
+------------------------
+- Added Great Eagle to Hunter's class hall
+- Revamped Mage class hall's map to split into two levels; 
+  also added transportation nodes in Mage's class hall
+- Added Champion Armaments to Priest class hall
+- Localization update:
+  - German (pas06)
+
 v1.34.09 (Oct. 18, 2016)
 ------------------------
 - Added more NPCs to hunter's class hall

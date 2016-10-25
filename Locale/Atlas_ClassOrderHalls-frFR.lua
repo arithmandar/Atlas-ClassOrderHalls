@@ -177,7 +177,7 @@ if L then
 	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Brouillecaboche <Baron de Gadgetzan>"
 	-- L["Crucible of the Uncrowned"] = ""
 	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki la Pipelette <Promesses d’aventures et d’enrichissement>"
-	-- L["Rouge Trainers"] = ""
+	L["Loren the Fence <Rogue Trainer>"] = "Loren la Receleuse <Maître des voleurs>"
 	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Etinçacier <Intendante>"
 
 	-- //////////////////////////

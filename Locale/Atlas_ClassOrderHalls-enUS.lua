@@ -38,6 +38,7 @@ if L then
 	L["Entrance"] = "Entrance";
 	L["Ramp to lower floor"] = "Ramp to lower floor";
 	L["Ramp to top floor"] = "Ramp to top floor";
+	L["Champion Armaments"] = "Champion Armaments";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -107,6 +108,7 @@ if L then
 	L["Survivalist Bahn <Class Hall Upgrades>"] = "Survivalist Bahn <Class Hall Upgrades>"; -- 108050
 	L["Sampson <Recruiter>"] = "Sampson <Recruiter>"; -- 106446
 	L["Pan the Kind Hand <Stable Master>"] = "Pan the Kind Hand <Stable Master>"; -- 100661
+	L["Great Eagle"] = "Great Eagle";
 
 	-- //////////////////////////
 	-- Mage
@@ -166,6 +168,7 @@ if L then
 	L["Delas Moonfang <Priestess of the Moon>"] = "Delas Moonfang <Priestess of the Moon>"; -- 110571
 	L["Archon Torias <Class Hall Upgrades>"] = "Archon Torias <Class Hall Upgrades>"; -- 110725 
 	L["Vicar Eliza <Recruiter>"] = "Vicar Eliza <Recruiter>"; -- 106451
+	L["Lilith <Armament Supplier>"] = "Lilith <Armament Supplier>"; -- 110595
 
 	-- //////////////////////////
 	-- Rogue
@@ -176,7 +179,7 @@ if L then
 	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>"; -- 102594
 	L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned";
 	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>"; -- 98092
-	L["Rouge Trainers"] = "Rouge Trainers";
+	L["Loren the Fence <Rogue Trainer>"] = "Loren the Fence <Rogue Trainer>"; -- 105989
 	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>"; -- 105986
 
 	-- //////////////////////////

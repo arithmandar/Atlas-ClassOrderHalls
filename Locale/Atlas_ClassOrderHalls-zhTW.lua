@@ -39,6 +39,7 @@ if L then
 	L["Entrance"] = "入口"
 	L["Ramp to lower floor"] = "通往下層的斜坡";
 	L["Ramp to top floor"] = "通往上層的斜坡";
+	L["Champion Armaments"] = "勇士武裝";
 
 	-- //////////////////////////
 	-- Death Knight
@@ -107,6 +108,7 @@ if L then
 	L["Survivalist Bahn <Class Hall Upgrades>"] = "生存專家巴恩 <職業大廳升級>";
 	L["Sampson <Recruiter>"] = "山普森 <招募員>";
 	L["Pan the Kind Hand <Stable Master>"] = "『仁慈之手』盼 <獸欄管理員>";
+	L["Great Eagle"] = "巨鷹";
 
 	-- //////////////////////////
 	-- Mage
@@ -166,18 +168,19 @@ if L then
 	L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭司>";
 	L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級>";
 	L["Vicar Eliza <Recruiter>"] = "伊莉莎牧師 <招募員>";
+	L["Lilith <Armament Supplier>"] = "莉莉絲 <武裝補給官>";
 
 	-- //////////////////////////
 	-- Rogue
 	-- //////////////////////////
-	-- L["Madam Gosu <Black Market Liaison>"] = "Madam Gosu <Black Market Liaison>";
-	-- L["Lord Jorach Ravenholdt"] = "Lord Jorach Ravenholdt";
-	-- L["Filius Sparkstache <Archivist>"] = "Filius Sparkstache <Archivist>";
-	-- L["Marin Noggenfogger <Baron of Gadgetzan>"] = "Marin Noggenfogger <Baron of Gadgetzan>";
-	-- L["Crucible of the Uncrowned"] = "Crucible of the Uncrowned";
-	-- L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>";
-	-- L["Rouge Trainers"] = "Rouge Trainers";
-	-- L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>";
+	L["Madam Gosu <Black Market Liaison>"] = "歌蘇夫人 <黑市聯絡人>";
+	L["Lord Jorach Ravenholdt"] = "喬拉齊·拉文霍德領主";
+	L["Filius Sparkstache <Archivist>"] = "菲留斯·大花鬍 <書記>";
+	L["Marin Noggenfogger <Baron of Gadgetzan>"] = "馬林·諾格弗格 <加基森男爵>";
+	L["Crucible of the Uncrowned"] = "無冕者爐缸";
+	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "『閒語者』妮琪 <冒險和發財的故事>";
+	L["Loren the Fence <Rogue Trainer>"] = "『贓物商』洛倫 <盜賊訓練師>";
+	L["Kelsey Steelspark <Quartermaster>"] = "凱爾希·銅火 <軍需官>";
 
 	-- //////////////////////////
 	-- Shaman
@@ -194,17 +197,17 @@ if L then
 	-- //////////////////////////
 	-- Warlock
 	-- //////////////////////////
-	-- L["Calydus"] = "Calydus";
-	-- L["Unjari Feltongue <The Heartbearer>"] = "Unjari Feltongue <The Heartbearer>";
-	-- L["Felblood Altar"] = "Felblood Altar";
-	-- L["Lurr <Dreadscar Blacksmith>"] = "Lurr <Dreadscar Blacksmith>";
-	-- L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "Ritssyn Flamescowl <Council of the Black Harvest>";
-	-- L["Dreadscar Battle Plans"] = "Dreadscar Battle Plans";
-	-- L["Gakin the Darkbinder <Mission Strategist>"] = "Gakin the Darkbinder <Mission Strategist>";
-	-- L["Demonic Gateway"] = "Demonic Gateway";
-	-- L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>";
-	-- L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>";
-	-- L["Jared <Recruiter>"] = "Jared <Recruiter>";
+	L["Calydus"] = "卡萊德斯";
+	L["Unjari Feltongue <The Heartbearer>"] = "烏恩賈瑞·魔舌 <握心者>";
+	L["Felblood Altar"] = "魔血祭壇";
+	L["Lurr <Dreadscar Blacksmith>"] = "嚕爾 <懼痕鐵匠>";
+	L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "瑞特辛·焰慍 <黑穫議會>";
+	L["Dreadscar Battle Plans"] = "懼痕作戰計畫";
+	L["Gakin the Darkbinder <Mission Strategist>"] = "『黑暗縛靈師』加金 <任務策士>";
+	L["Demonic Gateway"] = "惡魔之門";
+	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "吉吉·兆空 <黑穫軍需官>";
+	L["Mile Raitheborne <Head Archivist>"] = "邁爾·萊斯伯恩 <首席古卷管理員>";
+	L["Jared <Recruiter>"] = "Jared <Recruiter>";
 
 	-- //////////////////////////
 	-- Warrior
@@ -221,7 +224,7 @@ if L then
 	L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>";
 	L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>";
 	L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>";
-	L["Travel to:"] = "旅行到:";
+	L["Travel to:"] = "旅行到：";
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table")@
 end

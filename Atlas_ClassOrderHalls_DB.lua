@@ -84,34 +84,46 @@ local myDB = {
 	CH_Hunter = {
 		{ "A", 10101, 234, 289 }; -- Portal to Dalaran
 		{ "1", 10001, 163, 238 }; -- Flight Master
-		{ "2", 10002, 209, 230 }; -- Emmarel Shadewarden <Unseen Path>
-		{ "3", 10003, 228, 343 }; -- Altar Keeper Biehn
-		{ "4", 10004, 210, 318 }; -- Outfitter Reynolds <Unseen Path>
-		{ "5", 10005, 199, 308 }; -- Tactician Tinderfell <Unseen Path>
-		{ "6", 10006, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
-		{ "7", 10007, 273, 318 }; -- Training Dummies
-		{ "7", 10007, 207, 291 }; -- Training Dummies
-		{ "7", 10007, 188, 306 }; -- Training Dummies
-		{ "8", 10008, 202, 277 }; -- Lenara <Recruiter>
-		{ "9", 10009, 289, 322 }; -- Survivalist Bahn <Class Hall Upgrades>
-		{ "10", 10010, 283, 257 }; -- Sampson <Recruiter>
+		{ "2", 10002, 182, 241 }; -- Great Eagle
+		{ "3", 10003, 209, 230 }; -- Emmarel Shadewarden <Unseen Path>
+		{ "4", 10004, 228, 343 }; -- Altar Keeper Biehn
+		{ "5", 10005, 210, 318 }; -- Outfitter Reynolds <Unseen Path>
+		{ "6", 10006, 199, 308 }; -- Tactician Tinderfell <Unseen Path>
+		{ "7", 10007, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
+		{ "8", 10008, 273, 318 }; -- Training Dummies
+		{ "8", 10008, 207, 291 }; -- Training Dummies
+		{ "8", 10008, 188, 306 }; -- Training Dummies
+		{ "9", 10009, 202, 277 }; -- Lenara <Recruiter>
+		{ "10", 10010, 289, 322 }; -- Survivalist Bahn <Class Hall Upgrades>
+		{ "11", 10011, 283, 257 }; -- Sampson <Recruiter>
 	};
 	CH_Mage = {
-		{  "A", 10101, 249, 451 }; -- Portal to Dalaran
-		{  "1", 10001, 252, 198 }; -- Forge of the Guardian
-		{  "2", 10002, 282, 219 }; -- Edirah <Tirisgarde Researcher>
-		{  "3", 10003, 267, 175 }; -- Magister Varenthas
-		{  "4", 10004, 225, 183 }; -- Meryl Felstorm
-		{  "5", 10005, 214, 199 }; -- Old Fillmaff <Tirisgarde Librarian>
-		{  "6", 10006, 172, 263 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
-		{  "7", 10007, 333, 249} ;-- Esara Verrinde
-		{  "8", 10008, 311, 233 }; -- Ravandwyr
-		{  "9", 10009, 334, 178 }; -- Chronicler Elrianne <Class Hall Upgrades> 
-		{ "10", 10010, 417, 247 }; -- Archmage Omniara <Recruiter> 
-		{ "11", 10011, 394, 313 }; -- Scouting map
-		{ "12", 10012, 385, 322 }; -- Archmage Melis <Mistress of Flame>
-		{ "13", 10013, 132, 300 }; -- Training Dummies
-		{ "14", 10014, 156, 215 }; -- Grand Conjurer Mimic
+		{  "1", 10001, 408, 129 }; -- Forge of the Guardian
+		{  "2", 10002, 436, 147 }; -- Edirah <Tirisgarde Researcher>
+		{  "3", 10003, 422, 108 }; -- Magister Varenthas
+		{  "4", 10004, 388, 116 }; -- Meryl Felstorm
+		{  "5", 10005, 377, 128 }; -- Old Fillmaff <Tirisgarde Librarian>
+		{  "6", 10006, 337, 187 }; -- Jackson Watkins <Tirisgarde Quartermaster> 
+		{  "7", 10007, 485, 176} ; -- Esara Verrinde
+		{  "8", 10008, 466, 161 }; -- Ravandwyr
+		{  "A", 10200, 406, 225 }; -- Connection
+		{  "B", 10200, 347, 231 }; -- Connection
+		{  "B", 10200, 467, 231 }; -- Connection
+		{  "A", 10101, 162, 476 }; -- Portal to Dalaran
+		{  "B", 10102, 131, 286 }; -- Azsuna
+		{  "C", 10103, 131, 303 }; -- Highmountain
+		{  "D", 10104, 197, 286 }; -- Stormheim
+		{  "E", 10105, 197, 303 }; -- Val'sharah
+		{  "F", 10106, 162, 324 }; -- Suramar
+		{  "9", 10009, 239, 231 }; -- Chronicler Elrianne <Class Hall Upgrades> 
+		{ "10", 10010, 307, 296 }; -- Archmage Omniara <Recruiter> 
+		{ "11", 10011, 284, 349 }; -- Scouting map
+		{ "12", 10012, 286, 362 }; -- Archmage Melis <Mistress of Flame>
+		{ "13", 10013,  58, 343 }; -- Training Dummies
+		{ "14", 10014,  77, 259 }; -- Grand Conjurer Mimic
+		{  "A", 10200, 164, 350 }; -- Connection
+		{  "B", 10200, 104, 353 }; -- Connection
+		{  "B", 10200, 224, 353 }; -- Connection
 	};
 	CH_Monk = {
 		{ "A", 10101, 264, 332 }; -- Portal to Dalaran
@@ -152,6 +164,7 @@ local myDB = {
 		{ "11", 10011, 188, 253 }; -- Vicar Eliza <Recruiter>
 		{ "12", 10012, 173, 248 }; -- Dark Cleric Cecille <Priest Trainer>
 		{ "13", 10013, 170, 268 }; -- Training Dummies
+		{ "14", 10014, 221, 132 }; -- Lilith <Armament Supplier>
 	};
 	CH_Rogue = {
 		{ "A", 10101, 430, 356 }; -- Glorious Goods

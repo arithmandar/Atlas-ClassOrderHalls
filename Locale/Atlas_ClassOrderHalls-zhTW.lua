@@ -74,6 +74,7 @@ if L then
 	L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <職業大廳升級>";
 	L["Belath Dawnblade <Illidari>"] = "貝拉斯·曦刃 <伊利達瑞>";
 	L["Ariana Fireheart <Illidari>"] = "亞莉安娜·炎心 <伊利達瑞>";
+	L["Slitesh <Armaments Requisitioner>"] = "伽絲 <武裝徵調員>";
 
 	-- //////////////////////////
 	-- Druid
@@ -109,6 +110,8 @@ if L then
 	L["Sampson <Recruiter>"] = "山普森 <招募員>";
 	L["Pan the Kind Hand <Stable Master>"] = "『仁慈之手』盼 <獸欄管理員>";
 	L["Great Eagle"] = "巨鷹";
+	L["Ogdrul <The Seeker>"] = "奧格度 <追尋者>";
+	L["Image of Mimiron"] = "彌米倫的影像";
 
 	-- //////////////////////////
 	-- Mage

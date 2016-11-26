@@ -6,6 +6,12 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.01 (Nov. 26, 2016)
+------------------------
+- Added NPC to hunter and demon hunter's halls
+- Added classification icon to NPCs
+- Fixed Warrior hall map's POI info
+
 v1.35.00 (Oct. 27, 2016)
 ------------------------
 - Toc update to support WoW 7.1.0

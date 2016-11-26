@@ -73,6 +73,7 @@ if L then
 	L["Loramus Thalipedes <Class Hall Upgrades>"] = "Loramus Thalipedes <Class Hall Upgrades>"; -- 110599
 	L["Belath Dawnblade <Illidari>"] = "Belath Dawnblade <Illidari>"; -- 108782
 	L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>"; -- 103760
+	L["Slitesh <Armaments Requisitioner>"] = "Slitesh <Armaments Requisitioner>"; -- 110433
 
 	-- //////////////////////////
 	-- Druid
@@ -109,6 +110,8 @@ if L then
 	L["Sampson <Recruiter>"] = "Sampson <Recruiter>"; -- 106446
 	L["Pan the Kind Hand <Stable Master>"] = "Pan the Kind Hand <Stable Master>"; -- 100661
 	L["Great Eagle"] = "Great Eagle";
+	L["Ogdrul <The Seeker>"] = "Ogdrul <The Seeker>"; -- 113688
+	L["Image of Mimiron"] = "Image of Mimiron"; -- 110424
 
 	-- //////////////////////////
 	-- Mage

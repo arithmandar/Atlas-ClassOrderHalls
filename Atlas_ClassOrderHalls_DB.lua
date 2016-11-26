@@ -52,16 +52,17 @@ local myDB = {
 		{   5, 10005, 112, 239 }; -- Belath Dawnblade <Illidari>
 		{   6, 10006, 123, 224 }; -- Matron Mother Malevolence <Shivarra Captain>
 		{   7, 10007, 113, 195 }; -- Falara Nightsong <Illidari Provisioner>
-		{   8, 10008, 103, 175 }; -- Asha Ravensong
-		{   9, 10009, 123, 179 }; -- Ariana Fireheart <Illidari>
-		{  10, 10010, 140, 172 }; -- Izal Whitemoon
-		{  11, 10011, 100, 94 }; -- Training Dummies
-		{  12, 10012, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{  13, 10013, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{  14, 10014, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
-		{  15, 10015, 375, 249 }; -- Empowered Nether Crucible
-		{  16, 10016, 374, 119 }; -- Cursed Forge of the Nathrezim
-		{  17, 10017, 357, 129 }; -- Seer Akalu
+		{   8, 10008, 133, 196 }; -- Slitesh <Armaments Requisitioner>
+		{   9, 10009, 103, 175 }; -- Asha Ravensong
+		{  10, 10010, 123, 179 }; -- Ariana Fireheart <Illidari>
+		{  11, 10011, 140, 172 }; -- Izal Whitemoon
+		{  12, 10012, 100, 94 }; -- Training Dummies
+		{  13, 10013, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{  14, 10014, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{  15, 10015, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
+		{  16, 10016, 375, 249 }; -- Empowered Nether Crucible
+		{  17, 10017, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{  18, 10018, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
 		{  "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway
@@ -86,16 +87,19 @@ local myDB = {
 		{ "1", 10001, 163, 238 }; -- Flight Master
 		{ "2", 10002, 182, 241 }; -- Great Eagle
 		{ "3", 10003, 209, 230 }; -- Emmarel Shadewarden <Unseen Path>
+		{ "3", 10003, 193, 414 }; -- Emmarel Shadewarden <Unseen Path>
 		{ "4", 10004, 228, 343 }; -- Altar Keeper Biehn
 		{ "5", 10005, 210, 318 }; -- Outfitter Reynolds <Unseen Path>
 		{ "6", 10006, 199, 308 }; -- Tactician Tinderfell <Unseen Path>
-		{ "7", 10007, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
-		{ "8", 10008, 273, 318 }; -- Training Dummies
-		{ "8", 10008, 207, 291 }; -- Training Dummies
-		{ "8", 10008, 188, 306 }; -- Training Dummies
-		{ "9", 10009, 202, 277 }; -- Lenara <Recruiter>
-		{ "10", 10010, 289, 322 }; -- Survivalist Bahn <Class Hall Upgrades>
-		{ "11", 10011, 283, 257 }; -- Sampson <Recruiter>
+		{ "7", 10007, 208, 302 }; -- Image of Mimiron
+		{ "8", 10009, 252, 338 }; -- Holt Thunderhorn <Lore and Legends>
+		{ "8", 10009, 273, 318 }; -- Training Dummies
+		{ "9", 10009, 207, 291 }; -- Training Dummies
+		{ "9", 10009, 188, 306 }; -- Training Dummies
+		{ "10", 10010, 202, 277 }; -- Lenara <Recruiter>
+		{ "11", 10011, 289, 322 }; -- Survivalist Bahn <Class Hall Upgrades>
+		{ "12", 10012, 283, 257 }; -- Sampson <Recruiter>
+		{ "13", 10013, 324, 471 }; -- Ogdrul <The Seeker>
 	};
 	CH_Mage = {
 		{  "1", 10001, 408, 129 }; -- Forge of the Guardian
@@ -216,14 +220,14 @@ local myDB = {
 		{ "3", 10003, 227, 68 }; -- Savyn Valorborn <Recruiter>
 		{ "4", 10004, 224, 124 }; -- Quartermaster Durnolf
 		{ "5", 10005, 275, 123 }; -- Haklang Ulfsson <Armaments Requisitioner>
-		{ "6", 10005, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
-		{ "7", 10006, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
-		{ "8", 10007, 108, 173 }; -- Master Smith Helgar
-		{ "9", 10008, 356, 179 }; -- Weaponmaster Asvard <Warrior Trainer>
-		{ "10", 10009, 390, 179 }; -- Arena of Glory
-		{ "11", 10010, 436, 179 }; -- Training Dummies
-		{ "12", 10011, 226, 422 }; -- Hymdall
-		{ "13", 10012, 245, 432 }; -- Odyn
+		{ "6", 10006, 147, 135 }; -- Fjornson Stonecarver <Keeper of Legends>
+		{ "7", 10007, 156, 139 }; -- Einar the Runecaster <Class Hall Upgrades>
+		{ "8", 10008, 108, 173 }; -- Master Smith Helgar
+		{ "9", 10009, 356, 179 }; -- Weaponmaster Asvard <Warrior Trainer>
+		{ "10", 10010, 390, 179 }; -- Arena of Glory
+		{ "11", 10011, 436, 179 }; -- Training Dummies
+		{ "12", 10012, 226, 422 }; -- Hymdall
+		{ "13", 10013, 245, 432 }; -- Odyn
 	};
 };
 

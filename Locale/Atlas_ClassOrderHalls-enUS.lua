@@ -52,6 +52,7 @@ if L then
 	L["Grand Master Siegesmith Corvus"] = "Grand Master Siegesmith Corvus"; -- 97072
 	L["Soul Forge"] = "Soul Forge";
 	L["Lady Alistra <Death Knight Trainer>"] = "Lady Alistra <Death Knight Trainer>"; -- 93509
+	L["Dead Collector Bane <Champion Armaments>"] = "Dead Collector Bane <Champion Armaments>"; -- 110410
 
 	-- //////////////////////////
 	-- Demon Hunter
@@ -154,6 +155,8 @@ if L then
 	L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>"; -- 92316
 	L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
 	L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>"; -- 100196
+	L["Kristoff <Armaments Requisitioner>"] = "Kristoff <Armaments Requisitioner>"; -- 110434
+	L["Brandur Ironhammer <Paladin Trainer>"] = "Brandur Ironhammer <Paladin Trainer>"; -- 92314
 
 	-- //////////////////////////
 	-- Priest
@@ -184,6 +187,9 @@ if L then
 	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "Nikki the Gossip <Tales fo Adventure and Profit>"; -- 98092
 	L["Loren the Fence <Rogue Trainer>"] = "Loren the Fence <Rogue Trainer>"; -- 105989
 	L["Kelsey Steelspark <Quartermaster>"] = "Kelsey Steelspark <Quartermaster>"; -- 105986
+	L["Lonika Stillblade <Rogue Academy Proprietor>"] = "Lonika Stillblade <Rogue Academy Proprietor>"; -- 105979
+	L["Night-Stalker Ku'nanji <Rogue Trainer>"] = "Night-Stalker Ku'nanji <Rogue Trainer>"; -- 105991
+	L["Winstone Wolfe <The Wolf>"] = "Winstone Wolfe <The Wolf>"; -- 105998
 
 	-- //////////////////////////
 	-- Shaman
@@ -211,6 +217,9 @@ if L then
 	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "Gigi Gigavoid <Black Harvest Quartermaster>"; -- 112434
 	L["Mile Raitheborne <Head Archivist>"] = "Mile Raitheborne <Head Archivist>"; -- 111740
 	L["Jared <Recruiter>"] = "Jared <Recruiter>"; -- 106217
+	L["Imp Mother Dyala <Recruiter>"] = "Imp Mother Dyala <Recruiter>"; -- 106216
+	L["Archivist Melinda <Class Hall Upgrades>"] = "Archivist Melinda <Class Hall Upgrades>"; -- 108018
+	L["Murr"] = "Murr"; -- 110408
 
 	-- //////////////////////////
 	-- Warrior

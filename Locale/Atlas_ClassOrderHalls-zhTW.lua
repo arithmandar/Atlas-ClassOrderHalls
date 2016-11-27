@@ -148,12 +148,13 @@ if L then
 	-- //////////////////////////
 	-- Paladin
 	-- //////////////////////////
-	-- L["Sister Elda <Keeper of the Ancient Tomes>"] = "Sister Elda <Keeper of the Ancient Tomes>";
-	-- L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "Lord Grayson Shadowbreaker <Mission Specialist>";
-	-- L["Katherine the Pure <Paladin Trainer>"] = "Katherine the Pure <Paladin Trainer>";
-	-- L["Vindicator Baatun <Paladin Trainer>"] = "Vindicator Baatun <Paladin Trainer>";
-	-- L["Altar of Ancient Kings"] = "Altar of Ancient Kings";
-	-- L["Eadric the Pure <Quartermaster>"] = "Eadric the Pure <Quartermaster>";
+	L["Sister Elda <Keeper of the Ancient Tomes>"] = "愛兒妲修女 <古籍看管者>";
+	L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "格雷森·破影者領主 <任務官>";
+	L["Katherine the Pure <Paladin Trainer>"] = "『純淨的』凱薩琳 <聖騎士訓練師>";
+	L["Vindicator Baatun <Paladin Trainer>"] = "復仇者巴特恩 <聖騎士訓練師>";
+	L["Altar of Ancient Kings"] = "遠古諸王祭壇";
+	L["Eadric the Pure <Quartermaster>"] = "『純淨者』埃卓克 <軍需官>";
+	L["Brandur Ironhammer <Paladin Trainer>"] = "布蘭杜爾·鐵錘 <聖騎士訓練師>";
 
 	-- //////////////////////////
 	-- Priest
@@ -184,6 +185,9 @@ if L then
 	L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "『閒語者』妮琪 <冒險和發財的故事>";
 	L["Loren the Fence <Rogue Trainer>"] = "『贓物商』洛倫 <盜賊訓練師>";
 	L["Kelsey Steelspark <Quartermaster>"] = "凱爾希·銅火 <軍需官>";
+	L["Lonika Stillblade <Rogue Academy Proprietor>"] = "羅尼卡·堅刃 <盜賊學院經營者>";
+	L["Night-Stalker Ku'nanji <Rogue Trainer>"] = "暗夜潛獵者庫南吉 <盜賊訓練師>";
+	L["Winstone Wolfe <The Wolf>"] = "溫斯頓·沃菲爾 <孤狼>";
 
 	-- //////////////////////////
 	-- Shaman
@@ -210,7 +214,10 @@ if L then
 	L["Demonic Gateway"] = "惡魔之門";
 	L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "吉吉·兆空 <黑穫軍需官>";
 	L["Mile Raitheborne <Head Archivist>"] = "邁爾·萊斯伯恩 <首席古卷管理員>";
-	L["Jared <Recruiter>"] = "Jared <Recruiter>";
+	L["Jared <Recruiter>"] = "嘉瑞德 <招募員>";
+	L["Imp Mother Dyala <Recruiter>"] = "鬼母戴亞拉 <招募員>";
+	L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級>";
+	-- L["Murr"] = "Murr";
 
 	-- //////////////////////////
 	-- Warrior

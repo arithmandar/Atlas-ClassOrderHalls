@@ -29,7 +29,7 @@
 ## Notes: Map of Class Order Halls
 ## Notes-zhTW: Atlas 職業大廳地圖
 #@end-debug@
-## Version: 1.35.01
+## Version: 1.35.02
 ## Author: arith
 ## X-Date: @project-date-iso@
 ## X-Email: atlas.addon at gmail.com

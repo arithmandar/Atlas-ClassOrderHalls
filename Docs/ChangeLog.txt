@@ -6,6 +6,10 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.02 (Nov. XX, 2016)
+------------------------
+- Added NPC to Warlock and Rogue's halls
+
 v1.35.01 (Nov. 26, 2016)
 ------------------------
 - Added NPC to hunter and demon hunter's halls

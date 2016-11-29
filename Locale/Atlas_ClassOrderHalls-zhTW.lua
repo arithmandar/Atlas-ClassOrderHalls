@@ -188,6 +188,8 @@ if L then
 	L["Lonika Stillblade <Rogue Academy Proprietor>"] = "羅尼卡·堅刃 <盜賊學院經營者>";
 	L["Night-Stalker Ku'nanji <Rogue Trainer>"] = "暗夜潛獵者庫南吉 <盜賊訓練師>";
 	L["Winstone Wolfe <The Wolf>"] = "溫斯頓·沃菲爾 <孤狼>";
+	L["Lorena Belle <Master Smuggler>"] = "洛蓮娜·貝利 <走私大師>";
+	L["Yancey Grillsen <Bloodsail Recruiter>"] = "楊希·貴爾森 <血帆招募員>";
 
 	-- //////////////////////////
 	-- Shaman

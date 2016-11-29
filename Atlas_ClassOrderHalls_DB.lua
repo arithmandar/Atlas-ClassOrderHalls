@@ -171,21 +171,23 @@ local myDB = {
 		{ 14, 10014, 221, 132 }; -- Lilith <Armament Supplier>
 	};
 	CH_Rogue = {
-		{ "A", 10101, 430, 356 }; -- Glorious Goods
-		{ "B", 10102, 247, 141 }; -- One More Glass
-		{ "C", 10103, 190, 154 }; -- Tanks for Everything
-		{ "D", 10104, 4, 424 }; -- Tunnel of Woe
-		{ 1, 10001, 333, 235 }; -- Madam Gosu <Black Market Liaison>
-		{ 2, 10002, 249, 339 }; -- Lord Jorach Ravenholdt
-		{ 3, 10003, 236, 306 }; -- Filius Sparkstache <Archivist>
-		{ 4, 10004, 269, 309 }; -- Winstone Wolfe <The Wolf>
-		{ 5, 10005, 198, 310 }; -- Marin Noggenfogger <Baron of Gadgetzan>
-		{ 6, 10006, 181, 280 }; -- Crucible of the Uncrowned
-		{ 7, 10007, 230, 230 }; -- Nikki the Gossip <Tales fo Adventure and Profit>
-		{ 8, 10008, 204, 172 }; -- Lonika Stillblade <Rogue Academy Proprietor>
-		{ 9, 10009, 175, 154 }; -- Rouge Trainers
-		{ 10, 10010, 167, 172 }; -- Training Dummies
-		{ 11, 10011, 181, 200 }; -- Kelsey Steelspark <Quartermaster>
+		{ "A", 10101, 416, 365 }; -- Glorious Goods
+		{ "B", 10102, 189,  99 }; -- One More Glass
+		{ "C", 10103, 120, 114 }; -- Tanks for Everything
+		{ "D", 10104, 130, 196 }; -- Tunnel of Woe
+		{ 1, 10001, 294, 218 }; -- Madam Gosu <Black Market Liaison>
+		{ 2, 10002, 184, 343 }; -- Lord Jorach Ravenholdt
+		{ 3, 10003, 168, 303 }; -- Filius Sparkstache <Archivist>
+		{ 4, 10004, 212, 308 }; -- Winstone Wolfe <The Wolf>
+		{ 5, 10005, 124, 310 }; -- Marin Noggenfogger <Baron of Gadgetzan>
+		{ 6, 10006, 104, 274 }; -- Crucible of the Uncrowned
+		{ 7, 10007, 121, 248 }; -- Lorena Belle <Master Smuggler>
+		{ 8, 10008, 162, 212 }; -- Nikki the Gossip <Tales fo Adventure and Profit>
+		{ 9, 10009, 134, 136 }; -- Lonika Stillblade <Rogue Academy Proprietor>
+		{ 10, 10010,  97, 116 }; -- Rouge Trainers
+		{ 11, 10011,  90, 139 }; -- Training Dummies
+		{ 12, 10012, 108, 174 }; -- Kelsey Steelspark <Quartermaster>
+		{ 13, 10013, 229, 195 }; -- Yancey Grillsen <Bloodsail Recruiter>
 	};
 	CH_Shaman = {
 		{ "A", 10101, 240, 233 }; -- Portal to Dalaran

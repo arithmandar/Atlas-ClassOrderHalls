@@ -196,7 +196,7 @@ local myData = {
 		{ INDENT..INDENT..PURP.." D) "..BZ["Weeping Bluffs"]..ALC["Comma"]..BZ["Stormheim"], 10104 };
 		{ INDENT..INDENT..PURP.." E) "..BZ["Temple of Elune"]..ALC["Comma"]..BZ["Val'sharah"], 10105 };
 		{ INDENT..INDENT..PURP.." F) "..BZ["Meredil"]..ALC["Comma"]..BZ["Suramar"], 10106 };
-		{ INDENT..WHIT.." 9) "..L["Chronicler Elrianne <Class Hall Upgrades>"], 10009 };
+		{ INDENT..WHIT.." 9) "..I_CLASS..L["Chronicler Elrianne <Class Hall Upgrades>"], 10009 };
 		{ INDENT..WHIT.."10) "..I_WORKORDER..L["Archmage Omniara <Recruiter>"], 10010 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["The Great Akazamzarak"], 10011 };
@@ -216,6 +216,7 @@ local myData = {
 		{ WHIT.." 1) "..L["Caydori Brightstar <Purveyor of Rare Goods>"], 10001 };
 		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Master Hsu <Mission Master>"], 10002 };
 		{ INDENT..WHIT..L["Master Hsu <Mission Master>"] };
+		{ INDENT..WHIT..I_CLASS..L["Number Nine Jia <Class Hall Upgrades>"] };
 		{ WHIT.." 3) "..L["Elder Xang <Monk Trainer>"], 10003 };
 		{ WHIT.." 4) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] , 10004 };
 		{ INDENT..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] };
@@ -279,14 +280,17 @@ local myData = {
 		{ WHIT.." 4) "..I_CLASS..L["Winstone Wolfe <The Wolf>"], 10004 };
 		{ WHIT.." 5) "..L["Marin Noggenfogger <Baron of Gadgetzan>"], 10005 };
 		{ WHIT.." 6) "..I_PROFF..L["Crucible of the Uncrowned"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10006 };
-		{ WHIT.." 7) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"], 10007 };
+		{ WHIT.." 7) "..L["Lorena Belle <Master Smuggler>"], 10007 };
+		{ WHIT.." 8) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"], 10008 };
 		{ INDENT..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"] };
-		{ WHIT.." 8) "..I_WORKORDER..L["Lonika Stillblade <Rogue Academy Proprietor>"], 10008 };
+		{ WHIT.." 9) "..I_WORKORDER..L["Lonika Stillblade <Rogue Academy Proprietor>"], 10009 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT..L["Night-Stalker Ku'nanji <Rogue Trainer>"] };
-		{ WHIT.." 9) "..L["Loren the Fence <Rogue Trainer>"], 10009 };
-		{ WHIT.."10) "..L["Training Dummies"], 10010 };
-		{ WHIT.."11) "..I_REPAIR..L["Kelsey Steelspark <Quartermaster>"], 10011 };
+		{ WHIT.."10) "..L["Loren the Fence <Rogue Trainer>"], 10010 };
+		{ WHIT.."11) "..L["Training Dummies"], 10011 };
+		{ WHIT.."12) "..I_REPAIR..L["Kelsey Steelspark <Quartermaster>"], 10012 };
+		{ WHIT.."13) "..I_WORKORDER..L["Yancey Grillsen <Bloodsail Recruiter>"], 10013 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 	};
 	CH_Shaman = {
 		ZoneName = { CL["SHAMAN"]..Atlas_GetClassName("SHAMAN")..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };

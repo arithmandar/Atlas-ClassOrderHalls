@@ -155,6 +155,8 @@ if L then
 	L["Altar of Ancient Kings"] = "遠古諸王祭壇";
 	L["Eadric the Pure <Quartermaster>"] = "『純淨者』埃卓克 <軍需官>";
 	L["Brandur Ironhammer <Paladin Trainer>"] = "布蘭杜爾·鐵錘 <聖騎士訓練師>";
+	L["Commander Ansela <Silver Hand Recruiter>"] = "安瑟拉指揮官 <白銀之手招募員>";
+	L["Lord Maxwell Tyrosus"] = "麥斯威爾·泰羅索斯領主";
 
 	-- //////////////////////////
 	-- Priest

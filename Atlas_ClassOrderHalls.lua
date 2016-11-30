@@ -232,14 +232,17 @@ local myData = {
 		{ PURP.." A) "..L["Portal to Dalaran"], 10102 };
 		{ WHIT.." 1) "..I_WORKORDER..L["Sister Elda <Keeper of the Ancient Tomes>"], 10001 };
 		{ WHIT.." 2) "..I_REPAIR..L["Eadric the Pure <Quartermaster>"], 10002 };
-		{ WHIT.." 3) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10003 };
+		{ WHIT.." 3) "..L["Lord Maxwell Tyrosus"], 10003 };
+		{ WHIT.." 4) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10004 };
 		{ INDENT..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"] };
-		{ WHIT.." 4) "..L["Katherine the Pure <Paladin Trainer>"], 10004 };
+		{ WHIT.." 5) "..I_WORKORDER..L["Commander Ansela <Silver Hand Recruiter>"], 10005 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.." 6) "..L["Katherine the Pure <Paladin Trainer>"], 10006 };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.." 5) "..L["Vindicator Baatun <Paladin Trainer>"], 10005 };
+		{ WHIT.." 7) "..L["Vindicator Baatun <Paladin Trainer>"], 10007 };
 		{ INDENT..WHIT..L["Brandur Ironhammer <Paladin Trainer>"] };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.." 6) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10006 };
+		{ WHIT.." 8) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10008 };
 	};
 	CH_Priest = {
 		ZoneName = { CL["PRIEST"]..Atlas_GetClassName("PRIEST")..ALC["Hyphen"]..BZ["Netherlight Temple"] };

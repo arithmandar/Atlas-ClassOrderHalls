@@ -160,6 +160,8 @@ if L then
 	L["Kristoff <Armaments Requisitioner>"] = "Kristoff <Armaments Requisitioner>"; -- 110434
 	L["Brandur Ironhammer <Paladin Trainer>"] = "Brandur Ironhammer <Paladin Trainer>"; -- 92314
 	L["Sir Alamande Graythorn <Class Hall Upgrades>"] = "Sir Alamande Graythorn <Class Hall Upgrades>"; -- 109901
+	L["Commander Ansela <Silver Hand Recruiter>"] = "Commander Ansela <Silver Hand Recruiter>"; -- 106447
+	L["Lord Maxwell Tyrosus"] = "Lord Maxwell Tyrosus"; -- 90259
 
 	-- //////////////////////////
 	-- Priest

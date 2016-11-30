@@ -6,6 +6,11 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.03 (Dec. XX, 2016)
+------------------------
+- Paladin map revamped
+- Added NPC to Paladin's hall
+
 v1.35.02 (Nov. 29, 2016)
 ------------------------
 - Rouge map revamped

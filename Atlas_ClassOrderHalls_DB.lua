@@ -146,14 +146,16 @@ local myDB = {
 	CH_Paladin = {
 		{ "A", 10101, 102, 472 }; -- Entrance
 		{ "A", 10102, 75, 327 }; -- Portal to Dalaran
-		{ 1, 10001, 75, 293 }; -- Sister Elda <Keeper of the Ancient Tomes>
-		{ 2, 10002, 106, 315 }; -- Eadric the Pure <Quartermaster>
-		{ 3, 10003, 172, 370 }; -- Lord Maxwell Tyrosus
-		{ 4, 10004, 192, 397 }; -- Lord Grayson Shadowbreaker <Mission Specialist>
-		{ 5, 10005, 199, 291 }; -- Commander Ansela <Silver Hand Recruiter>
-		{ 6, 10006, 183, 245 }; -- Katherine the Pure <Paladin Trainer>
-		{ 7, 10007, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
-		{ 8, 10008, 353, 114 }; -- Altar of Ancient Kings
+		{ 1, 10001,  75, 293 }; -- Sister Elda <Keeper of the Ancient Tomes>
+		{ 2, 10002,  96, 289 }; -- Sir Alamande Graythorn <Class Hall Upgrades>
+		{ 3, 10003, 106, 315 }; -- Eadric the Pure <Quartermaster>
+		{ 4, 10004, 172, 370 }; -- Lord Maxwell Tyrosus
+		{ 5, 10005, 192, 397 }; -- Lord Grayson Shadowbreaker <Mission Specialist>
+		{ 6, 10006, 199, 291 }; -- Commander Ansela <Silver Hand Recruiter>
+		{ 7, 10007, 183, 245 }; -- Katherine the Pure <Paladin Trainer>
+		{ 8, 10008, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
+		{ 9, 10009, 353, 114 }; -- Altar of Ancient Kings
+		{ 10, 10010, 246, 200 }; -- Commander Born <Silver Hand Officer Recruiter>
 	};
 	CH_Priest = {
 		{ "A", 10101, 250, 374 }; -- Portal to Dalaran

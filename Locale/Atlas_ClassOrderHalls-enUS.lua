@@ -162,6 +162,7 @@ if L then
 	L["Sir Alamande Graythorn <Class Hall Upgrades>"] = "Sir Alamande Graythorn <Class Hall Upgrades>"; -- 109901
 	L["Commander Ansela <Silver Hand Recruiter>"] = "Commander Ansela <Silver Hand Recruiter>"; -- 106447
 	L["Lord Maxwell Tyrosus"] = "Lord Maxwell Tyrosus"; -- 90259
+	L["Commander Born <Silver Hand Officer Recruiter>"] = "Commander Born <Silver Hand Officer Recruiter>"; -- 106448
 
 	-- //////////////////////////
 	-- Priest

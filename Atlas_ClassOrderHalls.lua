@@ -72,19 +72,31 @@ local myData = {
 		ZoneName = { CL["DEATHKNIGHT"]..Atlas_GetClassName("DEATHKNIGHT")..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
 		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
-		{ PURP.." B) "..L["Portal to another floor"], 10102 };
-		{ WHIT.." 1) "..I_FLIGHT..MINIMAP_TRACKING_FLIGHTMASTER, 10001 };
-		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Siouxsie the Banshee <Mission Specialist>"], 10002 };
-		{ INDENT..WHIT..L["Siouxsie the Banshee <Mission Specialist>"] };
-		{ INDENT..WHIT..L["Highlord Darion Mograine"] };
-		{ WHIT.." 3) "..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10003 };
-		{ WHIT.." 4) "..L["Lord Thorval"], 10004 };
-		{ WHIT.." 5) "..L["Training Dummies"], 10005 };
-		{ WHIT.." 6) "..I_REPAIR..L["Quartermaster Ozorg <Rare Goods Vendor>"], 10006 };
-		{ WHIT.." 7) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Grand Master Siegesmith Corvus"], 10007 };
-		{ INDENT..WHIT..L["Grand Master Siegesmith Corvus"] };
-		{ WHIT.." 8) "..L["Lady Alistra <Death Knight Trainer>"], 10008 };
+		{ ORNG..ALC["Lower"]..ALC["Hyphen"]..BZ["Hall of Command"] };
+		{ INDENT..PURP.." A) "..L["Portal to Dalaran"], 10101 };
+		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
+		{ INDENT..WHIT.." 1) "..I_FLIGHT..MINIMAP_TRACKING_FLIGHTMASTER, 10001 };
+		{ INDENT..WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Siouxsie the Banshee <Mission Specialist>"].."\n"..WHIT..L["Highlord Darion Mograine"], 10002 };
+		{ INDENT..INDENT..WHIT..L["Siouxsie the Banshee <Mission Specialist>"] };
+		{ INDENT..INDENT..WHIT..L["Highlord Darion Mograine"] };
+		{ INDENT..WHIT.." 3) "..I_WORKORDER..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10003 };
+		{ INDENT..WHIT.." 4) "..I_CLASS..L["Archivist Zubashi <Class Hall Upgrades>"], 10004 };
+		{ INDENT..WHIT.." 5) "..L["Lord Thorval"], 10005 };
+		{ INDENT..WHIT.." 6) "..I_WORKORDER..L["Dark Summoner Marogh <Risen Horde Recruiter>"], 10006 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ INDENT..WHIT.." 7) "..L["Amal'thazad"].."\n"..WHIT..L["Thassarian"].."\n"..WHIT..L["King Thoras Trollbane"], 10007 };
+		{ INDENT..INDENT..WHIT..L["Thassarian"] };
+		{ INDENT..INDENT..WHIT..L["King Thoras Trollbane"] };
+		{ ORNG..ALC["Upper"]..ALC["Hyphen"]..BZ["The Heart of Acherus"] };
+		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
+		{ INDENT..WHIT.." 8) "..L["Training Dummies"], 10008 };
+		{ INDENT..WHIT.." 9) "..I_REPAIR..L["Quartermaster Ozorg <Rare Goods Vendor>"], 10009 };
+		{ INDENT..WHIT.."10) "..L["Lady Alistra <Death Knight Trainer>"], 10011 };
+		{ INDENT..WHIT.."11) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Grand Master Siegesmith Corvus"], 10010 };
+		{ INDENT..INDENT..WHIT..L["Grand Master Siegesmith Corvus"] };
+		{ INDENT..WHIT.."12) "..I_WORKORDER..L["Korgaz Deadaxe <Ebon Soldier Recruiter>"], 10012 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ INDENT..WHIT.."13) "..L["Salanar the Horseman"], 10013 };
 	};
 	CH_DemonHunter = {
 		ZoneName = { CL["DEMONHUNTER"]..Atlas_GetClassName("DEMONHUNTER")..ALC["Hyphen"]..BZ["The Fel Hammer"] };
@@ -94,7 +106,7 @@ local myData = {
 		{ INDENT..PURP.." A) "..L["Illidari Gateway"], 10101 };
 		{ INDENT..INDENT..GREY..L["Travel to Dalaran"] };
 		{ INDENT..BLUE.." A) "..L["Ramp to lower floor"], 10102 };
-		{ INDENT..WHIT.." 1) "..L["Kayn Sunfury <Illidari>"], 10001 };
+		{ INDENT..WHIT.." 1) "..L["Kayn Sunfury <Illidari>"].."\n"..WHIT..L["Kor'vas Bloodthorn <Illidari>"], 10001 };
 		{ INDENT..INDENT..WHIT..L["Kor'vas Bloodthorn <Illidari>"] };
 		{ INDENT..WHIT.." 2) "..I_WORKORDER..L["Battlelord Gaardoun <Ashtongue Captain>"], 10002 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
@@ -118,6 +130,7 @@ local myData = {
 		{ INDENT..WHIT.."16) "..L["Empowered Nether Crucible"], 10016 };
 		{ INDENT..WHIT.."17) "..I_PROFF..L["Cursed Forge of the Nathrezim"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10017 };
 		{ INDENT..WHIT.."18) "..L["Seer Akalu <Nathrezim Scholar>"], 10018 };
+		{ "" };
 	};
 	CH_Druid = {
 		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };
@@ -132,7 +145,7 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 4) "..I_CLASS..L["Leafbeard the Storied <Ancient of Lore>"], 10004 };
 		{ INDENT..GREY..GARRISON_TALENT_ORDER_ADVANCEMENT };
-		{ WHIT.." 5) "..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
+		{ WHIT.." 5) "..I_WORKORDER..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
 		{ WHIT.." 6) "..I_WORKORDER..L["Yaris Darkclaw <Recruiter>"], 10006 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 7) "..I_PROFF..L["Seed of Ages"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Tender Daranelle"], 10007 };
@@ -157,12 +170,12 @@ local myData = {
 		{ WHIT.." 4) "..I_PROFF..L["Altar of the Eternal Hunt"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Altar Keeper Biehn"], 10004 };
 		{ INDENT..WHIT..L["Altar Keeper Biehn"] };
 		{ WHIT.." 5) "..I_REPAIR..L["Outfitter Reynolds <Unseen Path>"], 10005 };
-		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..L["Tactician Tinderfell <Unseen Path>"], 10006 };
+		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Tactician Tinderfell <Unseen Path>"], 10006 };
 		{ INDENT..WHIT..L["Tactician Tinderfell <Unseen Path>"] };
 		{ WHIT.." 7) "..L["Image of Mimiron"], 10007 };
-		{ WHIT.." 8) "..L["Holt Thunderhorn <Lore and Legends>"], 10008 };
+		{ WHIT.." 8) "..I_WORKORDER..L["Holt Thunderhorn <Lore and Legends>"], 10008 };
 		{ INDENT..GREY..L["Tales of the Hunt"] };
-		{ INDENT..GREY..L["Loren Stormhoof <Skyhorn Emissary>"] };
+		{ INDENT..WHIT..L["Loren Stormhoof <Skyhorn Emissary>"] };
 		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
 		{ WHIT.."10) "..I_WORKORDER..L["Lenara <Recruiter>"], 10010 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
@@ -171,6 +184,8 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT..L["Pan the Kind Hand <Stable Master>"] };
 		{ WHIT.."13) "..L["Ogdrul <The Seeker>"], 10013 };
+		{ WHIT.."14) "..I_WORKORDER..L["Berger the Steadfast <Champion Armaments>"], 10014 };
+		{ INDENT..GREY..L["Champion Armaments"] };
 	};
 	CH_Mage = {
 		ZoneName = { CL["MAGE"]..Atlas_GetClassName("MAGE")..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
@@ -205,6 +220,9 @@ local myData = {
 		{ INDENT..WHIT.."13) "..L["Training Dummies"], 10013 };
 		{ INDENT..WHIT.."14) "..I_WORKORDER..L["Grand Conjurer Mimic <Mage Recruiter Extraordinaire>"], 10014 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ INDENT..WHIT.."15) "..I_WORKORDER..L["Minuette <Armament Summoner>"], 10015 };
+		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
+		{ "" };
 	};
 	CH_Monk = {
 		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
@@ -213,6 +231,7 @@ local myData = {
 		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
 		{ PURP.." B) "..L["Portal to Peak of Serenity"], 10102 };
 		{ PURP.." C) "..L["Transportation Mandala"], 10103 };
+		{ INDENT..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["Slash"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
 		{ WHIT.." 1) "..I_REPAIR..L["Caydori Brightstar <Purveyor of Rare Goods>"], 10001 };
 		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Master Hsu <Mission Master>"], 10002 };
 		{ INDENT..WHIT..L["Master Hsu <Mission Master>"] };
@@ -221,7 +240,8 @@ local myData = {
 		{ WHIT.." 4) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] , 10004 };
 		{ INDENT..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] };
 		{ INDENT..WHIT..L["Lao Li the Quiet <Monk Trainer>"]..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
-		{ WHIT.." 5) "..L["Lorewalker Cho <Head Archivist>"], 10005 };
+		{ INDENT..WHIT..L["Wise Scholar Lianji <Senior Master Serpent>"]..GREY..ALC["L-Parenthesis"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
+		{ WHIT.." 5) "..I_WORKORDER..L["Lorewalker Cho <Head Archivist>"], 10005 };
 		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
 	};
 	CH_Paladin = {
@@ -233,19 +253,21 @@ local myData = {
 		{ WHIT.." 1) "..I_WORKORDER..L["Sister Elda <Keeper of the Ancient Tomes>"], 10001 };
 		{ WHIT.." 2) "..I_CLASS..L["Sir Alamande Graythorn <Class Hall Upgrades>"], 10002 };
 		{ WHIT.." 3) "..I_REPAIR..L["Eadric the Pure <Quartermaster>"], 10003 };
-		{ WHIT.." 4) "..L["Lord Maxwell Tyrosus"], 10004 };
-		{ WHIT.." 5) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10005 };
+		{ WHIT.." 4) "..L["Lord Irulon Trueblade"], 10004 };
+		{ WHIT.." 5) "..L["Lord Maxwell Tyrosus"], 10005 };
+		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"], 10006 };
 		{ INDENT..WHIT..L["Lord Grayson Shadowbreaker <Mission Specialist>"] };
-		{ WHIT.." 6) "..I_WORKORDER..L["Commander Ansela <Silver Hand Recruiter>"], 10006 };
+		{ WHIT.." 7) "..I_WORKORDER..L["Commander Ansela <Silver Hand Recruiter>"], 10007 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
-		{ WHIT.." 7) "..L["Katherine the Pure <Paladin Trainer>"], 10007 };
+		{ WHIT.." 8) "..L["Katherine the Pure <Paladin Trainer>"], 10008 };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.." 8) "..L["Vindicator Baatun <Paladin Trainer>"], 10008 };
+		{ WHIT.." 9) "..L["Vindicator Baatun <Paladin Trainer>"], 10009 };
 		{ INDENT..WHIT..L["Brandur Ironhammer <Paladin Trainer>"] };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.." 9) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10009 };
 		{ WHIT.."10) "..I_WORKORDER..L["Commander Born <Silver Hand Officer Recruiter>"], 10010 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.."11) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10011 };
+		{ WHIT.."12) "..L["Valgar Highforge <Grand Smith of the Order>"], 10012 };
 	};
 	CH_Priest = {
 		ZoneName = { CL["PRIEST"]..Atlas_GetClassName("PRIEST")..ALC["Hyphen"]..BZ["Netherlight Temple"] };
@@ -281,38 +303,56 @@ local myData = {
 		{ BLUE.." C) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tanks for Everything"], 10103 };
 		{ BLUE.." D) "..ALC["Connection"]..ALC["Hyphen"]..BZ["Tunnel of Woe"], 10104 };
 		{ WHIT.." 1) "..L["Madam Gosu <Black Market Liaison>"], 10001 };
-		{ WHIT.." 2) "..L["Lord Jorach Ravenholdt"], 10002 };
-		{ WHIT.." 3) "..I_WORKORDER..L["Filius Sparkstache <Archivist>"], 10003 };
-		{ WHIT.." 4) "..I_CLASS..L["Winstone Wolfe <The Wolf>"], 10004 };
-		{ WHIT.." 5) "..L["Marin Noggenfogger <Baron of Gadgetzan>"], 10005 };
-		{ WHIT.." 6) "..I_PROFF..L["Crucible of the Uncrowned"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10006 };
-		{ WHIT.." 7) "..L["Lorena Belle <Master Smuggler>"], 10007 };
-		{ WHIT.." 8) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"], 10008 };
+		{ WHIT.." 2) "..L["Jenri <Spymaster>"], 10002 };
+		{ WHIT.." 3) "..L["Lord Jorach Ravenholdt"], 10003 };
+		{ WHIT.." 4) "..L["Valeera Sanguinar"], 10004 };
+		{ WHIT.." 5) "..L["Garona Halforcen"], 10005 };
+		{ WHIT.." 6) "..I_WORKORDER..L["Filius Sparkstache <Archivist>"], 10006 };
+		{ WHIT.." 7) "..I_CLASS..L["Winstone Wolfe <The Wolf>"], 10007 };
+		{ INDENT..GREY..GARRISON_TALENT_ORDER_ADVANCEMENT };
+		{ WHIT.." 8) "..L["Marin Noggenfogger <Baron of Gadgetzan>"], 10008 };
+		{ WHIT.." 9) "..I_PROFF..L["Crucible of the Uncrowned"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10009 };
+		{ WHIT.."10) "..L["Lorena Belle <Master Smuggler>"], 10010 };
+		{ WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"], 10011 };
 		{ INDENT..WHIT..L["Nikki the Gossip <Tales fo Adventure and Profit>"] };
-		{ WHIT.." 9) "..I_WORKORDER..L["Lonika Stillblade <Rogue Academy Proprietor>"], 10009 };
+		{ WHIT.."12) "..I_WORKORDER..L["Lonika Stillblade <Rogue Academy Proprietor>"], 10012 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT..L["Night-Stalker Ku'nanji <Rogue Trainer>"] };
-		{ WHIT.."10) "..L["Loren the Fence <Rogue Trainer>"], 10010 };
-		{ WHIT.."11) "..L["Training Dummies"], 10011 };
-		{ WHIT.."12) "..I_REPAIR..L["Kelsey Steelspark <Quartermaster>"], 10012 };
-		{ WHIT.."13) "..I_WORKORDER..L["Yancey Grillsen <Bloodsail Recruiter>"], 10013 };
+		{ WHIT.."13) "..L["Loren the Fence <Rogue Trainer>"], 10013 };
+		{ WHIT.."14) "..L["Training Dummies"], 10014 };
+		{ WHIT.."15) "..I_REPAIR..L["Kelsey Steelspark <Quartermaster>"], 10015 };
+		{ WHIT.."16) "..I_WORKORDER..L["Yancey Grillsen <Bloodsail Recruiter>"], 10016 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 	};
 	CH_Shaman = {
 		ZoneName = { CL["SHAMAN"]..Atlas_GetClassName("SHAMAN")..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
 		Location = { BZ["The Heart of Azeroth"]..ALC["Comma"]..BZ["The Maelstrom"] };
 		WorldMapID = "1057";
-		{ PURP.." A) "..L["Portal to Dalaran"], 10101 };
+		{ PURP.." A) "..L["Portal to Dalaran"].."\n"..WHIT..L["Farseer Nobundo <The Earthen Ring>"], 10101 };
+		{ INDENT..WHIT..L["Farseer Nobundo <The Earthen Ring>"] };
+		{ PURP.." B) "..L["Vortex Pinnacle Portal"], 10102 };
 		{ WHIT.." 1) "..L["Training Dummies"], 10001 };
 		{ WHIT.." 2) "..L["Aggra <Shaman Trainer>"], 10002 };
-		{ WHIT.." 3) "..I_PROFF..L["Maelstrom Pillar"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Elementalist Janai <Earthen Ring>"], 10003 };
+		{ WHIT.." 3) "..L["Maelstrom Pillar"].."\n"..WHIT..L["Elementalist Janai <Earthen Ring>"], 10003 };  
 		{ INDENT..WHIT..L["Elementalist Janai <Earthen Ring>"] };
-		{ WHIT.." 4) "..L["Puzzlemaster Lo <The Earthen Ring>"], 10004 };
-		{ WHIT.." 5) "..I_REPAIR..L["Flamesmith Lanying <Earthen Ring Quartermaster>"], 10005 };
-		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Advisor Sevel <The Earthen Ring>"], 10006 };
+		{ WHIT.." 4) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Advisor Sevel <The Earthen Ring>"], 10004 };
 		{ INDENT..WHIT..L["Advisor Sevel <The Earthen Ring>"] };
-		{ WHIT.." 7) "..L["Gorma Windspeaker <Keeper of Legends>"], 10007 };
-		{ WHIT.." 8) "..L["Tribemother Torra <Shaman Trainer>"], 10008 };
+		{ WHIT.." 5) "..I_CLASS..L["Journeyman Goldmine <Class Hall Upgrades>"], 10005 };
+		{ WHIT.." 6) "..I_REPAIR..L["Flamesmith Lanying <Earthen Ring Quartermaster>"], 10006 };
+		{ WHIT.." 7) "..I_WORKORDER..L["Summoner Morn <Elemental Summoner>"], 10007 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.." 8) "..L["Puzzlemaster Lo <The Earthen Ring>"], 10008 };
+		{ WHIT.." 9) "..I_WORKORDER..L["Gorma Windspeaker <Keeper of Legends>"], 10009 };
+		{ WHIT.."10) "..I_PROFF..L["Ancient Elemental Altar"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10010 };
+		{ WHIT.."11) "..L["Gavan Grayfeather <Ears of the Maelstrom>"], 10011 };
+		{ WHIT.."12) "..I_WORKORDER..L["Felinda Frye <Earthwarden Recruiter>"], 10012 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+-- 		{ WHIT.."13) "..L["Mackay Firebeard <The Earthen Ring>"], 10012 }; -- We don't have enough room for this NPC, besides he seems to be less important
+		{ WHIT.."13) "..L["Orono <The Earthen Ring>"], 10013 };
+		{ WHIT.."14) "..L["Bath'rah the Windwatcher <The Earthen Ring>"], 10014 };
+		{ WHIT.."15) "..L["Tribemother Torra <Shaman Trainer>"], 10015 };
+		{ WHIT.."16) "..L["Morgl the Oracle <The Earthen Ring>"], 10016 };
+		{ WHIT.."17) "..L["Neptulon"], 10017 };
 	};
 	CH_Warlock = {
 		ZoneName = { CL["WARLOCK"]..Atlas_GetClassName("WARLOCK")..ALC["Hyphen"]..BZ["Dreadscar Rift"] };
@@ -368,6 +408,7 @@ local myData = {
 		{ WHIT.."11) "..L["Training Dummies"], 10011 };
 		{ WHIT.."12) "..Atlas_GetBossName("Hymdall", 1485), 10012 }; -- Note that here we should use customized NPC ID as Hymdall here isn't a boss from dungeon.
 		{ WHIT.."13) "..Atlas_GetBossName("Odyn", 1489), 10013 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ "" };
 	};
 };
 

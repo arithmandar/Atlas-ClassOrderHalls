@@ -6,6 +6,18 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
+v1.35.04 (Dec. XX, 2016)
+------------------------
+- Added a few more NPCs in the following class halls:
+  - Hunter
+  - Mage
+  - Paladin
+  - Rogue
+- Added more NPCs to Shaman's class hall and also fixed the indication 
+  of artifact power
+- Localization update:
+  - Simplified Chinese (arith)
+
 v1.35.03 (Dec. 05, 2016)
 ------------------------
 - Paladin map revamped

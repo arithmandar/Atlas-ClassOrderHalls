@@ -40,18 +40,19 @@ L["Entrance"] = "入口"
 L["Ramp to lower floor"] = "通往下层的斜坡"
 L["Ramp to top floor"] = "通往上层的斜坡"
 L["Champion Armaments"] = "勇士武器"
+L["Travel to:"] = "传送到："
 
 -- //////////////////////////
 -- Death Knight
 -- //////////////////////////
 L["Portal to another floor"] = "通往另一层的传送门"
+-- L["Soul Forge"] = ""
 -- L["Siouxsie the Banshee <Mission Specialist>"] = ""
 L["Highlord Darion Mograine"] = "大领主达里安·莫格莱尼"
 -- L["Illanna Dreadmoore <Ebon Blade Archivist>"] = ""
 -- L["Lord Thorval"] = ""
 -- L["Quartermaster Ozorg <Rare Goods Vendor>"] = ""
 -- L["Grand Master Siegesmith Corvus"] = ""
--- L["Soul Forge"] = ""
 -- L["Lady Alistra <Death Knight Trainer>"] = ""
 -- L["Dead Collector Bane <Champion Armaments>"] = ""
 -- L["Archivist Zubashi <Class Hall Upgrades>"] = ""
@@ -60,6 +61,8 @@ L["Highlord Darion Mograine"] = "大领主达里安·莫格莱尼"
 -- Demon Hunter
 -- //////////////////////////
 L["Illidari Gateway"] = "伊利达雷传送门"
+L["Empowered Nether Crucible"] = "强化虚空坩锅"
+L["Cursed Forge of the Nathrezim"] = "纳斯雷兹姆的诅咒熔炉"
 L["Kayn Sunfury <Illidari>"] = "凯恩·日怒"
 L["Battlelord Gaardoun <Ashtongue Captain>"] = "战争领主加尔顿 <灰舌上尉>"
 L["Lady S'theno <Coilskar Captain>"] = "赛丝诺女士 <库斯卡队长>"
@@ -67,8 +70,6 @@ L["Matron Mother Malevolence <Shivarra Captain>"] = "主母玛沃伦丝 <破坏�
 L["Falara Nightsong <Illidari Provisioner>"] = "法莱拉·夜歌 <伊利达雷后勤官>"
 L["Jace Darkweaver <Illidari>"] = "杰斯·织暗 <伊利达雷>"
 L["Vahu the Weathered <Illidari Researcher>"] = "侵蚀者瓦胡 <伊利达雷研究员>"
-L["Empowered Nether Crucible"] = "强化虚空坩锅"
-L["Cursed Forge of the Nathrezim"] = "纳斯雷兹姆的诅咒熔炉"
 L["Asha Ravensong <Illidari>"] = "阿莎·鸦歌 <伊利达雷>"
 L["Izal Whitemoon <Illidari Trainer>"] = "伊扎尔·白月 <伊利达雷训练师>"
 L["Seer Akalu <Nathrezim Scholar>"] = "先知者阿卡鲁 <纳斯雷兹姆学者>"
@@ -82,11 +83,11 @@ L["Slitesh <Armaments Requisitioner>"] = "斯尔特什 <武器军需官>"
 -- Druid
 -- //////////////////////////
 L["Portal to Emerald Dreamway"] = "传送到翡翠梦境之路"
+L["Seed of Ages"] = "纪元之种"
 L["Amurra Thistledew <Proprietor>"] = "阿穆拉·薊露 <经营者>"
 L["Sister Lilith <Recruiter>"] = "莉莉丝 <征募官>"
 L["Leafbeard the Storied <Ancient of Lore>"] = "传说中的叶须 <知识古树>"
 L["Celadine the Fatekeeper <Dreamgrove Researcher>"] = "命运守护者塞拉蒂妮 <梦境林地研究员>"
-L["Seed of Ages"] = "纪元之种"
 L["Tender Daranelle"] = "护林者达兰妮尔"
 L["Rensar Greathoof <Archdruid of the Grove>"] = "伦萨·巨蹄 <梦境林地大德鲁伊>"
 L["Keeper Remulos"] = "守护者雷姆洛斯"
@@ -99,13 +100,13 @@ L["Mylune"] = "米露恩"
 -- //////////////////////////
 -- Hunter
 -- //////////////////////////
+L["Altar of the Eternal Hunt"] = "永恒狩猎祭坛"
+L["Tales of the Hunt"] = "狩猎传说"
 L["Emmarel Shadewarden <Unseen Path>"] = "伊墨瑞尔·影卫 <隐密通途>"
 L["Altar Keeper Biehn"] = "祭坛守护者别恩"
-L["Altar of the Eternal Hunt"] = "永恒狩猎祭坛"
 L["Outfitter Reynolds <Unseen Path>"] = " <隐密通途>"
 L["Tactician Tinderfell <Unseen Path>"] = " <隐密通途>"
 L["Holt Thunderhorn <Lore and Legends>"] = "浩特·雷角 <知识与传奇>"
-L["Tales of the Hunt"] = "狩猎传说"
 L["Loren Stormhoof <Skyhorn Emissary>"] = "罗伦·雷蹄 <天角大使>"
 L["Lenara <Recruiter>"] = "乐娜拉 <征募官>"
 L["Survivalist Bahn <Class Hall Upgrades>"] = "生存专家巴恩 <职业大厅升级>"
@@ -119,12 +120,12 @@ L["Berger the Steadfast <Champion Armaments>"] = "坚定的贝格 <勇士武器�
 -- //////////////////////////
 -- Mage
 -- //////////////////////////
+L["Forge of the Guardian"] = "守护者熔炉"
 L["Edirah <Tirisgarde Researcher>"] = "伊迪拉恩 <提瑞斯秘法会研究员>"
 L["Jackson Watkins <Tirisgarde Quartermaster>"] = "杰克逊·瓦吉斯 <提瑞斯秘法会军需官>"
 L["Chronicler Elrianne <Class Hall Upgrades>"] = "记载者艾瑞安妮 <职业大厅升级>"
 L["Archmage Omniara <Recruiter>"] = "大法师欧妮娅拉 <征募官>"
 L["Archmage Melis <Mistress of Flame>"] = "大法师麦丽丝 <烈焰女王>"
-L["Forge of the Guardian"] = "守护者熔炉"
 L["Old Fillmaff <Tirisgarde Librarian>"] = "老菲尔麦夫 <提瑞斯秘法会图书管理员>"
 L["Meryl Felstorm"] = "梅瑞尔·邪风"
 L["Archmage Kalec <Kirin Tor>"] = "大法师卡雷 <肯瑞托>"
@@ -139,25 +140,25 @@ L["Minuette <Armament Summoner>"] = "米娜蒂 <武器召唤师>"
 -- //////////////////////////
 -- Monk
 -- //////////////////////////
--- L["Caydori Brightstar <Purveyor of Rare Goods>"] = ""
 -- L["Portal to Peak of Serenity"] = ""
+-- L["Forge of the Roaring Mountain"] = ""
+-- L["Transportation Mandala"] = ""
+-- L["Caydori Brightstar <Purveyor of Rare Goods>"] = ""
 -- L["Master Hsu <Mission Master>"] = ""
 -- L["Elder Xang <Monk Trainer>"] = ""
 -- L["Iron-Body Ponshu <Senior Master Ox>"] = ""
--- L["Forge of the Roaring Mountain"] = ""
 -- L["Lorewalker Cho <Head Archivist>"] = ""
--- L["Transportation Mandala"] = ""
 -- L["Lao Li the Quiet <Monk Trainer>"] = ""
 -- L["Number Nine Jia <Class Hall Upgrades>"] = ""
 
 -- //////////////////////////
 -- Paladin
 -- //////////////////////////
+L["Altar of Ancient Kings"] = "远古列王祭坛"
 L["Sister Elda <Keeper of the Ancient Tomes>"] = "修女爱尔达 <古籍管理员>"
 L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "格雷森·沙东布瑞克公爵 <任务专员>"
 L["Katherine the Pure <Paladin Trainer>"] = "纯洁的凯瑟琳 <圣骑士训练师>"
 L["Vindicator Baatun <Paladin Trainer>"] = "守备官巴顿 <圣骑士训练师>"
-L["Altar of Ancient Kings"] = "远古列王祭坛"
 L["Eadric the Pure <Quartermaster>"] = "纯洁者耶德瑞克 <军需官>"
 --L["Kristoff <Armaments Requisitioner>"] = ""
 L["Brandur Ironhammer <Paladin Trainer>"] = "布兰度尔·铁锤 <圣骑士训练师>"
@@ -189,11 +190,11 @@ L["Lilith <Armament Supplier>"] = "莉莉丝 <武器补给商>"
 -- //////////////////////////
 -- Rogue
 -- //////////////////////////
+L["Crucible of the Uncrowned"] = "无冕者锻炉"
 L["Madam Gosu <Black Market Liaison>"] = "郭素夫人 <黑市联络人>"
 L["Lord Jorach Ravenholdt"] = "乔拉齐·拉文霍德公爵"
 L["Filius Sparkstache <Archivist>"] = "菲琉斯·斯巴塔克 <档案管理员>"
 L["Marin Noggenfogger <Baron of Gadgetzan>"] = "马林·诺格弗格 <加基森贸易巨头>"
-L["Crucible of the Uncrowned"] = "无冕者锻炉"
 L["Nikki the Gossip <Tales fo Adventure and Profit>"] = "多嘴的尼基"
 L["Loren the Fence <Rogue Trainer>"] = "侠盗萝伦 <潜行者训练师>"
 L["Kelsey Steelspark <Quartermaster>"] = "凯尔希·钢炼 <军需官>"
@@ -209,9 +210,11 @@ L["Garona Halforcen"] = "半兽人迦罗娜" -- 94141
 -- //////////////////////////
 -- Shaman
 -- //////////////////////////
+L["Maelstrom Pillar"] = "漩涡之柱"
+L["Ancient Elemental Altar"] = "古代元素祭坛"
+-- L["Vortex Pinnacle Portal"] = "Vortex Pinnacle Portal";
 L["Aggra <Shaman Trainer>"] = "阿格娜 <萨满祭司训练师>"
 L["Elementalist Janai <Earthen Ring>"] = "元素师佳奈 <大地之环>"
-L["Maelstrom Pillar"] = "漩涡之柱"
 L["Puzzlemaster Lo <The Earthen Ring>"] = "谜题大师老罗 <大地之环>"
 L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "烈焰工匠兰英 <大地之环军需官>"
 L["Gorma Windspeaker <Keeper of Legends>"] = "高玛·语风 <传说守护者>"
@@ -220,7 +223,6 @@ L["Advisor Sevel <The Earthen Ring>"] = "顾问塞维尔 <大地之环>"
 -- L["Journeyman Goldmine <Class Hall Upgrades>"] = ""
 L["Farseer Nobundo <The Earthen Ring>"] = "预言者努波顿 <大地之环>" -- 96528
 L["Gavan Grayfeather <Ears of the Maelstrom>"] = "加文·灰羽 <大漩涡之耳>" -- 112262
-L["Ancient Elemental Altar"] = "古代元素祭坛"
 L["Orono <The Earthen Ring>"] = "奥罗诺 <大地之环>" -- 96745
 L["Mackay Firebeard <The Earthen Ring>"] = "马凯伊·焰须 <大地之环>" -- 96758
 L["Bath'rah the Windwatcher <The Earthen Ring>"] = "补风者巴斯拉 <大地之环>" -- 96747
@@ -229,14 +231,14 @@ L["Bath'rah the Windwatcher <The Earthen Ring>"] = "补风者巴斯拉 <大地�
 -- //////////////////////////
 -- Warlock
 -- //////////////////////////
+L["Felblood Altar"] = "魔血祭坛"
+L["Dreadscar Battle Plans"] = "恐痕作战计画"
+L["Demonic Gateway"] = "恶魔传送门"
 L["Calydus"] = "卡里杜斯"
 L["Unjari Feltongue <The Heartbearer>"] = "乌恩加里·邪语 <持心者>"
-L["Felblood Altar"] = "魔血祭坛"
 L["Lurr <Dreadscar Blacksmith>"] = "鲁尔 <恐痕铁匠>"
 L["Ritssyn Flamescowl <Council of the Black Harvest>"] = "雷特森·焰怒 <黑暗收割议会>"
-L["Dreadscar Battle Plans"] = "恐痕作战计画"
 L["Gakin the Darkbinder <Mission Strategist>"] = "黑暗缚灵者加科图 <任务顾问>"
-L["Demonic Gateway"] = "恶魔传送门"
 L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "琪琪·兆空 <暗影收割议会军需官>"
 L["Mile Raitheborne <Head Archivist>"] = "迈尔·莱瑟伯恩 <首席档案员>"
 L["Jared <Recruiter>"] = "贾瑞德 <征募官>"
@@ -247,19 +249,18 @@ L["Archivist Melinda <Class Hall Upgrades>"] = "档案员麦琳达 <职业大厅
 -- //////////////////////////
 -- Warrior
 -- //////////////////////////
+L["Forge of Odyn"] = "奥丁的熔炉"
+L["Eye of Odyn"] = "奥丁之眼"
 L["Aerylia <Stormflight Master>"] = "艾瑞莉娅 <风暴飞行管理员>"
 L["Quartermaster Durnolf"] = "军需官杜诺夫"
 L["Fjornson Stonecarver <Keeper of Legends>"] = "刻石匠福森 <传说守护者>"
 L["Master Smith Helgar"] = "锻造大师海尔加"
-L["Forge of Odyn"] = "奥丁的熔炉"
 L["Weaponmaster Asvard <Warrior Trainer>"] = "武器大师奥斯瓦德"
 L["Skyseer Ghrent"] = "天空贤者格伦特"
-L["Eye of Odyn"] = "奥丁之眼"
 L["Captain Hjalmar Stahlstrom <Recruiter>"] = "哈尔玛·斯塔索姆队长 <征募官>"
 L["Einar the Runecaster <Class Hall Upgrades>"] = "符文法师艾纳尔 <职业大厅升级>"
 L["Savyn Valorborn <Recruiter>"] = "萨薇·勇裔 <征募官>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·乌尔夫森 <武器军需官>"
-L["Travel to:"] = "传送到："
 --@end-do-not-package@
 --@localization(locale="zhCN", format="lua_additive_table")@
 end

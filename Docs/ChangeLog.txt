@@ -6,7 +6,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 = Change Log =
 ==============
 
-v1.35.04 (Dec. XX, 2016)
+v1.35.04 (Dec. 19, 2016)
 ------------------------
 - Added a few more NPCs in the following class halls:
   - Hunter

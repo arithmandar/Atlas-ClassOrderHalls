@@ -155,8 +155,11 @@ L["Elder Xang <Monk Trainer>"] = "老襄 <武僧訓練師>"
 L["Iron-Body Ponshu <Senior Master Ox>"] = "鐵胴彭舒 <牛上師>"
 L["Lorewalker Cho <Head Archivist>"] = "博學行者阿洲 <首席古卷管理員>"
 L["Lao Li the Quiet <Monk Trainer>"] = "『寡言的』老李 <武僧訓練師>"
--- L["Number Nine Jia <Class Hall Upgrades>"] = "Number Nine Jia <Class Hall Upgrades>" -- 98939
+L["Number Nine Jia <Class Hall Upgrades>"] = "賈九娘 <職業大廳升級>" -- 98939
 L["Wise Scholar Lianji <Senior Master Serpent>"] = "睿智的學者蓮姬 <蛟上師>"
+L["Tianji <Ox Troop Trainer>"] = "田季 <玄牛部隊訓練師>"
+L["High Elder Cloudfall"] = "高階長老雲落"
+L["Gin Lai <Tiger Troop Trainer>"] = "金萊 <白虎部隊訓練師>"
 
 -- //////////////////////////
 -- Paladin
@@ -213,6 +216,7 @@ L["Yancey Grillsen <Bloodsail Recruiter>"] = "楊希·貴爾森 <血帆招募員
 L["Jenri <Spymaster>"] = "簡瑞 <間諜大師>" -- 99863
 L["Valeera Sanguinar"] = "瓦麗拉·桑吉納爾" -- 98102
 L["Garona Halforcen"] = "迦羅娜·半血" -- 94141
+L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>"
 
 -- //////////////////////////
 -- Shaman

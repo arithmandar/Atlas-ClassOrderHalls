@@ -156,6 +156,9 @@ L["Lorewalker Cho <Head Archivist>"] = "Lorewalker Cho <Head Archivist>" -- 1069
 L["Lao Li the Quiet <Monk Trainer>"] = "Lao Li the Quiet <Monk Trainer>" -- 101757
 L["Number Nine Jia <Class Hall Upgrades>"] = "Number Nine Jia <Class Hall Upgrades>" -- 98939
 L["Wise Scholar Lianji <Senior Master Serpent>"] = "Wise Scholar Lianji <Senior Master Serpent>" -- 97776
+L["Tianji <Ox Troop Trainer>"] = "Tianji <Ox Troop Trainer>" -- 105015
+L["High Elder Cloudfall"] = "High Elder Cloudfall" -- 104744
+L["Gin Lai <Tiger Troop Trainer>"] = "Gin Lai <Tiger Troop Trainer>" -- 105019
 
 -- //////////////////////////
 -- Paladin
@@ -212,6 +215,7 @@ L["Yancey Grillsen <Bloodsail Recruiter>"] = "Yancey Grillsen <Bloodsail Recruit
 L["Jenri <Spymaster>"] = "Jenri <Spymaster>" -- 99863
 L["Valeera Sanguinar"] = "Valeera Sanguinar" -- 98102
 L["Garona Halforcen"] = "Garona Halforcen" -- 94141
+L["Mal <Weapons Smuggler>"] = "Mal <Weapons Smuggler>" -- 110348
 
 -- //////////////////////////
 -- Shaman

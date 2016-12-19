@@ -15,6 +15,7 @@ v1.35.04 (Dec. XX, 2016)
   - Rogue
 - Added more NPCs to Shaman's class hall and also fixed the indication 
   of artifact power
+- Monk's class hall map revamped and added more NPCs
 - Localization update:
   - Simplified Chinese (arith)
 

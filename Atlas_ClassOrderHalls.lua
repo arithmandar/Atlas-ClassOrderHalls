@@ -233,16 +233,21 @@ local myData = {
 		{ PURP.." C) "..L["Transportation Mandala"], 10103 };
 		{ INDENT..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["Slash"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
 		{ WHIT.." 1) "..I_REPAIR..L["Caydori Brightstar <Purveyor of Rare Goods>"], 10001 };
-		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Master Hsu <Mission Master>"], 10002 };
+		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Master Hsu <Mission Master>"].."\n"..WHIT..I_CLASS..L["Number Nine Jia <Class Hall Upgrades>"], 10002 };
 		{ INDENT..WHIT..L["Master Hsu <Mission Master>"] };
 		{ INDENT..WHIT..I_CLASS..L["Number Nine Jia <Class Hall Upgrades>"] };
-		{ WHIT.." 3) "..L["Elder Xang <Monk Trainer>"], 10003 };
-		{ WHIT.." 4) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] , 10004 };
+		{ WHIT.." 3) "..I_WORKORDER..L["Tianji <Ox Troop Trainer>"], 10003 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.." 4) "..L["High Elder Cloudfall"], 10004 };
+		{ WHIT.." 5) "..I_WORKORDER..L["Gin Lai <Tiger Troop Trainer>"], 10005 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.." 6) "..L["Elder Xang <Monk Trainer>"], 10006 };
+		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
+		{ WHIT.." 8) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] , 10008 };
 		{ INDENT..WHIT..L["Iron-Body Ponshu <Senior Master Ox>"] };
 		{ INDENT..WHIT..L["Lao Li the Quiet <Monk Trainer>"]..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
 		{ INDENT..WHIT..L["Wise Scholar Lianji <Senior Master Serpent>"]..GREY..ALC["L-Parenthesis"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
-		{ WHIT.." 5) "..I_WORKORDER..L["Lorewalker Cho <Head Archivist>"], 10005 };
-		{ WHIT.." 6) "..L["Training Dummies"], 10006 };
+		{ WHIT.." 9) "..I_WORKORDER..L["Lorewalker Cho <Head Archivist>"], 10009 };
 	};
 	CH_Paladin = {
 		ZoneName = { CL["PALADIN"]..Atlas_GetClassName("PALADIN")..ALC["Hyphen"]..BZ["Sanctum of Light"] };
@@ -323,6 +328,9 @@ local myData = {
 		{ WHIT.."15) "..I_REPAIR..L["Kelsey Steelspark <Quartermaster>"], 10015 };
 		{ WHIT.."16) "..I_WORKORDER..L["Yancey Grillsen <Bloodsail Recruiter>"], 10016 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ WHIT.."17) "..I_WORKORDER..L["Mal <Weapons Smuggler>"], 10017 };
+		{ INDENT..GREY..L["Champion Armaments"] };
+		{ "" };
 	};
 	CH_Shaman = {
 		ZoneName = { CL["SHAMAN"]..Atlas_GetClassName("SHAMAN")..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };

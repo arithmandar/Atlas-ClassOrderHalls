@@ -137,18 +137,21 @@ local myDB = {
 		{  "B", 10200, 224, 353 }; -- Connection
 	};
 	CH_Monk = {
-		{ "A", 10101, 264, 332 }; -- Portal to Dalaran
-		{ "B", 10102, 233, 310 }; -- Portal to Peak of Serenity
-		{ "C", 10103, 272, 243 }; -- Transportation Mandala
-		{ "C", 10103, 228, 243 }; -- Transportation Mandala
-		{ 1, 10001, 237, 346 }; -- Caydori Brightstar <Purveyor of Rare Goods>
-		{ 2, 10002, 268, 358 }; -- Master Hsu <Mission Master>
-		{ 3, 10003, 291, 333 }; -- Elder Xang <Monk Trainer>
-		{ 4, 10004, 250, 253 }; -- Iron-Body Ponshu <Senior Master Ox>
-		{ 5, 10005, 189, 247 }; -- Lorewalker Cho <Head Archivist>
-		{ 6, 10006, 283, 321 }; -- Training Dummies
-		{ 6, 10006, 278, 282 }; -- Training Dummies
-		{ 6, 10006, 229, 283 }; -- Training Dummies
+		{ "A", 10101, 270, 332 }; -- Portal to Dalaran
+		{ "B", 10102, 226, 301 }; -- Portal to Peak of Serenity
+		{ "C", 10103, 281, 204 }; -- Transportation Mandala
+		{ "C", 10103, 220, 204 }; -- Transportation Mandala
+		{ 1, 10001, 224, 362 }; -- Caydori Brightstar <Purveyor of Rare Goods>
+		{ 2, 10002, 278, 377 }; -- Master Hsu <Mission Master>
+		{ 3, 10003, 284, 367 }; -- Tianji <Ox Troop Trainer>
+		{ 4, 10004, 273, 344 }; -- High Elder Cloudfall
+		{ 5, 10005, 302, 339 }; -- Gin Lai <Tiger Troop Trainer>
+		{ 6, 10006, 313, 332 }; -- Elder Xang <Monk Trainer>
+		{ 7, 10007, 296, 324 }; -- Training Dummies
+		{ 7, 10007, 286, 256 }; -- Training Dummies
+		{ 7, 10007, 222, 258 }; -- Training Dummies
+		{ 8, 10008, 250, 211 }; -- Iron-Body Ponshu <Senior Master Ox>
+		{ 9, 10009, 160, 203 }; -- Lorewalker Cho <Head Archivist>
 	};
 	CH_Paladin = {
 		{ "A", 10101, 102, 472 }; -- Entrance
@@ -204,6 +207,7 @@ local myDB = {
 		{ 14, 10014,  90, 139 }; -- Training Dummies
 		{ 15, 10015, 108, 174 }; -- Kelsey Steelspark <Quartermaster>
 		{ 16, 10016, 229, 195 }; -- Yancey Grillsen <Bloodsail Recruiter>
+		{ 17, 10017, 393, 256 }; -- Mal <Weapons Smuggler>
 	};
 	CH_Shaman = {
 		{ "A", 10101, 240, 233 }; -- Portal to Dalaran

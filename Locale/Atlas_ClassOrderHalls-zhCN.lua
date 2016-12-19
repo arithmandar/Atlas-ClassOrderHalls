@@ -46,16 +46,22 @@ L["Travel to:"] = "传送到："
 -- Death Knight
 -- //////////////////////////
 L["Portal to another floor"] = "通往另一层的传送门"
--- L["Soul Forge"] = ""
--- L["Siouxsie the Banshee <Mission Specialist>"] = ""
+L["Soul Forge"] = "灵魂熔炉"
+L["Siouxsie the Banshee <Mission Specialist>"] = "女妖希奥克丝 <任务专员>"
 L["Highlord Darion Mograine"] = "大领主达里安·莫格莱尼"
--- L["Illanna Dreadmoore <Ebon Blade Archivist>"] = ""
--- L["Lord Thorval"] = ""
--- L["Quartermaster Ozorg <Rare Goods Vendor>"] = ""
--- L["Grand Master Siegesmith Corvus"] = ""
--- L["Lady Alistra <Death Knight Trainer>"] = ""
--- L["Dead Collector Bane <Champion Armaments>"] = ""
--- L["Archivist Zubashi <Class Hall Upgrades>"] = ""
+L["Illanna Dreadmoore <Ebon Blade Archivist>"] = "伊兰娜·达德摩尔 <黑锋档案员>"
+L["Lord Thorval"] = "索瓦尔勋爵"
+L["Quartermaster Ozorg <Rare Goods Vendor>"] = "军需官奥佐格 <稀有货物商人>"
+L["Grand Master Siegesmith Corvus"] = "攻城锻造宗师科弗斯"
+L["Lady Alistra <Death Knight Trainer>"] = "奥莉丝塔夫人 <死亡骑士训练师>"
+L["Dead Collector Bane <Champion Armaments>"] = ""
+L["Archivist Zubashi <Class Hall Upgrades>"] = "档案员祖巴什 <职业大厅升级>"
+L["Amal'thazad"] = "阿曼萨加德" -- 93555
+L["Dark Summoner Marogh <Risen Horde Recruiter>"] = "黑暗召唤师马洛格 <复生的部落征募官>" -- 106435
+L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "考加兹·亡斧 <黑锋征募官>" -- 106436
+L["Salanar the Horseman"] = "骑手萨拉纳尔" -- 111480
+L["Thassarian"] = "萨萨里安" -- 93456
+-- L["King Thoras Trollbane"] = "King Thoras Trollbane" -- 113419
 
 -- //////////////////////////
 -- Demon Hunter
@@ -140,16 +146,20 @@ L["Minuette <Armament Summoner>"] = "米娜蒂 <武器召唤师>"
 -- //////////////////////////
 -- Monk
 -- //////////////////////////
--- L["Portal to Peak of Serenity"] = ""
--- L["Forge of the Roaring Mountain"] = ""
--- L["Transportation Mandala"] = ""
--- L["Caydori Brightstar <Purveyor of Rare Goods>"] = ""
--- L["Master Hsu <Mission Master>"] = ""
--- L["Elder Xang <Monk Trainer>"] = ""
--- L["Iron-Body Ponshu <Senior Master Ox>"] = ""
--- L["Lorewalker Cho <Head Archivist>"] = ""
--- L["Lao Li the Quiet <Monk Trainer>"] = ""
--- L["Number Nine Jia <Class Hall Upgrades>"] = ""
+L["Portal to Peak of Serenity"] = "通往晴日峰的传送门"
+L["Forge of the Roaring Mountain"] = "啸山熔炉"
+L["Transportation Mandala"] = "传送器底座"
+L["Caydori Brightstar <Purveyor of Rare Goods>"] = "凯多丽·亮星 <稀有货物承销商>"
+L["Master Hsu <Mission Master>"] = "许大师 <任务主管>"
+L["Elder Xang <Monk Trainer>"] = "桑长老 <武僧训练师>"
+L["Iron-Body Ponshu <Senior Master Ox>"] = "金刚不坏彭戌 <玄牛宗师>"
+L["Lorewalker Cho <Head Archivist>"] = "游学者周卓 <首席档案员>"
+L["Lao Li the Quiet <Monk Trainer>"] = "沉默的老李 <武僧训练师>"
+L["Number Nine Jia <Class Hall Upgrades>"] = "贾九鹤 <职业大厅升级>"
+L["Wise Scholar Lianji <Senior Master Serpent>"] = "神机妙算连继 <青龙宗师>" -- 97776
+L["Tianji <Ox Troop Trainer>"] = "田吉 <玄牛部队训练师>" -- 105015
+L["High Elder Cloudfall"] = "云瀑长老" -- 104744
+L["Gin Lai <Tiger Troop Trainer>"] = "金莱 <白虎部队训练师>" -- 105019
 
 -- //////////////////////////
 -- Paladin
@@ -206,13 +216,14 @@ L["Yancey Grillsen <Bloodsail Recruiter>"] = "扬希·格里尔森 <血帆征兵
 L["Jenri <Spymaster>"] = "杰瑞 <间谍大师>"
 L["Valeera Sanguinar"] = "瓦莉拉·萨古纳尔" -- 98102
 L["Garona Halforcen"] = "半兽人迦罗娜" -- 94141
+L["Mal <Weapons Smuggler>"] = "马尔 <武器走私犯>"
 
 -- //////////////////////////
 -- Shaman
 -- //////////////////////////
 L["Maelstrom Pillar"] = "漩涡之柱"
 L["Ancient Elemental Altar"] = "古代元素祭坛"
--- L["Vortex Pinnacle Portal"] = "Vortex Pinnacle Portal";
+L["Vortex Pinnacle Portal"] = "旋云之巅传送门";
 L["Aggra <Shaman Trainer>"] = "阿格娜 <萨满祭司训练师>"
 L["Elementalist Janai <Earthen Ring>"] = "元素师佳奈 <大地之环>"
 L["Puzzlemaster Lo <The Earthen Ring>"] = "谜题大师老罗 <大地之环>"
@@ -220,13 +231,16 @@ L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "烈焰工匠兰英 <大�
 L["Gorma Windspeaker <Keeper of Legends>"] = "高玛·语风 <传说守护者>"
 L["Tribemother Torra <Shaman Trainer>"] = "女族长托拉 <萨满祭司训练师>"
 L["Advisor Sevel <The Earthen Ring>"] = "顾问塞维尔 <大地之环>"
--- L["Journeyman Goldmine <Class Hall Upgrades>"] = ""
+L["Journeyman Goldmine <Class Hall Upgrades>"] = "新晋萨满金矿 <职业大厅升级>"
 L["Farseer Nobundo <The Earthen Ring>"] = "预言者努波顿 <大地之环>" -- 96528
 L["Gavan Grayfeather <Ears of the Maelstrom>"] = "加文·灰羽 <大漩涡之耳>" -- 112262
 L["Orono <The Earthen Ring>"] = "奥罗诺 <大地之环>" -- 96745
 L["Mackay Firebeard <The Earthen Ring>"] = "马凯伊·焰须 <大地之环>" -- 96758
 L["Bath'rah the Windwatcher <The Earthen Ring>"] = "补风者巴斯拉 <大地之环>" -- 96747
 -- L["Morgl the Oracle <The Earthen Ring>"] = "Morgl the Oracle <大地之环>" -- 112438
+L["Summoner Morn <Elemental Summoner>"] = "召唤师摩恩 <元素召唤师>" -- 106457
+-- L["Neptulon"] = "Neptulon" -- 106291
+L["Felinda Frye <Earthwarden Recruiter>"] = "菲琳达·弗莱伊 <大地卫士征募官>" -- 112208
 
 -- //////////////////////////
 -- Warlock
@@ -244,7 +258,7 @@ L["Mile Raitheborne <Head Archivist>"] = "迈尔·莱瑟伯恩 <首席档案员>
 L["Jared <Recruiter>"] = "贾瑞德 <征募官>"
 L["Imp Mother Dyala <Recruiter>"] = "鬼母德雅拉 <征募官>"
 L["Archivist Melinda <Class Hall Upgrades>"] = "档案员麦琳达 <职业大厅升级>"
--- L["Murr"] = ""
+L["Murr"] = "穆尔"
 
 -- //////////////////////////
 -- Warrior

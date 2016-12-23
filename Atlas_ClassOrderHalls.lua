@@ -266,13 +266,15 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 8) "..L["Katherine the Pure <Paladin Trainer>"], 10008 };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.." 9) "..L["Vindicator Baatun <Paladin Trainer>"], 10009 };
+		{ WHIT.." 9) "..I_WORKORDER..L["Kristoff <Armaments Requisitioner>"], 10009 };
+		{ INDENT..GREY..L["Champion Armaments"] };
+		{ WHIT.."10) "..L["Vindicator Baatun <Paladin Trainer>"], 10010 };
 		{ INDENT..WHIT..L["Brandur Ironhammer <Paladin Trainer>"] };
 		{ INDENT..WHIT..L["Training Dummies"] };
-		{ WHIT.."10) "..I_WORKORDER..L["Commander Born <Silver Hand Officer Recruiter>"], 10010 };
+		{ WHIT.."11) "..I_WORKORDER..L["Commander Born <Silver Hand Officer Recruiter>"], 10011 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
-		{ WHIT.."11) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10011 };
 		{ WHIT.."12) "..L["Valgar Highforge <Grand Smith of the Order>"], 10012 };
+		{ WHIT.."13) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10013 };
 	};
 	CH_Priest = {
 		ZoneName = { CL["PRIEST"]..Atlas_GetClassName("PRIEST")..ALC["Hyphen"]..BZ["Netherlight Temple"] };

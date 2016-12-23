@@ -164,10 +164,11 @@ local myDB = {
 		{ 6, 10006, 192, 397 }; -- Lord Grayson Shadowbreaker <Mission Specialist>
 		{ 7, 10007, 199, 291 }; -- Commander Ansela <Silver Hand Recruiter>
 		{ 8, 10008, 183, 245 }; -- Katherine the Pure <Paladin Trainer>
-		{ 9, 10009, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
-		{ 10, 10010, 246, 200 }; -- Commander Born <Silver Hand Officer Recruiter>
-		{ 11, 10011, 353, 114 }; -- Altar of Ancient Kings
+		{ 9, 10009, 205, 251 }; -- Kristoff <Armaments Requisitioner>
+		{ 10, 10010, 229, 294 }; -- Vindicator Baatun <Paladin Trainer>
+		{ 11, 10011, 246, 200 }; -- Commander Born <Silver Hand Officer Recruiter>
 		{ 12, 10012, 342, 140 }; -- Valgar Highforge <Grand Smith of the Order>
+		{ 13, 10013, 353, 114 }; -- Altar of Ancient Kings
 	};
 	CH_Priest = {
 		{ "A", 10101, 250, 374 }; -- Portal to Dalaran

@@ -97,6 +97,8 @@ local myData = {
 		{ INDENT..WHIT.."12) "..I_WORKORDER..L["Korgaz Deadaxe <Ebon Soldier Recruiter>"], 10012 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT.."13) "..L["Salanar the Horseman"], 10013 };
+		{ INDENT..WHIT.."14) "..I_WORKORDER..L["Dead Collector Bane <Champion Armaments>"], 10014 };
+		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
 	};
 	CH_DemonHunter = {
 		ZoneName = { CL["DEMONHUNTER"]..Atlas_GetClassName("DEMONHUNTER")..ALC["Hyphen"]..BZ["The Fel Hammer"] };

@@ -43,6 +43,7 @@ local myDB = {
 		{ 11, 10011, 393, 210 }; -- Grand Master Siegesmith Corvus
 		{ 12, 10012, 352, 250 }; -- Korgaz Deadaxe <Ebon Soldier Recruiter>
 		{ 13, 10013, 241, 197 }; -- Salanar the Horseman
+		{ 14, 10014, 331, 90  };-- Dead Collector Bane <Champion Armaments>
 	};
 	CH_DemonHunter = {
 		{ "A", 10101, 122, 416 }; -- Illidari Gateway

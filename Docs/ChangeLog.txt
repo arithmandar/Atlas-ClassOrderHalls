@@ -8,7 +8,7 @@ Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
 
 v1.35.05 (Dec. XX, 2016)
 ------------------------
-- Added Armaments Requisitioner to Paladin's hall
+- Added Armaments Requisitioner to Paladin and Deathnight's halls
 
 v1.35.04 (Dec. 19, 2016)
 ------------------------

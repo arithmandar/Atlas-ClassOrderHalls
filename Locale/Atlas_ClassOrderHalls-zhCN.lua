@@ -54,14 +54,14 @@ L["Lord Thorval"] = "索瓦尔勋爵"
 L["Quartermaster Ozorg <Rare Goods Vendor>"] = "军需官奥佐格 <稀有货物商人>"
 L["Grand Master Siegesmith Corvus"] = "攻城锻造宗师科弗斯"
 L["Lady Alistra <Death Knight Trainer>"] = "奥莉丝塔夫人 <死亡骑士训练师>"
-L["Dead Collector Bane <Champion Armaments>"] = ""
+L["Dead Collector Bane <Champion Armaments>"] = "亡灵收藏家贝恩 <勇士武器采购商>"
 L["Archivist Zubashi <Class Hall Upgrades>"] = "档案员祖巴什 <职业大厅升级>"
 L["Amal'thazad"] = "阿曼萨加德" -- 93555
 L["Dark Summoner Marogh <Risen Horde Recruiter>"] = "黑暗召唤师马洛格 <复生的部落征募官>" -- 106435
 L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "考加兹·亡斧 <黑锋征募官>" -- 106436
 L["Salanar the Horseman"] = "骑手萨拉纳尔" -- 111480
 L["Thassarian"] = "萨萨里安" -- 93456
--- L["King Thoras Trollbane"] = "King Thoras Trollbane" -- 113419
+L["King Thoras Trollbane"] = "索拉斯·托尔贝恩国王" -- 113419
 
 -- //////////////////////////
 -- Demon Hunter
@@ -170,7 +170,7 @@ L["Lord Grayson Shadowbreaker <Mission Specialist>"] = "格雷森·沙东布瑞�
 L["Katherine the Pure <Paladin Trainer>"] = "纯洁的凯瑟琳 <圣骑士训练师>"
 L["Vindicator Baatun <Paladin Trainer>"] = "守备官巴顿 <圣骑士训练师>"
 L["Eadric the Pure <Quartermaster>"] = "纯洁者耶德瑞克 <军需官>"
---L["Kristoff <Armaments Requisitioner>"] = ""
+L["Kristoff <Armaments Requisitioner>"] = "克里斯托弗 <武器军需官>"
 L["Brandur Ironhammer <Paladin Trainer>"] = "布兰度尔·铁锤 <圣骑士训练师>"
 L["Sir Alamande Graythorn <Class Hall Upgrades>"] = "阿拉曼德·格雷索恩爵士 <职业大厅升级>"
 L["Commander Ansela <Silver Hand Recruiter>"] = "指挥官安瑟拉 <白银之手征募员>"

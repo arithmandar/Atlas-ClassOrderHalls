@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -35,6 +35,7 @@ local _RED = "|cffcc3333";
 local ORNG = "|cffcc9933";
 local PURP = "|cff9900ff";
 local WHIT = "|cffffffff";
+local LBLU = "|cff33cccc";
 local CYAN = "|cff00ffff";
 local GREY = "|cff999999";
 local ALAN = "|cff7babe0"; -- Alliance's taxi node
@@ -43,12 +44,13 @@ local NUTL = "|cfffee570"; -- Nutral taxi node
 local INDENT = "      ";
 
 -- Icons
-local I_REPAIR = "\124TInterface\\MINIMAP\\TRACKING\\Repair:0:0\124t";
-local I_CLASS = "\124TInterface\\MINIMAP\\TRACKING\\Class:0:0\124t";
-local I_PROFF = "\124TInterface\\MINIMAP\\TRACKING\\Profession:0:0\124t";
-local I_FLIGHT = "\124TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0\124t";
-local I_WORKORDER = "\124TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0\124t";
-local I_CMISSION = "\124TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0\124t";
+local I_REPAIR = "|TInterface\\MINIMAP\\TRACKING\\Repair:0:0|t";
+local I_CLASS = "|TInterface\\MINIMAP\\TRACKING\\Class:0:0|t";
+local I_PROFF = "|TInterface\\MINIMAP\\TRACKING\\Profession:0:0|t";
+local I_FLIGHT = "|TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0|t";
+local I_WORKORDER = "|TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0|t";
+local I_CMISSION = "|TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0|t";
+local I_RESEARCH = "|TInterface\\ICONS\\INV_Scroll_11:0:0|t";
 
 local CL = {
 	["DEATHKNIGHT"]	= "|cffc41f3b";
@@ -79,7 +81,7 @@ local myData = {
 		{ INDENT..WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Siouxsie the Banshee <Mission Specialist>"].."\n"..WHIT..L["Highlord Darion Mograine"], 10002 };
 		{ INDENT..INDENT..WHIT..L["Siouxsie the Banshee <Mission Specialist>"] };
 		{ INDENT..INDENT..WHIT..L["Highlord Darion Mograine"] };
-		{ INDENT..WHIT.." 3) "..I_WORKORDER..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10003 };
+		{ INDENT..WHIT.." 3) "..I_RESEARCH..L["Illanna Dreadmoore <Ebon Blade Archivist>"], 10003 };
 		{ INDENT..WHIT.." 4) "..I_CLASS..L["Archivist Zubashi <Class Hall Upgrades>"], 10004 };
 		{ INDENT..WHIT.." 5) "..L["Lord Thorval"], 10005 };
 		{ INDENT..WHIT.." 6) "..I_WORKORDER..L["Dark Summoner Marogh <Risen Horde Recruiter>"], 10006 };
@@ -99,6 +101,43 @@ local myData = {
 		{ INDENT..WHIT.."13) "..L["Salanar the Horseman"], 10013 };
 		{ INDENT..WHIT.."14) "..I_WORKORDER..L["Dead Collector Bane <Champion Armaments>"], 10014 };
 		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_DemonHunter = {
 		ZoneName = { CL["DEMONHUNTER"]..Atlas_GetClassName("DEMONHUNTER")..ALC["Hyphen"]..BZ["The Fel Hammer"] };
@@ -133,6 +172,42 @@ local myData = {
 		{ INDENT..WHIT.."17) "..I_PROFF..L["Cursed Forge of the Nathrezim"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10017 };
 		{ INDENT..WHIT.."18) "..L["Seer Akalu <Nathrezim Scholar>"], 10018 };
 		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Druid = {
 		ZoneName = { CL["DRUID"]..Atlas_GetClassName("DRUID")..ALC["Hyphen"]..BZ["The Dreamgrove"] };
@@ -160,6 +235,43 @@ local myData = {
 		{ INDENT..WHIT..L["Mylune"] };
 		{ WHIT.."12) "..L["Zen'kiki"], 10012 };
 		{ WHIT.."13) "..L["Training Dummies"], 10013 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Hunter = {
 		ZoneName = { CL["HUNTER"]..Atlas_GetClassName("HUNTER")..ALC["Hyphen"]..BZ["Trueshot Lodge"] };
@@ -188,6 +300,43 @@ local myData = {
 		{ WHIT.."13) "..L["Ogdrul <The Seeker>"], 10013 };
 		{ WHIT.."14) "..I_WORKORDER..L["Berger the Steadfast <Champion Armaments>"], 10014 };
 		{ INDENT..GREY..L["Champion Armaments"] };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Mage = {
 		ZoneName = { CL["MAGE"]..Atlas_GetClassName("MAGE")..ALC["Hyphen"]..BZ["Hall of the Guardian"] };
@@ -225,6 +374,42 @@ local myData = {
 		{ INDENT..WHIT.."15) "..I_WORKORDER..L["Minuette <Armament Summoner>"], 10015 };
 		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
 		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Monk = {
 		ZoneName = { CL["MONK"]..Atlas_GetClassName("MONK")..ALC["Hyphen"]..BZ["Temple of Five Dawns"] };
@@ -250,6 +435,43 @@ local myData = {
 		{ INDENT..WHIT..L["Lao Li the Quiet <Monk Trainer>"]..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
 		{ INDENT..WHIT..L["Wise Scholar Lianji <Senior Master Serpent>"]..GREY..ALC["L-Parenthesis"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
 		{ WHIT.." 9) "..I_WORKORDER..L["Lorewalker Cho <Head Archivist>"], 10009 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Paladin = {
 		ZoneName = { CL["PALADIN"]..Atlas_GetClassName("PALADIN")..ALC["Hyphen"]..BZ["Sanctum of Light"] };
@@ -277,6 +499,43 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.."12) "..L["Valgar Highforge <Grand Smith of the Order>"], 10012 };
 		{ WHIT.."13) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10013 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Priest = {
 		ZoneName = { CL["PRIEST"]..Atlas_GetClassName("PRIEST")..ALC["Hyphen"]..BZ["Netherlight Temple"] };
@@ -301,6 +560,43 @@ local myData = {
 		{ WHIT.."13) "..L["Training Dummies"], 10013 };
 		{ WHIT.."14) "..I_WORKORDER..L["Lilith <Armament Supplier>"], 10014 };
 		{ INDENT..GREY..L["Champion Armaments"] };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Rogue = {
 		ZoneName = { CL["ROGUE"]..Atlas_GetClassName("ROGUE")..ALC["Hyphen"]..BZ["The Hall of Shadows"] };
@@ -335,6 +631,42 @@ local myData = {
 		{ WHIT.."17) "..I_WORKORDER..L["Mal <Weapons Smuggler>"], 10017 };
 		{ INDENT..GREY..L["Champion Armaments"] };
 		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Shaman = {
 		ZoneName = { CL["SHAMAN"]..Atlas_GetClassName("SHAMAN")..ALC["Hyphen"]..BZ["The Heart of Azeroth"] };
@@ -365,6 +697,43 @@ local myData = {
 		{ WHIT.."15) "..L["Tribemother Torra <Shaman Trainer>"], 10015 };
 		{ WHIT.."16) "..L["Morgl the Oracle <The Earthen Ring>"], 10016 };
 		{ WHIT.."17) "..L["Neptulon"], 10017 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Warlock = {
 		ZoneName = { CL["WARLOCK"]..Atlas_GetClassName("WARLOCK")..ALC["Hyphen"]..BZ["Dreadscar Rift"] };
@@ -389,6 +758,43 @@ local myData = {
 		{ WHIT.."10) "..I_WORKORDER..L["Imp Mother Dyala <Recruiter>"], 10010 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.."11) "..L["Training Dummies"], 10011 };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
 	};
 	CH_Warrior = {
 		ZoneName = { CL["WARRIOR"]..Atlas_GetClassName("WARRIOR")..ALC["Hyphen"]..BZ["Skyhold"] };
@@ -420,6 +826,42 @@ local myData = {
 		{ WHIT.."11) "..L["Training Dummies"], 10011 };
 		{ WHIT.."12) "..Atlas_GetBossName("Hymdall", 1485), 10012 }; -- Note that here we should use customized NPC ID as Hymdall here isn't a boss from dungeon.
 		{ WHIT.."13) "..Atlas_GetBossName("Odyn", 1489), 10013 }; -- Note that here we should use customized NPC ID as Odyn here isn't a boss from dungeon.
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
 		{ "" };
 	};
 };

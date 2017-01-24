@@ -4,7 +4,7 @@
 	Atlas, a World of Warcraft instance map browser
 	Copyright 2005 ~ 2010 - Dan Gilbert <dan.b.gilbert@gmail.com>
 	Copyright 2010 - Lothaer <lothayer@gmail.com>, Atlas Team
-	Copyright 2011 ~ 2016 - Arith Hsu, Atlas Team <atlas.addon@gmail.com>
+	Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 
@@ -33,6 +33,7 @@ if L then
 -- Common
 -- //////////////////////////
 L["Class Order Hall Maps"] = "職業大廳地圖"
+L["Class Hall"] = "職業大廳"
 L["Portal to Dalaran"] = "達拉然傳送門"
 L["Training Dummies"] = "訓練假人"
 L["Travel to Dalaran"] = "前往達拉然"

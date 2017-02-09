@@ -6,6 +6,9 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.37.02 (Feb. xx, 2017)
+------------------------
+
 v1.37.01 (Feb. 09, 2017)
 ------------------------
 - Localization update:

@@ -1,4 +1,4 @@
-﻿## Interface: 70100
+﻿## Interface: 70200
 #@non-debug@
 ## Title: @localization(locale="enUS", key="Title", namespace="ToC")@
 ## Title-deDE: @localization(locale="deDE", key="Title", namespace="ToC")@
@@ -29,7 +29,7 @@
 ## Notes: Map of Class Order Halls
 ## Notes-zhTW: Atlas 職業大廳地圖
 #@end-debug@
-## Version: 1.37.02
+## Version: 1.39.00
 ## Author: arith
 ## X-Date: @project-date-iso@
 ## X-Email: atlas.addon at gmail.com

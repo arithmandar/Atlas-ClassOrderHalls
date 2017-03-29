@@ -6,6 +6,12 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.39.01 (Mar. 29, 2017)
+------------------------
+- Localization update:
+  - Simplified Chinese (ananhaid)
+- Updated some of the strings to use dynamic string combination
+
 v1.39.00 (Mar. 27, 2017)
 ------------------------
 - Toc update to support WoW 7.2

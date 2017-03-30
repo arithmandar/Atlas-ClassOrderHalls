@@ -808,6 +808,7 @@ local myData = {
 		{ INDENT..INDENT..GREY..BZ["Thunder Totem"]..ALC["Comma"]..BZ["Highmountain"] };
 		{ INDENT..INDENT..GREY..BZ["Valdisdall"]..ALC["Comma"]..BZ["Stormheim"] };
 		{ INDENT..INDENT..GREY..BZ["Meredil"]..ALC["Comma"]..BZ["Suramar"] };
+		{ INDENT..INDENT..GREY..BZ["Deliverance Point"]..ALC["Comma"]..BZ["Broken Shore"] };
 		{ WHIT.." 1) "..I_CMISSION..L["Eye of Odyn"]..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..L["Skyseer Ghrent"], 10001 };
 		{ INDENT..WHIT..L["Skyseer Ghrent"] };
 		{ WHIT.." 2) "..I_WORKORDER..L["Captain Hjalmar Stahlstrom <Recruiter>"], 10002 };

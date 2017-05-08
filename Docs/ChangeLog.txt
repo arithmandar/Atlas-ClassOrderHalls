@@ -6,6 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.01 (May 08, 2017)
+------------------------
+- Corrected the tooltips for Lady Alistra and Soul Forge / Grand Master 
+  Siegesmith Corvus in Death Knight Map
+
 v1.41.00 (Apr. 14, 2017)
 ------------------------
 - Priest order hall map revamped

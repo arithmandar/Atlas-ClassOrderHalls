@@ -93,8 +93,8 @@ local myData = {
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
 		{ INDENT..WHIT.." 8) "..L["Training Dummies"], 10008 };
 		{ INDENT..WHIT.." 9) "..I_REPAIR..L["Quartermaster Ozorg <Rare Goods Vendor>"], 10009 };
-		{ INDENT..WHIT.."10) "..L["Lady Alistra <Death Knight Trainer>"], 10011 };
-		{ INDENT..WHIT.."11) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Grand Master Siegesmith Corvus"], 10010 };
+		{ INDENT..WHIT.."10) "..L["Lady Alistra <Death Knight Trainer>"], 10010 };
+		{ INDENT..WHIT.."11) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..L["Grand Master Siegesmith Corvus"], 10011 };
 		{ INDENT..INDENT..WHIT..L["Grand Master Siegesmith Corvus"] };
 		{ INDENT..WHIT.."12) "..I_WORKORDER..L["Korgaz Deadaxe <Ebon Soldier Recruiter>"], 10012 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
@@ -221,7 +221,7 @@ local myData = {
 		{ WHIT.." 3) "..I_WORKORDER..L["Sister Lilith <Recruiter>"], 10003 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 4) "..I_CLASS..L["Leafbeard the Storied <Ancient of Lore>"], 10004 };
-		{ INDENT..GREY..GARRISON_TALENT_ORDER_ADVANCEMENT };
+		{ INDENT..GREY..ORDER_HALL_TALENT_TITLE };
 		{ WHIT.." 5) "..I_WORKORDER..L["Celadine the Fatekeeper <Dreamgrove Researcher>"], 10005 };
 		{ WHIT.." 6) "..I_WORKORDER..L["Yaris Darkclaw <Recruiter>"], 10006 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
@@ -614,7 +614,7 @@ local myData = {
 		{ WHIT.." 5) "..L["Garona Halforcen"], 10005 };
 		{ WHIT.." 6) "..I_WORKORDER..L["Filius Sparkstache <Archivist>"], 10006 };
 		{ WHIT.." 7) "..I_CLASS..L["Winstone Wolfe <The Wolf>"], 10007 };
-		{ INDENT..GREY..GARRISON_TALENT_ORDER_ADVANCEMENT };
+		{ INDENT..GREY..ORDER_HALL_TALENT_TITLE };
 		{ WHIT.." 8) "..L["Marin Noggenfogger <Baron of Gadgetzan>"], 10008 };
 		{ WHIT.." 9) "..I_PROFF..L["Crucible of the Uncrowned"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10009 };
 		{ WHIT.."10) "..L["Lorena Belle <Master Smuggler>"], 10010 };

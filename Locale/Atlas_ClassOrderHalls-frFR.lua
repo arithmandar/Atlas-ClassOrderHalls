@@ -224,5 +224,5 @@ if L then
 	L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Réquisition d’armement>"
 	-- L["Travel to:"] = ""
 --@end-do-not-package@
---@localization(locale="frFR", format="lua_additive_table")@
+--@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

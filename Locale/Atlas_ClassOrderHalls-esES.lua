@@ -28,5 +28,5 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "esES", false);
 
 if L then
---@localization(locale="esES", format="lua_additive_table")@
+--@localization(locale="esES", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

@@ -275,5 +275,5 @@ L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar der Runenmagier <Aufwer
 L["Savyn Valorborn <Recruiter>"] = "Savyn Ehrenstolz <Rekrutiererin>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Waffenlieferant>"
 --@end-do-not-package@
---@localization(locale="deDE", format="lua_additive_table")@
+--@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

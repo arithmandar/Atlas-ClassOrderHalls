@@ -179,6 +179,8 @@ L["Lord Maxwell Tyrosus"] = "麥斯威爾·泰羅索斯領主"
 L["Commander Born <Silver Hand Officer Recruiter>"] = "指揮官伯恩 <白銀之手軍官招募員>"
 L["Valgar Highforge <Grand Smith of the Order>"] = "瓦爾加·高爐 <白銀之手大鐵匠>" -- 90261
 L["Lord Irulon Trueblade"] = "埃盧隆·真刃領主" -- 99947
+L["Terric the Illuminator"] = "『高風亮節』泰瑞克" -- 111772
+L["Silver Hand Orders"] = "白銀之手命令"
 
 -- //////////////////////////
 -- Priest
@@ -276,6 +278,8 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <�
 L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>"
 L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>"
+L["Hymdall"] = "海姆達爾" -- 107987
+L["Odyn"] = "歐丁" -- 96469
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

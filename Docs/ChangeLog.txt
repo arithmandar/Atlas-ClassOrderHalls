@@ -10,6 +10,8 @@ v1.41.02 (May 19, 2017)
 ------------------------
 - Added Terric the Illuminator in Paladin's order hall
 - IntroduceAtlas:GetCreatureName function to lookup NPC's localized names
+- Localization update:
+  - German (pas06)
 
 v1.41.01 (May 08, 2017)
 ------------------------

@@ -6,6 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.02 (May 19, 2017)
+------------------------
+- Added Terric the Illuminator in Paladin's order hall
+- IntroduceAtlas:GetCreatureName function to lookup NPC's localized names
+
 v1.41.01 (May 08, 2017)
 ------------------------
 - Corrected the tooltips for Lady Alistra and Soul Forge / Grand Master 

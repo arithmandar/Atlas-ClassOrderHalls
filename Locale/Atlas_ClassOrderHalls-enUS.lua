@@ -25,7 +25,7 @@
 --]]
 
 local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
-local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "enUS", true);
+local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "enUS", true, true);
 
 if L then
 -- //////////////////////////
@@ -178,6 +178,8 @@ L["Lord Maxwell Tyrosus"] = "Lord Maxwell Tyrosus" -- 90259
 L["Commander Born <Silver Hand Officer Recruiter>"] = "Commander Born <Silver Hand Officer Recruiter>" -- 106448
 L["Valgar Highforge <Grand Smith of the Order>"] = "Valgar Highforge <Grand Smith of the Order>" -- 90261
 L["Lord Irulon Trueblade"] = "Lord Irulon Trueblade" -- 99947
+L["Terric the Illuminator"] = "Terric the Illuminator" -- 111772
+L["Silver Hand Orders"] = "Silver Hand Orders"
 
 -- //////////////////////////
 -- Priest
@@ -275,4 +277,6 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Captain Hjalmar Stahlstrom <Recru
 L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar the Runecaster <Class Hall Upgrades>" -- 107994 
 L["Savyn Valorborn <Recruiter>"] = "Savyn Valorborn <Recruiter>" -- 106460
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Armaments Requisitioner>" -- 110437
+L["Hymdall"] = "Hymdall" -- 107987
+L["Odyn"] = "Odyn" -- 96469
 end

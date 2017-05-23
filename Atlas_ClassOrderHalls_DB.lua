@@ -163,7 +163,7 @@ local myDB = {
 		{ 9, 106942, 160, 203 }; -- Lorewalker Cho <Head Archivist>
 	};
 	CH_Paladin = {
-		{ "A", 10101, 102, 472 }; -- Entrance
+		{ "A", 10101, 128, 444 }; -- Entrance
 		{ "A", 10102, 75, 327 }; -- Portal to Dalaran
 		{ 1, 91190,  75, 293 }; -- Sister Elda <Keeper of the Ancient Tomes>
 		{ 2, 109901,  96, 289 }; -- Sir Alamande Graythorn <Class Hall Upgrades>
@@ -179,6 +179,7 @@ local myDB = {
 		{ 12, 90261, 342, 140 }; -- Valgar Highforge <Grand Smith of the Order>
 		{ 13, 10013, 353, 114 }; -- Altar of Ancient Kings
 		{ 14, 111772, 377, 176 }; -- Terric the Illuminator
+		{ 15, 120146, 269, 221 }; -- Crusader Kern <Silver Hand Crusader Recruiter>
 	};
 	CH_Priest = {
 		{ "A", 10101, 250, 374 }; -- Portal to Dalaran

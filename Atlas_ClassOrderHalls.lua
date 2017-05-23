@@ -580,7 +580,9 @@ local myData = {
 		{ WHIT.."12) "..LC("Valgar Highforge <Grand Smith of the Order>", 90261), 90261 };
 		{ WHIT.."13) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10013 };
 		{ WHIT.."14) "..I_WORKORDER..LC("Terric the Illuminator", 111772).."\n"..GREY..ALC["L-Parenthesis"]..L["Silver Hand Orders"]..ALC["R-Parenthesis"], 111772 };
-		{ INDENT..GREY..L["Silver Hand Orders"] };
+		{ INDENT..GREY..L["Silver Hand Orders"]..ALC["Hyphen"]..L["Requires Grand Crusade order advancement"] };
+		{ WHIT.."15) "..I_WORKORDER..LC("Crusader Kern <Silver Hand Crusader Recruiter>", 120146), 120146 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Silver Hand Crusaders order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };

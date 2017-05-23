@@ -95,13 +95,15 @@ end
 local myCategory = L["Class Order Hall Maps"];
 
 local myData = {
-	CH_DeathKnight = {
-		ZoneName = { CL["DEATHKNIGHT"]..Atlas_GetClassName("DEATHKNIGHT")..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"] };
+	CH_DeathKnightLower = {
+		ZoneName = { CL["DEATHKNIGHT"]..Atlas_GetClassName("DEATHKNIGHT")..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"]..ALC["L-Parenthesis"]..ALC["Lower"]..ALC["R-Parenthesis"] };
 		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
+		DungeonLevel = "2";
 		{ ORNG..ALC["Lower"]..ALC["Hyphen"]..BZ["Hall of Command"] };
 		{ INDENT..PURP.." A) "..format(ALC["Portal to %s"], BZ["Dalaran"]), 10101 };
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
+		{ INDENT..PURP.." B) "..L["Portal to the roof"], 10103 };
 		{ INDENT..WHIT.." 1) "..I_FLIGHT..MINIMAP_TRACKING_FLIGHTMASTER, 10001 };
 		{ INDENT..WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..Atlas:GetBossName(L["Siouxsie the Banshee <Mission Specialist>"], 93568).."\n"..WHIT..Atlas:GetBossName(L["Highlord Darion Mograine"], 93437), 10002 };
 		{ INDENT..INDENT..WHIT..LC("Siouxsie the Banshee <Mission Specialist>", 93568), 93568 };
@@ -114,17 +116,64 @@ local myData = {
 		{ INDENT..WHIT.." 7) "..LC("Amal'thazad", 93555).."\n"..WHIT..LC("Thassarian", 93456).."\n"..WHIT..LC("King Thoras Trollbane", 113419), 93555 };
 		{ INDENT..INDENT..WHIT..LC("Thassarian", 93456), 93456 };
 		{ INDENT..INDENT..WHIT..LC("King Thoras Trollbane", 113419), 113419 };
+		{ INDENT..WHIT.." 8) "..LC("Winter Payne", 111634), 111634 };
+		{ INDENT..INDENT..GREY..L["Frost Crux"]..ALC["Hyphen"]..L["Requires Frost Wyrm work order advancement"] };
+		{ INDENT..WHIT.." 9) "..LC("Eran Droll <Ebon Knight Frostreavers Recruiter>", 120135), 120135 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Frost and Death order advancement"] };
+		{ "" };
+		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
+		{ LBLU..L["Class Hall"] };
+		{ "A Classy Outfit", "ac=11298" };
+		{ "A Glorious Campaign", "ac=10994" };
+		{ "A Heroic Campaign", "ac=11135" };
+		{ "An Epic Campaign", "ac=11136" };
+		{ "Legendary Research", "ac=11223" };
+		{ LBLU..ITEM_QUALITY6_DESC };
+		{ "Arsenal of Power", "ac=11171" };
+		{ "Artifact or Artifiction", "ac=10852" };
+		{ "Fighting with Style: Classic", "ac=10461" };
+		{ "Fighting with Style: Upgraded", "ac=10747" };
+		{ "Fighting with Style: Valorous", "ac=10748" };
+		{ "Fighting with Style: War-torn", "ac=10749" };
+		{ "Fighting with Style: War-torn", "ac=11173" };
+		{ "Forged for Battle", "ac=10746" };
+		{ "Honoring the Past", "ac=11143" };
+		{ "Improving on History", "ac=10459" };
+		{ "Part of History", "ac=10853" };
+		{ "Power Realized", "ac=11144" };
+		{ "The Prestige", "ac=10745" }; -- Horde
+		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ LBLU..ORDER_HALL_MISSIONS };
+		{ "Champions of Power", "ac=11222" };
+		{ "Champions Rise", "ac=11221" };
+		{ "Lead a Legion", "ac=11213" };
+		{ "Many Many Missions, Handle It!", "ac=11217" };
+		{ "Many Missions", "ac=11214" };
+		{ "Need Backup", "ac=11219" };
+		{ "Quite a Few Missions", "ac=11215" };
+		{ "Raise an Army", "ac=11212" };
+		{ "Roster of Champions", "ac=11220" };
+		{ "So Many Missions", "ac=11216" };
+		{ "There's a Boss In There", "ac=11218" };
+		{ "Training the Troops", "ac=10706" };
+		{ "" };
+	};
+	CH_DeathKnightUpper = {
+		ZoneName = { CL["DEATHKNIGHT"]..Atlas_GetClassName("DEATHKNIGHT")..ALC["Hyphen"]..BZ["Acherus: The Ebon Hold"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] };
+		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
+		WorldMapID = "1021";
+		DungeonLevel = "1";
 		{ ORNG..ALC["Upper"]..ALC["Hyphen"]..BZ["The Heart of Acherus"] };
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
-		{ INDENT..WHIT.." 8) "..L["Training Dummies"], 10008 };
-		{ INDENT..WHIT.." 9) "..I_REPAIR..LC("Quartermaster Ozorg <Rare Goods Vendor>", 93550), 93550 };
-		{ INDENT..WHIT.."10) "..LC("Lady Alistra <Death Knight Trainer>", 93509), 93509 };
-		{ INDENT..WHIT.."11) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Grand Master Siegesmith Corvus", 97072), 10011 };
+		{ INDENT..WHIT.."10) "..L["Training Dummies"], 10010 };
+		{ INDENT..WHIT.."11) "..I_REPAIR..LC("Quartermaster Ozorg <Rare Goods Vendor>", 93550), 93550 };
+		{ INDENT..WHIT.."12) "..LC("Lady Alistra <Death Knight Trainer>", 93509), 93509 };
+		{ INDENT..WHIT.."13) "..I_PROFF..L["Soul Forge"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Grand Master Siegesmith Corvus", 97072), 10011 };
 		{ INDENT..INDENT..WHIT..LC("Grand Master Siegesmith Corvus", 97072), 97072 };
-		{ INDENT..WHIT.."12) "..I_WORKORDER..LC("Korgaz Deadaxe <Ebon Soldier Recruiter>", 106436), 106436 };
+		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Korgaz Deadaxe <Ebon Soldier Recruiter>", 106436), 106436 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
-		{ INDENT..WHIT.."13) "..LC("Salanar the Horseman", 111480), 111480 };
-		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Dead Collector Bane <Champion Armaments>", 110410), 110410 };
+		{ INDENT..WHIT.."15) "..LC("Salanar the Horseman", 111480), 111480 };
+		{ INDENT..WHIT.."16) "..I_WORKORDER..LC("Dead Collector Bane <Champion Armaments>", 110410), 110410 };
 		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };

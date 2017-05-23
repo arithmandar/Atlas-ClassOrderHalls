@@ -47,6 +47,7 @@ L["Travel to:"] = "旅行到："
 -- Death Knight
 -- //////////////////////////
 L["Portal to another floor"] = "至另一層的傳送門"
+L["Portal to the roof"] = "至屋頂的傳送門"
 L["Soul Forge"] = "靈魂熔爐"
 L["Siouxsie the Banshee <Mission Specialist>"] = "『女妖』席厄克希 <任務官>"
 L["Highlord Darion Mograine"] = "大領主達瑞安·莫格萊尼"
@@ -56,13 +57,18 @@ L["Quartermaster Ozorg <Rare Goods Vendor>"] = "軍需官歐索格 <稀有物品
 L["Grand Master Siegesmith Corvus"] = "攻城鐵匠大宗師寇孚斯"
 L["Lady Alistra <Death Knight Trainer>"] = "雅莉絲翠女士 <死亡騎士訓練師>"
 L["Dead Collector Bane <Champion Armaments>"] = "死亡收藏家班恩 <勇士武裝>" -- 110410
-L["Archivist Zubashi <Class Hall Upgrades>"] = "古卷管理者祖巴席 <職業大廳升級>" -- 97485
+L["Archivist Zubashi <Class Hall Upgrades>"] = "古卷管理者祖巴席 <職業大廳升級官>" -- 97485
 L["Amal'thazad"] = "艾默薩扎德"
 L["Dark Summoner Marogh <Risen Horde Recruiter>"] = "黑暗召喚師馬洛 <復活大軍招募者>"
 L["Korgaz Deadaxe <Ebon Soldier Recruiter>"] = "寇格茲·亡斧 <黯刃士兵招募員>"
 L["Salanar the Horseman"] = "『騎士』撒拉納"
 L["Thassarian"] = "薩沙理安"
 L["King Thoras Trollbane"] = "索拉斯·托爾貝恩國王"
+L["Requires Frost Wyrm work order advancement"] = "需要「冰霜巨龍」的職業大廳升級"
+L["Frost Crux"] = "冰霜十字"
+L["Requires Frost and Death order advancement"] = "需要「冰霜與死亡」的職業大廳升級"
+L["Eran Droll <Ebon Knight Frostreavers Recruiter>"] = "厄蘭·卓爾 <黯刃騎士霜劫者招募官>" -- 120135
+L["Winter Payne"] = "寒冬派恩"-- 111634
 
 -- //////////////////////////
 -- Demon Hunter
@@ -81,10 +87,14 @@ L["Asha Ravensong <Illidari>"] = "雅夏·鴉曲 <伊利達瑞>"
 L["Izal Whitemoon <Illidari Trainer>"] = "伊薩爾·皎月 <伊利達瑞訓練師>"
 L["Seer Akalu <Nathrezim Scholar>"] = "先知阿卡路 <納斯雷茲姆學者>"
 L["Kor'vas Bloodthorn <Illidari>"] = "珂娃絲·血棘 <伊利達瑞>"
-L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <職業大廳升級>"
+L["Loramus Thalipedes <Class Hall Upgrades>"] = "洛拉姆斯·薩里比迪斯 <職業大廳升級官>"
 L["Belath Dawnblade <Illidari>"] = "貝拉斯·曦刃 <伊利達瑞>"
 L["Ariana Fireheart <Illidari>"] = "亞莉安娜·炎心 <伊利達瑞>"
 L["Slitesh <Armaments Requisitioner>"] = "伽絲 <武裝徵調員>"
+L["Requires Fel Hammer's Wrath order advancement"] = "需要「魔錘號之怒」的職業大廳升級"
+L["Empowered Rift Core"] = "強力裂隙核心"
+L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
+L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
 
 -- //////////////////////////
 -- Druid
@@ -103,6 +113,11 @@ L["Skylord Omnuron <Mission Specialist>"] = "傲天者歐姆奴隆 <任務官>"
 L["Zen'kiki"] = "贊基奇"
 L["Yaris Darkclaw <Recruiter>"] = "亞里斯·暗爪 <招募員>"
 L["Mylune"] = "蜜露恩"
+L["Requires Wardens of the Grove order advancement"] = "需要「林地看守者」的職業大廳升級"
+L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "夏隆星 <幻夢之林看守者招募員>" -- 108391
+L["Treant Sapling <Ancient of War Tender>"] = "樹人幼苗 <戰爭古樹看管者>" -- 111786
+L["Requires Ancient of War order advancement"] = "需要「戰爭古樹」的職業大廳升級"
+--L["Ancient of War"] = "Ancient of War"
 
 -- //////////////////////////
 -- Hunter
@@ -116,13 +131,15 @@ L["Tactician Tinderfell <Unseen Path>"] = "謀士柴薪 <隱獵團>"
 L["Holt Thunderhorn <Lore and Legends>"] = "浩特·雷角 <故事與傳說>"
 L["Loren Stormhoof <Skyhorn Emissary>"] = "洛倫·風暴之蹄 <天角部族使者>"
 L["Lenara <Recruiter>"] = "蕾娜拉 <招募員>"
-L["Survivalist Bahn <Class Hall Upgrades>"] = "生存專家巴恩 <職業大廳升級>"
+L["Survivalist Bahn <Class Hall Upgrades>"] = "生存專家巴恩 <職業大廳升級官>"
 L["Sampson <Recruiter>"] = "山普森 <招募員>"
 L["Pan the Kind Hand <Stable Master>"] = "『仁慈之手』盼 <獸欄管理員>"
 L["Great Eagle"] = "巨鷹"
 L["Ogdrul <The Seeker>"] = "奧格度 <追尋者>"
 L["Image of Mimiron"] = "彌米倫的影像"
 L["Berger the Steadfast <Champion Armaments>"] = "堅定的伯格 <勇士武裝>" -- 110412
+L["Requires Born of the Night order advancement"] = "需要「黑夜之喬」的職業大廳升級"
+L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "暗夜女獵手希樂絲 <夜裔獵人招募員>" -- 106445
 
 -- //////////////////////////
 -- Mage
@@ -130,7 +147,7 @@ L["Berger the Steadfast <Champion Armaments>"] = "堅定的伯格 <勇士武裝>
 L["Forge of the Guardian"] = "守護者熔爐"
 L["Edirah <Tirisgarde Researcher>"] = "艾迪洛 <提里斯護法研究員>"
 L["Jackson Watkins <Tirisgarde Quartermaster>"] = "傑克森·沃金斯 <提里斯護法軍需官>"
-L["Chronicler Elrianne <Class Hall Upgrades>"] = "撰史者艾麗安 <職業大廳升級>"
+L["Chronicler Elrianne <Class Hall Upgrades>"] = "撰史者艾麗安 <職業大廳升級官>"
 L["Archmage Omniara <Recruiter>"] = "大法師歐妮雅拉 <招募員>"
 L["Archmage Melis <Mistress of Flame>"] = "大法師梅莉絲 <烈焰大師>"
 L["Old Fillmaff <Tirisgarde Librarian>"] = "老骨頭費瑪夫 <提里斯護法圖書館員>" -- 107452
@@ -143,6 +160,10 @@ L["Esara Verrinde <Magisters>"] = "伊薩拉·薇琳德 <博學者>"
 L["Ravandwyr <Senior Kirin Tor Apprentice>"] = "羅樊德威 <資深祈倫托學徒>"
 L["Magister Varenthas <High Forgeguard>"] = "博學者瓦倫薩斯 <熔爐護法>"
 L["Minuette <Armament Summoner>"] = "米略特 <武裝召喚師>" -- 110427
+L["Ari"] = "亞莉" -- 109307
+L["Teleportation Nexus"] = "傳送網路"
+L["Requires Guardians of the Kirin Tor order advancement"] = "需要「祈倫托的守護者」的職業大廳升級"
+L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "守護者雅菈 <祈倫托守護者招募員>" -- 106434
 
 -- //////////////////////////
 -- Monk
@@ -156,11 +177,15 @@ L["Elder Xang <Monk Trainer>"] = "老襄 <武僧訓練師>"
 L["Iron-Body Ponshu <Senior Master Ox>"] = "鐵胴彭舒 <牛上師>"
 L["Lorewalker Cho <Head Archivist>"] = "博學行者阿洲 <首席古卷管理員>"
 L["Lao Li the Quiet <Monk Trainer>"] = "『寡言的』老李 <武僧訓練師>"
-L["Number Nine Jia <Class Hall Upgrades>"] = "賈九娘 <職業大廳升級>" -- 98939
+L["Number Nine Jia <Class Hall Upgrades>"] = "賈九娘 <職業大廳升級官>" -- 98939
 L["Wise Scholar Lianji <Senior Master Serpent>"] = "睿智的學者蓮姬 <蛟上師>"
 L["Tianji <Ox Troop Trainer>"] = "田季 <玄牛部隊訓練師>"
 L["High Elder Cloudfall"] = "高階長老雲落"
 L["Gin Lai <Tiger Troop Trainer>"] = "金萊 <白虎部隊訓練師>"
+L["Tianili <Celestial Trainer>"] = "田倪勵 <天尊訓練師>" -- 106538
+L["Requires Celestial Favor order advancement"] = "需要「天尊恩賜」的職業大廳升級"
+L["Master Swoo <Masters of Serenity Recruiter>"] = "蘇悟大師 <冰心大師招募員>" -- 120145
+L["Requires Masters of the Path order advancement"] = "需要「尋道大師」的職業大廳升級"
 
 -- //////////////////////////
 -- Paladin
@@ -173,14 +198,18 @@ L["Vindicator Baatun <Paladin Trainer>"] = "復仇者巴特恩 <聖騎士訓練�
 L["Eadric the Pure <Quartermaster>"] = "『純淨者』埃卓克 <軍需官>"
 L["Kristoff <Armaments Requisitioner>"] = "克里斯多夫 <武裝徵調員>" -- 110434
 L["Brandur Ironhammer <Paladin Trainer>"] = "布蘭杜爾·鐵錘 <聖騎士訓練師>"
-L["Sir Alamande Graythorn <Class Hall Upgrades>"] = "阿拉曼德·灰棘爵士 <職業大廳升級>"
+L["Sir Alamande Graythorn <Class Hall Upgrades>"] = "阿拉曼德·灰棘爵士 <職業大廳升級官>"
 L["Commander Ansela <Silver Hand Recruiter>"] = "安瑟拉指揮官 <白銀之手招募員>"
 L["Lord Maxwell Tyrosus"] = "麥斯威爾·泰羅索斯領主"
 L["Commander Born <Silver Hand Officer Recruiter>"] = "指揮官伯恩 <白銀之手軍官招募員>"
 L["Valgar Highforge <Grand Smith of the Order>"] = "瓦爾加·高爐 <白銀之手大鐵匠>" -- 90261
 L["Lord Irulon Trueblade"] = "埃盧隆·真刃領主" -- 99947
-L["Terric the Illuminator"] = "『高風亮節』泰瑞克" -- 111772
+L["Charger Saddle"] = "戰騎馬鞍"
+L["Terric the Illuminator"] = "『高風亮節』泰瑞克"
+L["Requires Grand Crusade order advancement"] = "需要「壯大遠征」的職業大廳升級"
 L["Silver Hand Orders"] = "白銀之手命令"
+L["Requires Silver Hand Crusaders order advancement"] = "需要「白銀之手十字軍」的職業大廳升級"
+L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "十字軍珂恩 <白銀之手十字軍招募員>" -- 120146
 
 -- //////////////////////////
 -- Priest
@@ -196,7 +225,7 @@ L["Grand Anchorite Gesslar <Recruiter>"] = "大隱士傑斯拉 <招募員>"
 L["Moira Thaurissan <Queen of the Dark Iron>"] = "茉艾拉·索瑞森 <黑鐵女王>"
 L["Prophet Velen"] = "預言者費倫"
 L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭司>"
-L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級>"
+L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級官>"
 L["Vicar Eliza <Recruiter>"] = "伊莉莎牧師 <招募員>"
 L["Lilith <Armament Supplier>"] = "莉莉絲 <武裝補給官>"
 
@@ -220,6 +249,8 @@ L["Jenri <Spymaster>"] = "簡瑞 <間諜大師>" -- 99863
 L["Valeera Sanguinar"] = "瓦麗拉·桑吉納爾" -- 98102
 L["Garona Halforcen"] = "迦羅娜·半血" -- 94141
 L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>"
+L["Vanessa VanCleef"] = "凡尼莎·范克里夫" -- 102550
+L["Knocker - %s"] = "叩門環 - %s"
 
 -- //////////////////////////
 -- Shaman
@@ -234,7 +265,7 @@ L["Flamesmith Lanying <Earthen Ring Quartermaster>"] = "火匠蘭印 <陶土議�
 L["Gorma Windspeaker <Keeper of Legends>"] = "果瑪·語風者 <傳說守衛者>"
 L["Tribemother Torra <Shaman Trainer>"] = "女族長托菈 <薩滿訓練師>"
 L["Advisor Sevel <The Earthen Ring>"] = "預言者沙費歐 <陶土議會>"
-L["Journeyman Goldmine <Class Hall Upgrades>"] = "金礦先生 <職業大廳升級>" -- 112199
+L["Journeyman Goldmine <Class Hall Upgrades>"] = "金礦先生 <職業大廳升級官>" -- 112199
 L["Farseer Nobundo <The Earthen Ring>"] = "先知諾柏多 <陶土議會>"
 L["Gavan Grayfeather <Ears of the Maelstrom>"] = "迦文·灰羽 <大漩渦之耳>"
 L["Orono <The Earthen Ring>"] = "歐朗諾 <陶土議會>"
@@ -260,7 +291,7 @@ L["Gigi Gigavoid <Black Harvest Quartermaster>"] = "吉吉·兆空 <黑穫軍需
 L["Mile Raitheborne <Head Archivist>"] = "邁爾·萊斯伯恩 <首席古卷管理員>"
 L["Jared <Recruiter>"] = "嘉瑞德 <招募員>"
 L["Imp Mother Dyala <Recruiter>"] = "鬼母戴亞拉 <招募員>"
-L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級>"
+L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級官>"
 L["Murr"] = "穆爾"
 
 -- //////////////////////////
@@ -275,11 +306,17 @@ L["Master Smith Helgar"] = "大鐵匠黑爾加"
 L["Weaponmaster Asvard <Warrior Trainer>"] = "武器大師亞斯華 <戰士訓練師>"
 L["Skyseer Ghrent"] = "占天者甘特"
 L["Captain Hjalmar Stahlstrom <Recruiter>"] = "耶爾瑪·史塔托姆隊長 <招募員>"
-L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級>"
+L["Einar the Runecaster <Class Hall Upgrades>"] = "『符文使』埃納爾 <職業大廳升級官>"
 L["Savyn Valorborn <Recruiter>"] = "莎薇恩·勇裔 <招募員>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "哈克朗·沃夫森 <武裝徵調員>"
 L["Hymdall"] = "海姆達爾" -- 107987
 L["Odyn"] = "歐丁" -- 96469
+L["Requires Val'kyr Call order advancement"] = "需要「華爾琪的呼喚」的職業大廳升級"
+L["Horn of War"] = "戰爭號角"
+L["Matilda Skoptidottir"] = "瑪蒂達·斯寇提多特" -- 111774
+L["Requires Strike Hard order advancement"] = "需要「強擊部隊」的職業大廳升級"
+L["Sharak Tor <Recruiter>"] = "夏拉托 <招募員>" -- 106461
+L["Matthew Glensorrow <Recruiter>"] = "馬修·葛林索羅 <招募員>" -- 120077, alliance
 --@end-do-not-package@
 --@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

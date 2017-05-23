@@ -6,6 +6,11 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.03 (May xx, 2017)
+------------------------
+- Revamped Death Knight's order hall maps
+- Added Eran Droll and Winter Payne to Death Knight's order hall
+
 v1.41.02 (May 19, 2017)
 ------------------------
 - Added Terric the Illuminator in Paladin's order hall

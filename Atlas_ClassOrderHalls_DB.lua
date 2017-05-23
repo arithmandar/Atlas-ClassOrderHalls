@@ -26,24 +26,29 @@
 
 
 local myDB = {
-	CH_DeathKnight = {
-		{ "A", 10101, 4, 313 }; -- Portal to Dalaran
-		{ "B", 10102, 49, 306 }; -- Portal to another floor
-		{ "B", 10102, 217, 108 }; -- Portal to another floor
-		{  1, 10001, 21, 288 }; -- Flight Master
-		{  2, 10002, 152, 366 }; -- Siouxsie the Banshee <Mission Specialist>
-		{  3, 97111, 147, 391 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
-		{  4, 97485, 135, 378 }; -- Archivist Zubashi <Class Hall Upgrades>
-		{  5, 97134, 243, 443 }; -- Lord Thorval
-		{  6, 106435,  94, 465 }; -- Dark Summoner Marogh <Risen Horde Recruiter>
-		{  7, 93555, 206, 277 }; -- Amal'thazad
-		{  8, 10008, 327, 177 }; -- Training Dummies
-		{  9, 93550, 290, 115 }; -- Quartermaster Ozorg <Rare Goods Vendor>
-		{ 10, 93509, 396, 153 }; -- Lady Alistra <Death Knight Trainer>
-		{ 11, 10011, 393, 210 }; -- Grand Master Siegesmith Corvus
-		{ 12, 106436, 352, 250 }; -- Korgaz Deadaxe <Ebon Soldier Recruiter>
-		{ 13, 111480, 241, 197 }; -- Salanar the Horseman
-		{ 14, 110410, 331, 90  };-- Dead Collector Bane <Champion Armaments>
+	CH_DeathKnightLower = {
+		{ "A", 10101,  75, 177 }; -- Portal to Dalaran
+		{ "B", 10102, 147, 190 }; -- Portal to another floor
+		{ "C", 10103, 285, 150 }; -- Portal to the roof 
+		{  1, 10001,  84, 152 }; -- Flight Master
+		{  2, 10002, 249, 248 }; -- Siouxsie the Banshee <Mission Specialist>
+		{  3, 97111, 244, 275 }; -- Illanna Dreadmoore <Ebon Blade Archivist>
+		{  4, 97485, 233, 262 }; -- Archivist Zubashi <Class Hall Upgrades>
+		{  5, 97134, 341, 326 }; -- Lord Thorval
+		{  6, 106435, 191, 346 }; -- Dark Summoner Marogh <Risen Horde Recruiter>
+		{  7, 93555, 303, 159 }; -- Amal'thazad
+		{  8, 111634,  82, 117 }; -- Winter Payne
+		{  9, 120135,  48, 168 }; -- Eran Droll <Ebon Knight Frostreavers Recruiter>
+	};
+	CH_DeathKnightUpper = {
+		{ "B", 10102, 140, 187 }; -- Portal to another floor
+		{ 10, 10010, 251, 252 }; -- Training Dummies
+		{ 11, 93550, 212, 194 }; -- Quartermaster Ozorg <Rare Goods Vendor>
+		{ 12, 93509, 319, 232 }; -- Lady Alistra <Death Knight Trainer>
+		{ 13, 10011, 316, 288 }; -- Grand Master Siegesmith Corvus
+		{ 14, 106436, 274, 328 }; -- Korgaz Deadaxe <Ebon Soldier Recruiter>
+		{ 15, 111480, 164, 271 }; -- Salanar the Horseman
+		{ 16, 110410, 253, 167 }; -- Dead Collector Bane <Champion Armaments>
 	};
 	CH_DemonHunter = {
 		{ "A", 10101, 122, 416 }; -- Illidari Gateway

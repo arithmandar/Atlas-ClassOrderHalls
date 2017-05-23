@@ -276,6 +276,8 @@ local myDB = {
 		{ 11, 10011, 436, 179 }; -- Training Dummies
 		{ 12, 107987, 226, 422 }; -- Hymdall
 		{ 13, 96469, 245, 432 }; -- Odyn
+		{ 14, 111774, 354, 146 };-- Matilda Skoptidottir
+		{ 15, 10015, 217,  81 }; -- Sharak Tor / Matthew Glensorrow
 	};
 };
 

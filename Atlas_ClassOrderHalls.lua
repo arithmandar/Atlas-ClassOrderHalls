@@ -91,6 +91,7 @@ local function LC(creatureName, npcID)
 		return lName
 	end
 end
+local faction = UnitFactionGroup("player")
 
 local myCategory = L["Class Order Hall Maps"];
 
@@ -908,6 +909,10 @@ local myData = {
 		{ WHIT.."11) "..L["Training Dummies"], 10011 };
 		{ WHIT.."12) "..LC("Hymdall", 107987), 107987 };
 		{ WHIT.."13) "..LC("Odyn", 96469), 96469 };
+		{ WHIT.."14) "..I_WORKORDER..LC("Matilda Skoptidottir", 111774), 111774 };
+		{ INDENT..GREY..L["Horn of War"]..ALC["Hyphen"]..L["Requires Val'kyr Call order advancement"] };
+		{ WHIT.."15) "..I_WORKORDER..((faction == "Alliance") and LC("Matthew Glensorrow <Recruiter>", 120077) or LC("Sharak Tor <Recruiter>", 106461)), 10015 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Strike Hard order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };

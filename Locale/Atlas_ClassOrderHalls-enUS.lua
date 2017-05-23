@@ -92,6 +92,7 @@ L["Ariana Fireheart <Illidari>"] = "Ariana Fireheart <Illidari>" -- 103760
 L["Slitesh <Armaments Requisitioner>"] = "Slitesh <Armaments Requisitioner>" -- 110433
 L["Requires Fel Hammer's Wrath order advancement"] = "Requires Fel Hammer's Wrath order advancement"
 L["Empowered Rift Core"] = "Empowered Rift Core"
+L["Evelune Soulreaver <Wrath of the Order>"] = "Evelune Soulreaver <Wrath of the Order>" -- 111775
 L["Requires Blades of Death order advancement"] = "Requires Blades of Death order advancement"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "Tormented Shivarra <Shivarra Recruiter>" -- 120140
 

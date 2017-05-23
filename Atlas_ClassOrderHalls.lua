@@ -116,9 +116,9 @@ local myData = {
 		{ INDENT..WHIT.." 7) "..LC("Amal'thazad", 93555).."\n"..WHIT..LC("Thassarian", 93456).."\n"..WHIT..LC("King Thoras Trollbane", 113419), 93555 };
 		{ INDENT..INDENT..WHIT..LC("Thassarian", 93456), 93456 };
 		{ INDENT..INDENT..WHIT..LC("King Thoras Trollbane", 113419), 113419 };
-		{ INDENT..WHIT.." 8) "..LC("Winter Payne", 111634), 111634 };
+		{ INDENT..WHIT.." 8) "..I_WORKORDER..LC("Winter Payne", 111634), 111634 };
 		{ INDENT..INDENT..GREY..L["Frost Crux"]..ALC["Hyphen"]..L["Requires Frost Wyrm work order advancement"] };
-		{ INDENT..WHIT.." 9) "..LC("Eran Droll <Ebon Knight Frostreavers Recruiter>", 120135), 120135 };
+		{ INDENT..WHIT.." 9) "..I_WORKORDER..LC("Eran Droll <Ebon Knight Frostreavers Recruiter>", 120135), 120135 };
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Frost and Death order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
@@ -237,14 +237,19 @@ local myData = {
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ INDENT..WHIT.."11) "..LC("Izal Whitemoon <Illidari Trainer>", 109965), 109965 };
 		{ INDENT..WHIT.."12) "..L["Training Dummies"], 10012 };
+		{ INDENT..WHIT.."13) "..I_WORKORDER..LC("Tormented Shivarra <Shivarra Recruiter>", 120140), 120140 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Blades of Death order advancement"] };
+		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Evelune Soulreaver <Wrath of the Order>", 111775), 111775 };
+		{ INDENT..INDENT..GREY..L["Empowered Rift Core"]..ALC["Hyphen"]..L["Requires Fel Hammer's Wrath order advancement"] };
 		{ ORNG..ALC["Lower"] };
 		{ INDENT..BLUE.." B) "..L["Ramp to top floor"], 10103 };
-		{ INDENT..WHIT.."13) "..LC("Jace Darkweaver <Illidari>", 98646), 98646 };
-		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Vahu the Weathered <Illidari Researcher>", 111736), 111736 };
-		{ INDENT..WHIT.."15) "..I_CLASS..LC("Loramus Thalipedes <Class Hall Upgrades>", 110599), 110599 };
-		{ INDENT..WHIT.."16) "..L["Empowered Nether Crucible"], 10016 };
-		{ INDENT..WHIT.."17) "..I_PROFF..L["Cursed Forge of the Nathrezim"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10017 };
-		{ INDENT..WHIT.."18) "..LC("Seer Akalu <Nathrezim Scholar>", 109596), 109596 };
+		{ INDENT..WHIT.."15) "..LC("Jace Darkweaver <Illidari>", 98646), 98646 };
+		{ INDENT..WHIT.."16) "..I_RESEARCH..LC("Vahu the Weathered <Illidari Researcher>", 111736), 111736 };
+		{ INDENT..WHIT.."17) "..I_CLASS..LC("Loramus Thalipedes <Class Hall Upgrades>", 110599), 110599 };
+		{ INDENT..INDENT..GREY..ORDER_HALL_TALENT_TITLE };
+		{ INDENT..WHIT.."18) "..L["Empowered Nether Crucible"], 10016 };
+		{ INDENT..WHIT.."19) "..I_PROFF..L["Cursed Forge of the Nathrezim"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10017 };
+		{ INDENT..WHIT.."20) "..LC("Seer Akalu <Nathrezim Scholar>", 109596), 109596 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -296,7 +301,7 @@ local myData = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 4) "..I_CLASS..LC("Leafbeard the Storied <Ancient of Lore>", 97989), 97989 };
 		{ INDENT..GREY..ORDER_HALL_TALENT_TITLE };
-		{ WHIT.." 5) "..I_WORKORDER..LC("Celadine the Fatekeeper <Dreamgrove Researcher>", 111737), 111737 };
+		{ WHIT.." 5) "..I_RESEARCH..LC("Celadine the Fatekeeper <Dreamgrove Researcher>", 111737), 111737 };
 		{ WHIT.." 6) "..I_WORKORDER..LC("Yaris Darkclaw <Recruiter>", 106442), 106442 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 7) "..I_PROFF..L["Seed of Ages"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Tender Daranelle", 109612), 10007 };
@@ -361,7 +366,7 @@ local myData = {
 		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..LC("Tactician Tinderfell <Unseen Path>", 103023), 10006 };
 		{ INDENT..WHIT..LC("Tactician Tinderfell <Unseen Path>", 103023), 103023 };
 		{ WHIT.." 7) "..LC("Image of Mimiron", 110424), 110424 };
-		{ WHIT.." 8) "..I_WORKORDER..LC("Holt Thunderhorn <Lore and Legends>", 98737), 98737 };
+		{ WHIT.." 8) "..I_RESEARCH..LC("Holt Thunderhorn <Lore and Legends>", 98737), 98737 };
 		{ INDENT..GREY..L["Tales of the Hunt"] };
 		{ INDENT..WHIT..LC("Loren Stormhoof <Skyhorn Emissary>", 107315), 107315 };
 		{ WHIT.." 9) "..L["Training Dummies"], 10009 };
@@ -419,7 +424,7 @@ local myData = {
 		{ BLUE.." A-B) "..ALC["Connection"], 10200 };
 		{ ORNG..BZ["Guardian's Library"]..ALC["L-Parenthesis"]..ALC["Upper"]..ALC["R-Parenthesis"] };
 		{ INDENT..WHIT.." 1) "..I_PROFF..L["Forge of the Guardian"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10001 };
-		{ INDENT..WHIT.." 2) "..I_WORKORDER..LC("Edirah <Tirisgarde Researcher>", 110624), 110624 };
+		{ INDENT..WHIT.." 2) "..I_RESEARCH..LC("Edirah <Tirisgarde Researcher>", 110624), 110624 };
 		{ INDENT..WHIT.." 3) "..LC("Magister Varenthas <High Forgeguard>", 109642), 109642 };
 		{ INDENT..WHIT.." 4) "..LC("Meryl Felstorm", 102700).."\n"..LC("Archmage Kalec <Kirin Tor>", 108247).."\n"..LC("Archmage Modera <Kirin Tor>", 108248), 102700 };
 		{ INDENT..INDENT..WHIT..LC("Archmage Kalec <Kirin Tor>", 108247), 108247 };
@@ -508,7 +513,7 @@ local myData = {
 		{ INDENT..WHIT..LC("Iron-Body Ponshu <Senior Master Ox>", 100438), 100438 };
 		{ INDENT..WHIT..LC("Lao Li the Quiet <Monk Trainer>", 101757)..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
 		{ INDENT..WHIT..LC("Wise Scholar Lianji <Senior Master Serpent>", 97776)..GREY..ALC["L-Parenthesis"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
-		{ WHIT.." 9) "..I_WORKORDER..LC("Lorewalker Cho <Head Archivist>", 106942), 106942 };
+		{ WHIT.." 9) "..I_RESEARCH..LC("Lorewalker Cho <Head Archivist>", 106942), 106942 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -553,7 +558,7 @@ local myData = {
 		--WorldMapID = "23";
 		{ BLUE.." A) "..L["Entrance"], 10101 };
 		{ PURP.." A) "..format(ALC["Portal to %s"], BZ["Dalaran"]), 10102 };
-		{ WHIT.." 1) "..I_WORKORDER..LC("Sister Elda <Keeper of the Ancient Tomes>", 91190), 91190 };
+		{ WHIT.." 1) "..I_RESEARCH..LC("Sister Elda <Keeper of the Ancient Tomes>", 91190), 91190 };
 		{ WHIT.." 2) "..I_CLASS..LC("Sir Alamande Graythorn <Class Hall Upgrades>", 109901), 109901 };
 		{ WHIT.." 3) "..I_REPAIR..LC("Eadric the Pure <Quartermaster>", 100196), 100196 };
 		{ WHIT.." 4) "..LC("Lord Irulon Trueblade", 99947), 99947 };
@@ -620,7 +625,7 @@ local myData = {
 		{ PURP.." A) "..format(ALC["Portal to %s"], BZ["Dalaran"]), 10101 };
 		{ WHIT.." 1) "..I_PROFF..L["Altar of Light and Shadow"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Betild Deepanvil <Master Artificer>", 102709), 10001 };
 		{ INDENT..WHIT..LC("Betild Deepanvil <Master Artificer>", 102709), 102709 };
-		{ WHIT.." 2) "..I_WORKORDER..LC("Juvess the Duskwhisperer <Keeper of Scrolls>", 111738), 111738 };
+		{ WHIT.." 2) "..I_RESEARCH..LC("Juvess the Duskwhisperer <Keeper of Scrolls>", 111738), 111738 };
 		{ WHIT.." 3) "..I_WORKORDER..LC("Grand Anchorite Gesslar <Recruiter>", 106450), 106450 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 4) "..I_REPAIR..LC("Meridelle Lightspark <Logistics>", 112401), 112401 };
@@ -688,7 +693,7 @@ local myData = {
 		{ WHIT.." 3) "..LC("Lord Jorach Ravenholdt", 113362), 113362 };
 		{ WHIT.." 4) "..LC("Valeera Sanguinar", 98102), 98102 };
 		{ WHIT.." 5) "..LC("Garona Halforcen", 94141), 94141 };
-		{ WHIT.." 6) "..I_WORKORDER..LC("Filius Sparkstache <Archivist>", 102641), 102641 };
+		{ WHIT.." 6) "..I_RESEARCH..LC("Filius Sparkstache <Archivist>", 102641), 102641 };
 		{ WHIT.." 7) "..I_CLASS..LC("Winstone Wolfe <The Wolf>", 105998), 105998 };
 		{ INDENT..GREY..ORDER_HALL_TALENT_TITLE };
 		{ WHIT.." 8) "..LC("Marin Noggenfogger <Baron of Gadgetzan>", 102594), 102594 };
@@ -762,7 +767,7 @@ local myData = {
 		{ WHIT.." 7) "..I_WORKORDER..LC("Summoner Morn <Elemental Summoner>", 106457), 106457 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 8) "..LC("Puzzlemaster Lo <The Earthen Ring>", 103004), 103004 };
-		{ WHIT.." 9) "..I_WORKORDER..LC("Gorma Windspeaker <Keeper of Legends>", 111739), 111739 };
+		{ WHIT.." 9) "..I_RESEARCH..LC("Gorma Windspeaker <Keeper of Legends>", 111739), 111739 };
 		{ WHIT.."10) "..I_PROFF..L["Ancient Elemental Altar"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10010 };
 		{ WHIT.."11) "..LC("Gavan Grayfeather <Ears of the Maelstrom>", 112262), 112262 };
 		{ WHIT.."12) "..I_WORKORDER..LC("Felinda Frye <Earthwarden Recruiter>", 112208), 112208 };
@@ -829,7 +834,7 @@ local myData = {
 		{ INDENT..WHIT..LC("Gakin the Darkbinder <Mission Strategist>", 106199), 106199 };
 		{ INDENT..WHIT..LC("Ritssyn Flamescowl <Council of the Black Harvest>", 104795), 104795 };
 		{ WHIT.." 7) "..I_CLASS..LC("Archivist Melinda <Class Hall Upgrades>", 108018), 108018 };
-		{ WHIT.." 8) "..I_WORKORDER..LC("Mile Raitheborne <Head Archivist>", 111740), 111740 };
+		{ WHIT.." 8) "..I_RESEARCH..LC("Mile Raitheborne <Head Archivist>", 111740), 111740 };
 		{ WHIT.." 9) "..I_REPAIR..LC("Gigi Gigavoid <Black Harvest Quartermaster>", 112434), 112434 };
 		{ WHIT.."10) "..I_WORKORDER..LC("Imp Mother Dyala <Recruiter>", 106216), 106216 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
@@ -894,7 +899,7 @@ local myData = {
 		{ WHIT.." 4) "..I_REPAIR..LC("Quartermaster Durnolf", 112392), 112392 };
 		{ WHIT.." 5) "..I_WORKORDER..LC("Haklang Ulfsson <Armaments Requisitioner>", 110437), 110437 };
 		{ INDENT..GREY..L["Champion Armaments"] };
-		{ WHIT.." 6) "..I_WORKORDER..LC("Fjornson Stonecarver <Keeper of Legends>", 111741), 111741 };
+		{ WHIT.." 6) "..I_RESEARCH..LC("Fjornson Stonecarver <Keeper of Legends>", 111741), 111741 };
 		{ WHIT.." 7) "..I_CLASS..LC("Einar the Runecaster <Class Hall Upgrades>", 107994), 107994 };
 		{ WHIT.." 8) "..I_PROFF..L["Forge of Odyn"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Master Smith Helgar", 96586), 10008 };
 		{ INDENT..WHIT..LC("Master Smith Helgar", 96586), 96586 };

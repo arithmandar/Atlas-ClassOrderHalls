@@ -93,6 +93,7 @@ L["Ariana Fireheart <Illidari>"] = "亞莉安娜·炎心 <伊利達瑞>"
 L["Slitesh <Armaments Requisitioner>"] = "伽絲 <武裝徵調員>"
 L["Requires Fel Hammer's Wrath order advancement"] = "需要「魔錘號之怒」的職業大廳升級"
 L["Empowered Rift Core"] = "強力裂隙核心"
+L["Evelune Soulreaver <Wrath of the Order>"] = "伊芙露恩·劫靈者 <伊利達瑞烈怒>" -- 111775
 L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
 

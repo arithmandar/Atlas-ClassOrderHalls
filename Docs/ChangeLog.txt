@@ -10,6 +10,7 @@ v1.41.03 (May xx, 2017)
 ------------------------
 - Revamped Death Knight's order hall maps
 - Added Eran Droll and Winter Payne to Death Knight's order hall
+- Added Tormented Shivarra and Evelune Soulreaver to Demon Hunter's order hall
 
 v1.41.02 (May 19, 2017)
 ------------------------

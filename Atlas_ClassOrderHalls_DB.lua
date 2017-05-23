@@ -51,7 +51,8 @@ local myDB = {
 		{ 16, 110410, 253, 167 }; -- Dead Collector Bane <Champion Armaments>
 	};
 	CH_DemonHunter = {
-		{ "A", 10101, 122, 416 }; -- Illidari Gateway
+		{ "A", 10101, 125, 422 }; -- Illidari Gateway
+		{ "A", 10101, 125,  78 }; -- Illidari Gateway
 		{ "A", 10102, 53, 247 }; -- Ramp to lower floor
 		{ "A", 10102, 193, 247 }; -- Ramp to lower floor
 		{ "B", 10103, 307, 247 }; -- Ramp to top floor
@@ -68,12 +69,14 @@ local myDB = {
 		{  10, 103760, 123, 179 }; -- Ariana Fireheart <Illidari>
 		{  11, 109965, 140, 172 }; -- Izal Whitemoon
 		{  12, 10012, 100, 94 }; -- Training Dummies
-		{  13, 98646, 375, 355 }; -- Jace Darkweaver <Illidari>
-		{  14, 111736, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
-		{  15, 110599, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
-		{  16, 10016, 375, 249 }; -- Empowered Nether Crucible
-		{  17, 10017, 374, 119 }; -- Cursed Forge of the Nathrezim
-		{  18, 109596, 357, 129 }; -- Seer Akalu
+		{  13, 120140, 104, 346 }; -- Tormented Shivarra <Shivarra Recruiter>
+		{  14, 111775, 118, 323 }; -- Evelune Soulreaver <Wrath of the Order>
+		{  15, 98646, 375, 355 }; -- Jace Darkweaver <Illidari>
+		{  16, 111736, 395, 350 }; -- Vahu the Weathered <Illidari Researcher>
+		{  17, 110599, 347, 294 }; -- Loramus Thalipedes <Class Hall Upgrades>
+		{  18, 10016, 375, 249 }; -- Empowered Nether Crucible
+		{  19, 10017, 374, 119 }; -- Cursed Forge of the Nathrezim
+		{  20, 109596, 357, 129 }; -- Seer Akalu
 	};
 	CH_Druid = {
 		{  "A", 10101, 337, 82 }; -- Portal to Emerald Dreamway

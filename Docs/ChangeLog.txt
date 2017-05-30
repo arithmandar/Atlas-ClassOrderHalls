@@ -6,6 +6,12 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.41.04 (May 30, 2017)
+------------------------
+- Localization update:
+  - German (pas06)
+  - Simplified Chinese (ananhaid)
+
 v1.41.03 (May 23, 2017)
 ------------------------
 - Revamped Death Knight's order hall maps

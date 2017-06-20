@@ -55,6 +55,8 @@ local HRDE = "|cffda6955"; -- Horde's taxi node
 local NUTL = "|cfffee570"; -- Nutral taxi node
 local INDENT = "      ";
 
+local faction = UnitFactionGroup("player");
+
 -- Icons
 local I_REPAIR = "|TInterface\\MINIMAP\\TRACKING\\Repair:0:0|t";
 local I_CLASS = "|TInterface\\MINIMAP\\TRACKING\\Class:0:0|t";
@@ -63,7 +65,10 @@ local I_FLIGHT = "|TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0|t";
 local I_WORKORDER = "|TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0|t";
 local I_CMISSION = "|TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0|t";
 local I_RESEARCH = "|TInterface\\ICONS\\INV_Scroll_11:0:0|t";
+local I_SEAL = "";
 
+
+-- class color
 local CL = {
 	["DEATHKNIGHT"]	= "|cffc41f3b";
 	["DEMONHUNTER"]	= "|cffa330c9";
@@ -101,6 +106,7 @@ local myData = {
 		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
 		DungeonLevel = "2";
+		NextMap = "CH_DeathKnightUpper";
 		{ ORNG..ALC["Lower"]..ALC["Hyphen"]..BZ["Hall of Command"] };
 		{ INDENT..PURP.." A) "..format(ALC["Portal to %s"], BZ["Dalaran"]), 10101 };
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
@@ -142,8 +148,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -164,6 +169,7 @@ local myData = {
 		Location = { BZ["Acherus: The Ebon Hold"]..ALC["Comma"]..BZ["Broken Shore"] };
 		WorldMapID = "1021";
 		DungeonLevel = "1";
+		PrevMap = "CH_DeathKnightLower";
 		{ ORNG..ALC["Upper"]..ALC["Hyphen"]..BZ["The Heart of Acherus"] };
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 };
 		{ INDENT..WHIT.."10) "..L["Training Dummies"], 10010 };
@@ -197,8 +203,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -251,6 +256,8 @@ local myData = {
 		{ INDENT..WHIT.."18) "..L["Empowered Nether Crucible"], 10016 };
 		{ INDENT..WHIT.."19) "..I_PROFF..L["Cursed Forge of the Nathrezim"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"], 10017 };
 		{ INDENT..WHIT.."20) "..LC("Seer Akalu <Nathrezim Scholar>", 109596), 109596 };
+		{ INDENT..WHIT.."21) "..I_SEAL..LC("Seer Aleis <Seal of Broken Fate Shipment>", 112992), 112992 };
+		{ INDENT..INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Focused War Effort order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -272,8 +279,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -315,6 +321,12 @@ local myData = {
 		{ INDENT..WHIT..LC("Mylune", 113525) };
 		{ WHIT.."12) "..LC("Zen'kiki", 98784), 98784 };
 		{ WHIT.."13) "..L["Training Dummies"], 10013 };
+		{ WHIT.."14) "..I_SEAL..LC("Almenis <Seal of Broken Fate Shipment>", 110810), 110810 };
+		{ INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Elune's Chosen order advancement"] };
+		{ WHIT.."15) "..I_WORKORDER..LC("Shalorn Star <Dreamgrove Warden Recruiter>", 108391), 108391 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Wardens of the Grove order advancement"] };
+		{ WHIT.."16) "..I_WORKORDER..LC("Treant Sapling <Ancient of War Tender>", 111786), 111786 };
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Ancient of War order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -336,8 +348,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -380,6 +391,10 @@ local myData = {
 		{ WHIT.."13) "..LC("Ogdrul <The Seeker>", 113688), 113688 };
 		{ WHIT.."14) "..I_WORKORDER..LC("Berger the Steadfast <Champion Armaments>", 110412), 110412 };
 		{ INDENT..GREY..L["Champion Armaments"] };
+		{ WHIT.."15) "..I_WORKORDER..LC("Nighthuntress Silus <Nightborne Hunters Recruiter>", 106445), 106445};
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Born of the Night order advancement"] };
+		{ WHIT.."16) "..I_SEAL..LC("Tu'Las the Gifted <Seal of Broken Fate Shipment>", 110816), 110816 };
+		{ INDENT..INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Unseen Path order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -401,8 +416,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -474,8 +488,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -536,8 +549,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -604,8 +616,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -665,8 +676,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -735,8 +745,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -802,8 +811,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -863,8 +871,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };
@@ -936,8 +943,7 @@ local myData = {
 		{ "Improving on History", "ac=10459" };
 		{ "Part of History", "ac=10853" };
 		{ "Power Realized", "ac=11144" };
-		{ "The Prestige", "ac=10745" }; -- Horde
-		{ "The Prestige", "ac=10743" }; -- Alliance
+		{ (faction == "Alliance") and "The Prestige", "ac=10745" or "The Prestige", "ac=10743" };
 		{ LBLU..ORDER_HALL_MISSIONS };
 		{ "Champions of Power", "ac=11222" };
 		{ "Champions Rise", "ac=11221" };

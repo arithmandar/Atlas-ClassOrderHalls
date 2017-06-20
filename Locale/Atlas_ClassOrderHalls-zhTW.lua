@@ -42,6 +42,7 @@ L["Ramp to lower floor"] = "通往下層的斜坡"
 L["Ramp to top floor"] = "通往上層的斜坡"
 L["Champion Armaments"] = "勇士武裝"
 L["Travel to:"] = "旅行到："
+L["Seal of Broken Fate"] = "破碎命運徽印"
 
 -- //////////////////////////
 -- Death Knight
@@ -96,6 +97,8 @@ L["Empowered Rift Core"] = "強力裂隙核心"
 L["Evelune Soulreaver <Wrath of the Order>"] = "伊芙露恩·劫靈者 <伊利達瑞烈怒>" -- 111775
 L["Requires Blades of Death order advancement"] = "需要「死亡之刃」的職業大廳升級"
 L["Tormented Shivarra <Shivarra Recruiter>"] = "受苦的希瓦拉 <希瓦拉招募員>"
+L["Seer Aleis <Seal of Broken Fate Shipment>"] = "先知亞雷斯 <破碎命運徽印貨物>" -- 112992
+L["Requires Focused War Effort order advancement"] = "需要「支援前線」的職業大廳升級"
 
 -- //////////////////////////
 -- Druid
@@ -118,7 +121,8 @@ L["Requires Wardens of the Grove order advancement"] = "需要「林地看守者
 L["Shalorn Star <Dreamgrove Warden Recruiter>"] = "夏隆星 <幻夢之林看守者招募員>" -- 108391
 L["Treant Sapling <Ancient of War Tender>"] = "樹人幼苗 <戰爭古樹看管者>" -- 111786
 L["Requires Ancient of War order advancement"] = "需要「戰爭古樹」的職業大廳升級"
---L["Ancient of War"] = "Ancient of War"
+L["Almenis <Seal of Broken Fate Shipment>"] = "雅曼妮絲 <破碎命運徽印貨物>" -- 110810
+L["Requires Elune's Chosen order advancement"] = "需要「伊露恩之選」的職業大廳升級"
 
 -- //////////////////////////
 -- Hunter
@@ -141,6 +145,8 @@ L["Image of Mimiron"] = "彌米倫的影像"
 L["Berger the Steadfast <Champion Armaments>"] = "堅定的伯格 <勇士武裝>" -- 110412
 L["Requires Born of the Night order advancement"] = "需要「黑夜之喬」的職業大廳升級"
 L["Nighthuntress Silus <Nightborne Hunters Recruiter>"] = "暗夜女獵手希樂絲 <夜裔獵人招募員>" -- 106445
+L["Tu'Las the Gifted <Seal of Broken Fate Shipment>"] = "『天才』圖拉斯 <破碎命運徽印貨物>"
+L["Requires Unseen Path order advancement"] = "需要「隱獵團」的職業大廳升級"
 
 -- //////////////////////////
 -- Mage
@@ -165,6 +171,11 @@ L["Ari"] = "亞莉" -- 109307
 L["Teleportation Nexus"] = "傳送網路"
 L["Requires Guardians of the Kirin Tor order advancement"] = "需要「祈倫托的守護者」的職業大廳升級"
 L["Guardian Alar <Kirin Tor Guardians Recruiter>"] = "守護者雅菈 <祈倫托守護者招募員>" -- 106434
+L["Conjurer Awlyn"] = "咒術師歐琳" -- 111734
+L["Requires Might of Dalaran order advancement"] = "需要「達拉然之力」的職業大廳升級"
+L["Focusing Crystal"] = "水晶法器"
+L["Researcher Tulius <Seal of Broken Fate Shipment>"] = "研究員涂里斯 <破碎命運徽印貨物>" -- 112982
+L["Requires Arcane Divination order advancement"] = "需要「秘法占卜」的職業大廳升級"
 
 -- //////////////////////////
 -- Monk
@@ -211,6 +222,8 @@ L["Requires Grand Crusade order advancement"] = "需要「壯大遠征」的職�
 L["Silver Hand Orders"] = "白銀之手命令"
 L["Requires Silver Hand Crusaders order advancement"] = "需要「白銀之手十字軍」的職業大廳升級"
 L["Crusader Kern <Silver Hand Crusader Recruiter>"] = "十字軍珂恩 <白銀之手十字軍招募員>" -- 120146
+L["Librarian Lightmorne <Seal of Broken Fate Shipment>"] = "圖書管理員光晨 <破碎命運徽印貨物>" -- 112986
+L["Requires Holy Purpose order advancement"] = "需要「神聖意圖」的職業大廳升級"
 
 -- //////////////////////////
 -- Priest
@@ -229,6 +242,10 @@ L["Delas Moonfang <Priestess of the Moon>"] = "德菈絲·月牙 <月之女祭�
 L["Archon Torias <Class Hall Upgrades>"] = "執政官托利亞斯 <職業大廳升級官>"
 L["Vicar Eliza <Recruiter>"] = "伊莉莎牧師 <招募員>"
 L["Lilith <Armament Supplier>"] = "莉莉絲 <武裝補給官>"
+L["Truth <Seal of Broken Fate Shipment>"] = "真理 <破碎命運徽印貨物>" -- 110819
+L["Requires Blessed Seals order advancement"] = "需要「祝福徽印」的職業大廳升級"
+L["High Priestess Mourn <Recruiter>"] = "高階祭司莫恩 <招募員>" -- 120160
+L["Requires Hooded Priests order advancement"] = "需要「神秘的牧師」的職業大廳升級"
 
 -- //////////////////////////
 -- Rogue
@@ -252,6 +269,11 @@ L["Garona Halforcen"] = "迦羅娜·半血" -- 94141
 L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>"
 L["Vanessa VanCleef"] = "凡尼莎·范克里夫" -- 102550
 L["Knocker - %s"] = "叩門環 - %s"
+L["Scythe <Seal of Broken Fate Shipment>"] = "鐮刀 <破碎命運徽印貨物>" -- 110820
+L["Requires Plunder order advancement"] = "需要「掠奪」的職業大廳升級"
+L["Laura Stern <Recruiter>"] = "蘿拉·史騰 <招募員>" -- 120162
+L["Requires Ravenholdt's Finest order advancement"] = "需要「拉文霍德精兵」的職業大廳升級"
+L["Mal <Weapons Smuggler>"] = "馬爾 <武器走私者>" -- 110348
 
 -- //////////////////////////
 -- Shaman
@@ -276,6 +298,12 @@ L["Morgl the Oracle <The Earthen Ring>"] = "神諭者莫哥 <陶土議會>"
 L["Summoner Morn <Elemental Summoner>"] = "召喚者摩恩 <元素召喚者>"
 L["Neptulon"] = "奈普圖隆"
 L["Felinda Frye <Earthwarden Recruiter>"] = "費琳達·弗萊 <大地守望者招募員>"
+L["Alexor <The Ascended>"] = "亞列索 <卓越者>" -- 109829
+L["Requires \"Rise!\" order advancement"] = "需要「奮起！」的職業大廳升級"
+L["Bath'rah the Windwatcher <Seal of Broken Fate Shipment>"] = "『觀風者』巴斯拉 <破碎命運徽印貨物>" -- 112299
+L["Requires Spirit Walk order advancement"] = "需要「幽魂步伐」的職業大廳升級"
+L["Marick Ven <Earthen Ring Protectors Recruiter>"] = "馬里克·凡 <陶土議會保衛者招募員>" -- 120165
+L["Requires Ring of Earth order advancement"] = "需要「大地環繞」的職業大廳升級"
 
 -- //////////////////////////
 -- Warlock
@@ -294,6 +322,11 @@ L["Jared <Recruiter>"] = "嘉瑞德 <招募員>"
 L["Imp Mother Dyala <Recruiter>"] = "鬼母戴亞拉 <招募員>"
 L["Archivist Melinda <Class Hall Upgrades>"] = "古卷管理者梅琳達 <職業大廳升級官>"
 L["Murr"] = "穆爾"
+L["Demonia Pickerin"] = "黛莫妮亞·皮克林" -- 113371
+L["Requires Unleash Infernal order advancement"] = "需要「釋放煉獄火」的職業大廳升級"
+L["Demonic Phylactery"] = "惡魔骨匣"
+L["Galen Foul <Demon Summoner>"] = "加林·腐惡 <惡魔召喚師>" -- 120166
+L["Requires Demonic Brutes order advancement"] = "需要「惡魔蠻卒」的職業大廳升級"
 
 -- //////////////////////////
 -- Warrior

@@ -65,7 +65,7 @@ local I_FLIGHT = "|TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0|t";
 local I_WORKORDER = "|TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0|t";
 local I_CMISSION = "|TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0|t";
 local I_RESEARCH = "|TInterface\\ICONS\\INV_Scroll_11:0:0|t";
-local I_SEAL = "";
+local I_SEAL = "|TInterface\\Icons\\INV_Misc_AzsharaCoin:0:0|t";
 
 
 -- class color
@@ -394,7 +394,7 @@ local myData = {
 		{ WHIT.."15) "..I_WORKORDER..LC("Nighthuntress Silus <Nightborne Hunters Recruiter>", 106445), 106445};
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Born of the Night order advancement"] };
 		{ WHIT.."16) "..I_SEAL..LC("Tu'Las the Gifted <Seal of Broken Fate Shipment>", 110816), 110816 };
-		{ INDENT..INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Unseen Path order advancement"] };
+		{ INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Unseen Path order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };

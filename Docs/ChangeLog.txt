@@ -6,7 +6,7 @@ Copyright 2016 ~ 2017 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
-v1.41.05 (Jun. xx, 2017)
+v1.41.05 (Jun. 21, 2017)
 ------------------------
 - Added Seer Aleis to Demon Hunter's order hall
 - Added Almenis, Shalorn Star, and Treant Sapling to Druid's order hall

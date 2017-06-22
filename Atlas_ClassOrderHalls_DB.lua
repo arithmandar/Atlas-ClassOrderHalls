@@ -144,9 +144,12 @@ local myDB = {
 		{ 10, 106377, 307, 296 }; -- Archmage Omniara <Recruiter> 
 		{ 11, 10011, 284, 349 }; -- Scouting map
 		{ 12, 108515, 286, 362 }; -- Archmage Melis <Mistress of Flame>
-		{ 13, 10013,  58, 343 }; -- Training Dummies
-		{ 14, 106433,  77, 259 }; -- Grand Conjurer Mimic
-		{ 15, 110427, 296, 330 }; -- Minuette <Armament Summoner>
+		{ 13, 110427, 296, 330 }; -- Minuette <Armament Summoner>
+		{ 14, 111734, 263, 323 }; -- Conjurer Awlyn
+		{ 15, 10015,  58, 343 }; -- Training Dummies
+		{ 16, 106433,  77, 259 }; -- Grand Conjurer Mimic
+		{ 17, 112982,  52, 227 }; -- Researcher Tulius <Seal of Broken Fate Shipment>
+		{ 18, 106434, 273, 224 }; -- Guardian Alar <Kirin Tor Guardians Recruiter>
 		{  "A", 10200, 164, 350 }; -- Connection
 		{  "B", 10200, 104, 353 }; -- Connection
 		{  "B", 10200, 224, 353 }; -- Connection
@@ -160,13 +163,16 @@ local myDB = {
 		{ 2, 10002, 278, 377 }; -- Master Hsu <Mission Master>
 		{ 3, 105015, 284, 367 }; -- Tianji <Ox Troop Trainer>
 		{ 4, 104744, 273, 344 }; -- High Elder Cloudfall
-		{ 5, 105019, 302, 339 }; -- Gin Lai <Tiger Troop Trainer>
-		{ 6, 101749, 313, 332 }; -- Elder Xang <Monk Trainer>
-		{ 7, 10007, 296, 324 }; -- Training Dummies
-		{ 7, 10007, 286, 256 }; -- Training Dummies
-		{ 7, 10007, 222, 258 }; -- Training Dummies
-		{ 8, 10008, 250, 211 }; -- Iron-Body Ponshu <Senior Master Ox>
-		{ 9, 106942, 160, 203 }; -- Lorewalker Cho <Head Archivist>
+		{ 5, 105019, 308, 334 }; -- Gin Lai <Tiger Troop Trainer>
+		{ 6, 101749, 319, 327 }; -- Elder Xang <Monk Trainer>
+		{ 7, 106538, 310, 356 }; -- Tianili <Celestial Trainer>
+		{ 8, 110817, 291, 343 }; -- Yushi <Seal of Broken Fate Shipment>
+		{ 9, 120145, 262, 315 }; -- Master Swoo <Masters of Serenity Recruiter>
+		{ 10, 10010, 296, 324 }; -- Training Dummies
+		{ 10, 10010, 286, 256 }; -- Training Dummies
+		{ 10, 10010, 222, 258 }; -- Training Dummies
+		{ 11, 10011, 250, 211 }; -- Iron-Body Ponshu <Senior Master Ox>
+		{ 12, 106942, 160, 203 }; -- Lorewalker Cho <Head Archivist>
 	};
 	CH_Paladin = {
 		{ "A", 10101, 128, 444 }; -- Entrance
@@ -186,6 +192,7 @@ local myDB = {
 		{ 13, 10013, 353, 114 }; -- Altar of Ancient Kings
 		{ 14, 111772, 377, 176 }; -- Terric the Illuminator
 		{ 15, 120146, 269, 221 }; -- Crusader Kern <Silver Hand Crusader Recruiter>
+		{ 16, 112986, 165, 397 }; -- Librarian Lightmorne <Seal of Broken Fate Shipment>
 	};
 	CH_Priest = {
 		{ "A", 10101, 250, 374 }; -- Portal to Dalaran

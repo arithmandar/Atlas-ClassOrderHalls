@@ -58,14 +58,14 @@ local INDENT = "      ";
 local faction = UnitFactionGroup("player");
 
 -- Icons
-local I_REPAIR = "|TInterface\\MINIMAP\\TRACKING\\Repair:0:0|t";
-local I_CLASS = "|TInterface\\MINIMAP\\TRACKING\\Class:0:0|t";
-local I_PROFF = "|TInterface\\MINIMAP\\TRACKING\\Profession:0:0|t";
-local I_FLIGHT = "|TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0|t";
-local I_WORKORDER = "|TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0|t";
-local I_CMISSION = "|TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0|t";
-local I_RESEARCH = "|TInterface\\ICONS\\INV_Scroll_11:0:0|t";
-local I_SEAL = "|TInterface\\Icons\\INV_Misc_AzsharaCoin:0:0|t";
+local I_REPAIR = "|TInterface\\MINIMAP\\TRACKING\\Repair:0:0|t ";
+local I_CLASS = "|TInterface\\MINIMAP\\TRACKING\\Class:0:0|t ";
+local I_PROFF = "|TInterface\\MINIMAP\\TRACKING\\Profession:0:0|t ";
+local I_FLIGHT = "|TInterface\\MINIMAP\\TRACKING\\FlightMaster:0:0|t ";
+local I_WORKORDER = "|TInterface\\GossipFrame\\WorkOrderGossipIcon:0:0|t ";
+local I_CMISSION = "|TInterface\\GossipFrame\\AvailableLegendaryQuestIcon:0:0|t ";
+local I_RESEARCH = "|TInterface\\ICONS\\INV_Scroll_11:0:0|t ";
+local I_SEAL = "|T1604167:0:0|t ";
 
 
 -- class color
@@ -462,11 +462,16 @@ local myData = {
 		{ INDENT..WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..ALC["L-Parenthesis"]..ORDER_HALL_MISSIONS..ALC["R-Parenthesis"].."\n"..WHIT..LC("The Great Akazamzarak", 103092), 10011 };
 		{ INDENT..INDENT..WHIT..LC("The Great Akazamzarak", 103092), 103092 };
 		{ INDENT..WHIT.."12) "..LC("Archmage Melis <Mistress of Flame>", 108515), 108515 };
-		{ INDENT..WHIT.."13) "..L["Training Dummies"], 10013 };
-		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Grand Conjurer Mimic <Mage Recruiter Extraordinaire>", 106433), 106433 };
-		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
-		{ INDENT..WHIT.."15) "..I_WORKORDER..LC("Minuette <Armament Summoner>", 110427), 110427 };
+		{ INDENT..WHIT.."13) "..I_WORKORDER..LC("Minuette <Armament Summoner>", 110427), 110427 };
 		{ INDENT..INDENT..GREY..L["Champion Armaments"] };
+		{ INDENT..WHIT.."14) "..I_WORKORDER..LC("Conjurer Awlyn", 111734), 111734 };
+		{ INDENT..WHIT.."15) "..L["Training Dummies"], 10015 };
+		{ INDENT..WHIT.."16) "..I_WORKORDER..LC("Grand Conjurer Mimic <Mage Recruiter Extraordinaire>", 106433), 106433 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
+		{ INDENT..WHIT.."17) "..I_SEAL..LC("Researcher Tulius <Seal of Broken Fate Shipment>", 112982), 112982 };
+		{ INDENT..INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Arcane Divination order advancement"] };
+		{ INDENT..WHIT.."18) "..I_WORKORDER..LC("Guardian Alar <Kirin Tor Guardians Recruiter>", 106434), 106434 };
+		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Guardians of the Kirin Tor order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -522,12 +527,17 @@ local myData = {
 		{ WHIT.." 5) "..I_WORKORDER..LC("Gin Lai <Tiger Troop Trainer>", 105019), 105019 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT };
 		{ WHIT.." 6) "..LC("Elder Xang <Monk Trainer>", 101749), 101749 };
-		{ WHIT.." 7) "..L["Training Dummies"], 10007 };
-		{ WHIT.." 8) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Iron-Body Ponshu <Senior Master Ox>", 100438) , 10008 };
+		{ WHIT.." 7) "..I_WORKORDER..LC("Tianili <Celestial Trainer>", 106538), 106538};
+		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Celestial Favor order advancement"] };
+		{ WHIT.." 8) "..I_SEAL..LC("Yushi <Seal of Broken Fate Shipment>", 110817), 110817 };
+		{ INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires One with Destiny order advancement"] };
+		{ WHIT.." 9) "..I_WORKORDER..LC("Master Swoo <Masters of Serenity Recruiter>", 120145), 120145 };
+		{ WHIT.."10) "..L["Training Dummies"], 10010 };
+		{ WHIT.."11) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..ALC["L-Parenthesis"]..ARTIFACT_POWER..ALC["R-Parenthesis"].."\n"..WHIT..LC("Iron-Body Ponshu <Senior Master Ox>", 100438) , 10011 };
 		{ INDENT..WHIT..LC("Iron-Body Ponshu <Senior Master Ox>", 100438), 100438 };
 		{ INDENT..WHIT..LC("Lao Li the Quiet <Monk Trainer>", 101757)..GREY..ALC["L-Parenthesis"]..BZ["Terrace of Clear Thought"]..ALC["R-Parenthesis"] };
 		{ INDENT..WHIT..LC("Wise Scholar Lianji <Senior Master Serpent>", 97776)..GREY..ALC["L-Parenthesis"]..BZ["Hall of the Twin Brothers"]..ALC["R-Parenthesis"] };
-		{ WHIT.." 9) "..I_RESEARCH..LC("Lorewalker Cho <Head Archivist>", 106942), 106942 };
+		{ WHIT.."12) "..I_RESEARCH..LC("Lorewalker Cho <Head Archivist>", 106942), 106942 };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };
@@ -595,6 +605,8 @@ local myData = {
 		{ INDENT..GREY..L["Silver Hand Orders"]..ALC["Hyphen"]..L["Requires Grand Crusade order advancement"] };
 		{ WHIT.."15) "..I_WORKORDER..LC("Crusader Kern <Silver Hand Crusader Recruiter>", 120146), 120146 };
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..ALC["Hyphen"]..L["Requires Silver Hand Crusaders order advancement"] };
+		{ WHIT.."16) "..I_SEAL..LC("Librarian Lightmorne <Seal of Broken Fate Shipment>", 112986), 112986 };
+		{ INDENT..GREY..L["Seal of Broken Fate"]..ALC["Hyphen"]..L["Requires Holy Purpose order advancement"] };
 		{ "" };
 		{ LBLU..ACHIEVEMENTS..ALC["Colon"] };
 		{ LBLU..L["Class Hall"] };

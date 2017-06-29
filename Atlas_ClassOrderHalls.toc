@@ -39,4 +39,3 @@
 
 Locale\Locales.xml
 Atlas_ClassOrderHalls.lua
-Atlas_ClassOrderHalls_DB.lua

@@ -6,6 +6,11 @@ Copyright 2016 ~ 2019 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 = Change Log =
 ==============
 
+v1.46.00 (Jan. 14, 2020)
+------------------------
+- ToC update to support WoW 8.2.5
+- Updated Paladin map ID
+
 v1.45.00 (Sep. 04, 2019)
 ------------------------
 - ToC update to support WoW 8.2.0

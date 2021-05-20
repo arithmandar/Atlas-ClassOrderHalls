@@ -2,7 +2,7 @@
 --[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2019 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2021 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
 
 	This file is part of Atlas.
 

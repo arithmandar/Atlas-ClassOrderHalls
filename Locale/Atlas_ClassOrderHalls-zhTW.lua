@@ -25,7 +25,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "zhTW", false);
 
 if L then
---@do-not-package@
 -- //////////////////////////
 -- Common
 -- //////////////////////////
@@ -351,4 +350,3 @@ L["Requires Strike Hard order advancement"] = "需要「強擊部隊」的職業
 L["Sharak Tor <Recruiter>"] = "夏拉托 <招募員>" -- 106461
 L["Matthew Glensorrow <Recruiter>"] = "馬修·葛林索羅 <招募員>" -- 120077, alliance
 end
-

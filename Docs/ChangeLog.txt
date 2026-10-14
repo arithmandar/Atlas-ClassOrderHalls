@@ -5,6 +5,10 @@ Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team
 = Change Log =
 ==============
 
+v1.53.01 (Oct. 14, 2026)
+------------------------
+- zhTW localization file bug fix
+
 v1.53.00 (Oct. 14, 2026)
 ------------------------
 - Toc update to support WoW 12.1.0

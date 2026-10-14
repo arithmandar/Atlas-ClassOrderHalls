@@ -1,8 +1,7 @@
-﻿-- $Id$
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team
 
 	This file is part of Atlas.
 
@@ -26,7 +25,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "deDE", false);
 
 if L then
---@do-not-package@
 -- //////////////////////////
 -- Common
 -- //////////////////////////
@@ -272,6 +270,4 @@ L["Captain Hjalmar Stahlstrom <Recruiter>"] = "Hauptmann Hjalmar Stahlstrom <Rek
 L["Einar the Runecaster <Class Hall Upgrades>"] = "Einar der Runenmagier <Aufwertungen der Klassenordenshalle>"
 L["Savyn Valorborn <Recruiter>"] = "Savyn Ehrenstolz <Rekrutiererin>"
 L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Waffenlieferant>"
---@end-do-not-package@
---@localization(locale="deDE", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

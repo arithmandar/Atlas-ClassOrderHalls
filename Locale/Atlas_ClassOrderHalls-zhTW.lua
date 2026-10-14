@@ -1,8 +1,7 @@
-﻿-- $Id$
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team
 
 	This file is part of Atlas.
 
@@ -351,7 +350,5 @@ L["Matilda Skoptidottir"] = "瑪蒂達·斯寇提多特" -- 111774
 L["Requires Strike Hard order advancement"] = "需要「強擊部隊」的職業大廳升級"
 L["Sharak Tor <Recruiter>"] = "夏拉托 <招募員>" -- 106461
 L["Matthew Glensorrow <Recruiter>"] = "馬修·葛林索羅 <招募員>" -- 120077, alliance
---@end-do-not-package@
---@localization(locale="zhTW", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end
 

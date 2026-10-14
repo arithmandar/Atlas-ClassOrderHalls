@@ -1,8 +1,7 @@
-﻿-- $Id$
---[[
+﻿--[[
 
 	Atlas, a World of Warcraft instance map browser
-	Copyright 2016 ~ 2023 - Arith Hsu, Atlas Team <atlas.addon at gmail dot com>
+	Copyright 2016 ~ 2026 - Arith Hsu, Atlas Team
 
 	This file is part of Atlas.
 
@@ -26,7 +25,6 @@ local AceLocale = LibStub:GetLibrary("AceLocale-3.0");
 local L = AceLocale:NewLocale("Atlas_ClassOrderHalls", "frFR", false);
 
 if L then
---@do-not-package@
 	-- //////////////////////////
 	-- Common
 	-- //////////////////////////
@@ -221,6 +219,4 @@ if L then
 	L["Savyn Valorborn <Recruiter>"] = "Savyn Fierné <Recruteuse>"
 	L["Haklang Ulfsson <Armaments Requisitioner>"] = "Haklang Ulfsson <Réquisition d’armement>"
 	-- L["Travel to:"] = ""
---@end-do-not-package@
---@localization(locale="frFR", format="lua_additive_table", handle-unlocalized="ignore", handle-subnamespaces="none")@
 end

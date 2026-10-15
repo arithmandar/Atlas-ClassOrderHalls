@@ -102,7 +102,7 @@ local function getItemTitlebyID(title, id)
 end
 
 local function getClassName(class)
-	return Atlas_GetClassName(class)
+	return Atlas:GetClassName(class)
 end
 
 -- local constants for easier access
@@ -132,7 +132,9 @@ data.maps = {
 		{ INDENT..PURP.." B) "..L["Portal to another floor"], 10102 },
 		{ INDENT..PURP.." B) "..L["Portal to the roof"], 10103 },
 		{ INDENT..WHIT.." 1) "..I_FLIGHT..MINIMAP_TRACKING_FLIGHTMASTER, 10001 },
-		{ INDENT..WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..Atlas:GetBossName(L["Siouxsie the Banshee <Mission Specialist>"], 93568).."\n"..WHIT..Atlas:GetBossName(L["Highlord Darion Mograine"], 93437), 10002 },
+		{ INDENT..WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..Atlas:GetBossName(L["Siouxsie the Banshee <Mission Specialist>"], 93568).."\n"..
+			WHIT..Atlas:GetBossName(L["Highlord Darion Mograine"], 93437), 10002 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Siouxsie the Banshee <Mission Specialist>", 93568), 93568 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Highlord Darion Mograine", 93437), 93437 },
 		{ INDENT..WHIT.." 3) "..I_RESEARCH..getCreatureName("Illanna Dreadmoore <Ebon Blade Archivist>", 97111), 97111 },
@@ -140,7 +142,9 @@ data.maps = {
 		{ INDENT..WHIT.." 5) "..getCreatureName("Lord Thorval", 97134), 97134 },
 		{ INDENT..WHIT.." 6) "..I_WORKORDER..getCreatureName("Dark Summoner Marogh <Risen Horde Recruiter>", 106435), 106435 },
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
-		{ INDENT..WHIT.." 7) "..getCreatureName("Amal'thazad", 93555).."\n"..WHIT..getCreatureName("Thassarian", 93456).."\n"..WHIT..getCreatureName("King Thoras Trollbane", 113419), 93555 },
+		{ INDENT..WHIT.." 7) "..getCreatureName("Amal'thazad", 93555).."\n"..
+			WHIT..getCreatureName("Thassarian", 93456).."\n"..
+			WHIT..getCreatureName("King Thoras Trollbane", 113419), 93555 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Thassarian", 93456), 93456 },
 		{ INDENT..INDENT..WHIT..getCreatureName("King Thoras Trollbane", 113419), 113419 },
 		{ INDENT..WHIT.." 8) "..I_WORKORDER..getCreatureName("Winter Payne", 111634), 111634 },
@@ -195,7 +199,8 @@ data.maps = {
 		{ INDENT..WHIT.."10) "..L["Training Dummies"], 10010 },
 		{ INDENT..WHIT.."11) "..I_REPAIR..getCreatureName("Quartermaster Ozorg <Rare Goods Vendor>", 93550), 93550 },
 		{ INDENT..WHIT.."12) "..getCreatureName("Lady Alistra <Death Knight Trainer>", 93509), 93509 },
-		{ INDENT..WHIT.."13) "..I_PROFF..L["Soul Forge"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Grand Master Siegesmith Corvus", 97072), 10011 },
+		{ INDENT..WHIT.."13) "..I_PROFF..L["Soul Forge"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Grand Master Siegesmith Corvus", 97072), 10011 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Grand Master Siegesmith Corvus", 97072), 97072 },
 		{ INDENT..WHIT.."14) "..I_WORKORDER..getCreatureName("Korgaz Deadaxe <Ebon Soldier Recruiter>", 106436), 106436 },
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
@@ -247,7 +252,8 @@ data.maps = {
 		{ INDENT..PURP.." A) "..L["Illidari Gateway"], 10101 },
 		{ INDENT..INDENT..GREY..L["Travel to Dalaran"] },
 		{ INDENT..BLUE.." A) "..L["Ramp to lower floor"], 10102 },
-		{ INDENT..WHIT.." 1) "..getCreatureName("Kayn Sunfury <Illidari>", 95240).."\n"..WHIT..getCreatureName("Kor'vas Bloodthorn <Illidari>", 103761), 10001 },
+		{ INDENT..WHIT.." 1) "..getCreatureName("Kayn Sunfury <Illidari>", 95240).."\n"..
+			WHIT..getCreatureName("Kor'vas Bloodthorn <Illidari>", 103761), 10001 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Kor'vas Bloodthorn <Illidari>", 103761), 103761 },
 		{ INDENT..WHIT.." 2) "..I_WORKORDER..getCreatureName("Battlelord Gaardoun <Ashtongue Captain>", 103025), 103025 },
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
@@ -331,12 +337,15 @@ data.maps = {
 		{ WHIT.." 5) "..I_RESEARCH..getCreatureName("Celadine the Fatekeeper <Dreamgrove Researcher>", 111737), 111737 },
 		{ WHIT.." 6) "..I_WORKORDER..getCreatureName("Yaris Darkclaw <Recruiter>", 106442), 106442 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
-		{ WHIT.." 7) "..I_PROFF..L["Seed of Ages"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Tender Daranelle", 109612), 10007 },
+		{ WHIT.." 7) "..I_PROFF..L["Seed of Ages"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Tender Daranelle", 109612), 10007 },
 		{ INDENT..WHIT..getCreatureName("Tender Daranelle", 109612) },
 		{ WHIT.." 8) "..getCreatureName("Rensar Greathoof <Archdruid of the Grove>", 101195), 101195 },
 		{ WHIT.." 9) "..getCreatureName("Keeper Remulos", 103832), 103832 },
 		{ WHIT.."10) "..getCreatureName("Lyessa Bloomwatcher <Guardian of G'Hanir>", 104577), 104577 },
-		{ WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Skylord Omnuron <Mission Specialist>", 98002).."\n"..WHIT..getCreatureName("Mylune", 113525), 10011 },
+		{ WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Skylord Omnuron <Mission Specialist>", 98002).."\n"..
+			WHIT..getCreatureName("Mylune", 113525), 10011 },
 		{ INDENT..WHIT..getCreatureName("Skylord Omnuron <Mission Specialist>", 98002) },
 		{ INDENT..WHIT..getCreatureName("Mylune", 113525) },
 		{ WHIT.."12) "..getCreatureName("Zen'kiki", 98784), 98784 },
@@ -392,10 +401,12 @@ data.maps = {
 		{ WHIT.." 1) "..I_FLIGHT..MINIMAP_TRACKING_FLIGHTMASTER, 10001 },
 		{ WHIT.." 2) "..I_FLIGHT..getCreatureName("Great Eagle", 108552), 108552 },
 		{ WHIT.." 3) "..getCreatureName("Emmarel Shadewarden <Unseen Path>", 107317), 107317 },
-		{ WHIT.." 4) "..I_PROFF..L["Altar of the Eternal Hunt"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Altar Keeper Biehn", 102940), 10004 },
+		{ WHIT.." 4) "..I_PROFF..L["Altar of the Eternal Hunt"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Altar Keeper Biehn", 102940), 10004 },
 		{ INDENT..WHIT..getCreatureName("Altar Keeper Biehn", 102940) },
 		{ WHIT.." 5) "..I_REPAIR..getCreatureName("Outfitter Reynolds <Unseen Path>", 103693), 103693 },
-		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Tactician Tinderfell <Unseen Path>", 103023), 10006 },
+		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Tactician Tinderfell <Unseen Path>", 103023), 10006 },
 		{ INDENT..WHIT..getCreatureName("Tactician Tinderfell <Unseen Path>", 103023), 103023 },
 		{ WHIT.." 7) "..getCreatureName("Image of Mimiron", 110424), 110424 },
 		{ WHIT.." 8) "..I_RESEARCH..getCreatureName("Holt Thunderhorn <Lore and Legends>", 98737), 98737 },
@@ -405,7 +416,8 @@ data.maps = {
 		{ WHIT.."10) "..I_WORKORDER..getCreatureName("Lenara <Recruiter>", 106444), 106444 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
 		{ WHIT.."11) "..I_CLASS..getCreatureName("Survivalist Bahn <Class Hall Upgrades>", 108050), 108050 },
-		{ WHIT.."12) "..I_WORKORDER..getCreatureName("Sampson <Recruiter>", 106446).."\n"..WHIT..getCreatureName("Pan the Kind Hand <Stable Master>", 100661), 106446 },
+		{ WHIT.."12) "..I_WORKORDER..getCreatureName("Sampson <Recruiter>", 106446).."\n"..
+			WHIT..getCreatureName("Pan the Kind Hand <Stable Master>", 100661), 106446 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
 		{ INDENT..WHIT..getCreatureName("Pan the Kind Hand <Stable Master>", 100661) },
 		{ WHIT.."13) "..getCreatureName("Ogdrul <The Seeker>", 113688), 113688 },
@@ -461,7 +473,9 @@ data.maps = {
 		{ INDENT..WHIT.." 1) "..I_PROFF..L["Forge of the Guardian"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN, 10001 },
 		{ INDENT..WHIT.." 2) "..I_RESEARCH..getCreatureName("Edirah <Tirisgarde Researcher>", 110624), 110624 },
 		{ INDENT..WHIT.." 3) "..getCreatureName("Magister Varenthas <High Forgeguard>", 109642), 109642 },
-		{ INDENT..WHIT.." 4) "..getCreatureName("Meryl Felstorm", 102700).."\n"..getCreatureName("Archmage Kalec <Kirin Tor>", 108247).."\n"..getCreatureName("Archmage Modera <Kirin Tor>", 108248), 102700 },
+		{ INDENT..WHIT.." 4) "..getCreatureName("Meryl Felstorm", 102700).."\n"..
+			getCreatureName("Archmage Kalec <Kirin Tor>", 108247).."\n"..
+			getCreatureName("Archmage Modera <Kirin Tor>", 108248), 102700 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Archmage Kalec <Kirin Tor>", 108247), 108247 },
 		{ INDENT..INDENT..WHIT..getCreatureName("Archmage Modera <Kirin Tor>", 108248), 108248 },
 		{ INDENT..WHIT.." 5) "..getCreatureName("Old Fillmaff <Tirisgarde Librarian>", 107452), 107452 },
@@ -479,7 +493,8 @@ data.maps = {
 		{ INDENT..WHIT.." 9) "..I_CLASS..getCreatureName("Chronicler Elrianne <Class Hall Upgrades>", 108331), 108331 },
 		{ INDENT..WHIT.."10) "..I_WORKORDER..getCreatureName("Archmage Omniara <Recruiter>", 106377), 106377 },
 		{ INDENT..INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
-		{ INDENT..WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("The Great Akazamzarak", 103092), 10011 },
+		{ INDENT..WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("The Great Akazamzarak", 103092), 10011 },
 		{ INDENT..INDENT..WHIT..getCreatureName("The Great Akazamzarak", 103092), 103092 },
 		{ INDENT..WHIT.."12) "..getCreatureName("Archmage Melis <Mistress of Flame>", 108515), 108515 },
 		{ INDENT..WHIT.."13) "..I_WORKORDER..getCreatureName("Minuette <Armament Summoner>", 110427), 110427 },
@@ -538,7 +553,9 @@ data.maps = {
 		{ PURP.." C) "..L["Transportation Mandala"], 10103 },
 		{ INDENT..GREY..L_PAREN..BZ["Terrace of Clear Thought"]..SLASH..BZ["Hall of the Twin Brothers"]..R_PAREN },
 		{ WHIT.." 1) "..I_REPAIR..getCreatureName("Caydori Brightstar <Purveyor of Rare Goods>", 112338), 112338 },
-		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Master Hsu <Mission Master>", 99179).."\n"..WHIT..I_CLASS..getCreatureName("Number Nine Jia <Class Hall Upgrades>", 98939), 10002 },
+		{ WHIT.." 2) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Master Hsu <Mission Master>", 99179).."\n"..
+			WHIT..I_CLASS..getCreatureName("Number Nine Jia <Class Hall Upgrades>", 98939), 10002 },
 		{ INDENT..WHIT..getCreatureName("Master Hsu <Mission Master>", 99179), 99179 },
 		{ INDENT..WHIT..I_CLASS..getCreatureName("Number Nine Jia <Class Hall Upgrades>", 98939), 98939 },
 		{ WHIT.." 3) "..I_WORKORDER..getCreatureName("Tianji <Ox Troop Trainer>", 105015), 105015 },
@@ -553,7 +570,8 @@ data.maps = {
 		{ INDENT..GREY..L["Seal of Broken Fate"]..HYPHEN..L["Requires One with Destiny order advancement"] },
 		{ WHIT.." 9) "..I_WORKORDER..getCreatureName("Master Swoo <Masters of Serenity Recruiter>", 120145), 120145 },
 		{ WHIT.."10) "..L["Training Dummies"], 10010 },
-		{ WHIT.."11) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Iron-Body Ponshu <Senior Master Ox>", 100438) , 10011 },
+		{ WHIT.."11) "..I_PROFF..L["Forge of the Roaring Mountain"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Iron-Body Ponshu <Senior Master Ox>", 100438) , 10011 },
 		{ INDENT..WHIT..getCreatureName("Iron-Body Ponshu <Senior Master Ox>", 100438), 100438 },
 		{ INDENT..WHIT..getCreatureName("Lao Li the Quiet <Monk Trainer>", 101757)..GREY..L_PAREN..BZ["Terrace of Clear Thought"]..R_PAREN },
 		{ INDENT..WHIT..getCreatureName("Wise Scholar Lianji <Senior Master Serpent>", 97776)..GREY..L_PAREN..BZ["Hall of the Twin Brothers"]..R_PAREN },
@@ -606,7 +624,8 @@ data.maps = {
 		{ WHIT.." 3) "..I_REPAIR..getCreatureName("Eadric the Pure <Quartermaster>", 100196), 100196 },
 		{ WHIT.." 4) "..getCreatureName("Lord Irulon Trueblade", 99947), 99947 },
 		{ WHIT.." 5) "..getCreatureName("Lord Maxwell Tyrosus", 90259), 90259 },
-		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Lord Grayson Shadowbreaker <Mission Specialist>", 90250), 10006 },
+		{ WHIT.." 6) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Lord Grayson Shadowbreaker <Mission Specialist>", 90250), 10006 },
 		{ INDENT..WHIT..getCreatureName("Lord Grayson Shadowbreaker <Mission Specialist>", 90250), 90250 },
 		{ WHIT.." 7) "..I_WORKORDER..getCreatureName("Commander Ansela <Silver Hand Recruiter>", 106447), 106447 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
@@ -621,7 +640,8 @@ data.maps = {
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
 		{ WHIT.."12) "..getCreatureName("Valgar Highforge <Grand Smith of the Order>", 90261), 90261 },
 		{ WHIT.."13) "..I_PROFF..L["Altar of Ancient Kings"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN, 10013 },
-		{ WHIT.."14) "..I_WORKORDER..getCreatureName("Terric the Illuminator", 111772).."\n"..GREY..L_PAREN..L["Silver Hand Orders"]..R_PAREN, 111772 },
+		{ WHIT.."14) "..I_WORKORDER..getCreatureName("Terric the Illuminator", 111772).."\n"..
+			GREY..L_PAREN..L["Silver Hand Orders"]..R_PAREN, 111772 },
 		{ INDENT..GREY..L["Silver Hand Orders"]..HYPHEN..L["Requires Grand Crusade order advancement"] },
 		{ WHIT.."15) "..I_WORKORDER..getCreatureName("Crusader Kern <Silver Hand Crusader Recruiter>", 120146), 120146 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..HYPHEN..L["Requires Silver Hand Crusaders order advancement"] },
@@ -669,7 +689,8 @@ data.maps = {
 		Location = { BZ["Netherlight Temple"]..COMMA..BZ["Dalaran"] },
 		WorldMapID = 702,
 		{ PURP.." A) "..format(ALC["Portal to %s"], BZ["Dalaran"]), 10101 },
-		{ WHIT.." 1) "..I_PROFF..L["Altar of Light and Shadow"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Betild Deepanvil <Master Artificer>", 102709), 10001 },
+		{ WHIT.." 1) "..I_PROFF..L["Altar of Light and Shadow"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Betild Deepanvil <Master Artificer>", 102709), 10001 },
 		{ INDENT..WHIT..getCreatureName("Betild Deepanvil <Master Artificer>", 102709), 102709 },
 		{ WHIT.." 2) "..I_RESEARCH..getCreatureName("Juvess the Duskwhisperer <Keeper of Scrolls>", 111738), 111738 },
 		{ WHIT.." 3) "..I_WORKORDER..getCreatureName("Grand Anchorite Gesslar <Recruiter>", 106450), 106450 },
@@ -744,7 +765,8 @@ data.maps = {
 		{ WHIT.." 8) "..getCreatureName("Marin Noggenfogger <Baron of Gadgetzan>", 102594), 102594 },
 		{ WHIT.." 9) "..I_PROFF..L["Crucible of the Uncrowned"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN, 10009 },
 		{ WHIT.."10) "..getCreatureName("Lorena Belle <Master Smuggler>", 109609), 109609 },
-		{ WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Nikki the Gossip <Tales fo Adventure and Profit>", 98092), 10011 },
+		{ WHIT.."11) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Nikki the Gossip <Tales fo Adventure and Profit>", 98092), 10011 },
 		{ INDENT..WHIT..getCreatureName("Nikki the Gossip <Tales fo Adventure and Profit>", 98092), 98092 },
 		{ WHIT.."12) "..I_WORKORDER..getCreatureName("Lonika Stillblade <Rogue Academy Proprietor>", 105979), 105979 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
@@ -804,7 +826,8 @@ data.maps = {
 		{ WHIT.." 2) "..getCreatureName("Aggra <Shaman Trainer>", 99531), 99531 },
 		{ WHIT.." 3) "..L["Maelstrom Pillar"].."\n"..WHIT..getCreatureName("Elementalist Janai <Earthen Ring>", 109464), 10003 },  
 		{ INDENT..WHIT..getCreatureName("Elementalist Janai <Earthen Ring>", 109464), 109464 },
-		{ WHIT.." 4) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Advisor Sevel <The Earthen Ring>", 96746), 10004 },
+		{ WHIT.." 4) "..I_CMISSION..ADVENTURE_MAP_TITLE..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Advisor Sevel <The Earthen Ring>", 96746), 10004 },
 		{ INDENT..WHIT..getCreatureName("Advisor Sevel <The Earthen Ring>", 96746), 96746 },
 		{ WHIT.." 5) "..I_CLASS..getCreatureName("Journeyman Goldmine <Class Hall Upgrades>", 112199), 112199 },
 		{ WHIT.." 6) "..I_REPAIR..getCreatureName("Flamesmith Lanying <Earthen Ring Quartermaster>", 112318), 112318 },
@@ -816,8 +839,8 @@ data.maps = {
 		{ WHIT.."11) "..getCreatureName("Gavan Grayfeather <Ears of the Maelstrom>", 112262), 112262 },
 		{ WHIT.."12) "..I_WORKORDER..getCreatureName("Felinda Frye <Earthwarden Recruiter>", 112208), 112208 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
--- 		{ WHIT.."13) "..getCreatureName("Mackay Firebeard <The Earthen Ring>", 96758), 96758 }, -- We don't have enough room for this NPC, besides he seems to be less important
 		{ WHIT.."13) "..getCreatureName("Orono <The Earthen Ring>", 96745), 96745 },
+ 		{ WHIT..INDENT..getCreatureName("Mackay Firebeard <The Earthen Ring>", 96758), 96758 },
 		{ WHIT.."14) "..getCreatureName("Bath'rah the Windwatcher <The Earthen Ring>", 96747), 96747 },
 		{ WHIT.."15) "..getCreatureName("Tribemother Torra <Shaman Trainer>", 111922), 111922 },
 		{ WHIT.."16) "..getCreatureName("Morgl the Oracle <The Earthen Ring>", 112438), 112438 },
@@ -873,7 +896,9 @@ data.maps = {
 		{ INDENT..WHIT..getCreatureName("Lurr <Dreadscar Blacksmith>", 101913), 101913 },
 		{ WHIT.." 5) "..I_WORKORDER..getCreatureName("Jared <Recruiter>", 106217), 106217 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
-		{ WHIT.." 6) "..I_CMISSION..L["Dreadscar Battle Plans"]..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Gakin the Darkbinder <Mission Strategist>", 106199).."\n"..WHIT..getCreatureName("Ritssyn Flamescowl <Council of the Black Harvest>", 104795), 10006 },
+		{ WHIT.." 6) "..I_CMISSION..L["Dreadscar Battle Plans"]..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Gakin the Darkbinder <Mission Strategist>", 106199).."\n"..
+			WHIT..getCreatureName("Ritssyn Flamescowl <Council of the Black Harvest>", 104795), 10006 },
 		{ INDENT..WHIT..getCreatureName("Gakin the Darkbinder <Mission Strategist>", 106199), 106199 },
 		{ INDENT..WHIT..getCreatureName("Ritssyn Flamescowl <Council of the Black Harvest>", 104795), 104795 },
 		{ WHIT.." 7) "..I_CLASS..getCreatureName("Archivist Melinda <Class Hall Upgrades>", 108018), 108018 },
@@ -932,7 +957,8 @@ data.maps = {
 		{ INDENT..INDENT..GREY..BZ["Valdisdall"]..COMMA..BZ["Stormheim"] },
 		{ INDENT..INDENT..GREY..BZ["Meredil"]..COMMA..BZ["Suramar"] },
 		{ INDENT..INDENT..GREY..BZ["Deliverance Point"]..COMMA..BZ["Broken Shore"] },
-		{ WHIT.." 1) "..I_CMISSION..L["Eye of Odyn"]..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..WHIT..getCreatureName("Skyseer Ghrent", 100635), 10001 },
+		{ WHIT.." 1) "..I_CMISSION..L["Eye of Odyn"]..GREY..L_PAREN..ORDER_HALL_MISSIONS..R_PAREN.."\n"..
+			WHIT..getCreatureName("Skyseer Ghrent", 100635), 10001 },
 		{ INDENT..WHIT..getCreatureName("Skyseer Ghrent", 100635), 100635 },
 		{ WHIT.." 2) "..I_WORKORDER..getCreatureName("Captain Hjalmar Stahlstrom <Recruiter>", 106459), 106459 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT },
@@ -943,7 +969,8 @@ data.maps = {
 		{ INDENT..GREY..L["Champion Armaments"] },
 		{ WHIT.." 6) "..I_RESEARCH..getCreatureName("Fjornson Stonecarver <Keeper of Legends>", 111741), 111741 },
 		{ WHIT.." 7) "..I_CLASS..getCreatureName("Einar the Runecaster <Class Hall Upgrades>", 107994), 107994 },
-		{ WHIT.." 8) "..I_PROFF..L["Forge of Odyn"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..WHIT..getCreatureName("Master Smith Helgar", 96586), 10008 },
+		{ WHIT.." 8) "..I_PROFF..L["Forge of Odyn"]..GREY..L_PAREN..ARTIFACT_POWER..R_PAREN.."\n"..
+			WHIT..getCreatureName("Master Smith Helgar", 96586), 10008 },
 		{ INDENT..WHIT..getCreatureName("Master Smith Helgar", 96586), 96586 },
 		{ WHIT.." 9) "..getCreatureName("Weaponmaster Asvard <Warrior Trainer>", 112577), 112577 },
 		{ WHIT.."10) "..BZ["Arena of Glory"], 10010 },
@@ -952,7 +979,8 @@ data.maps = {
 		{ WHIT.."13) "..getCreatureName("Odyn", 96469), 96469 },
 		{ WHIT.."14) "..I_WORKORDER..getCreatureName("Matilda Skoptidottir", 111774), 111774 },
 		{ INDENT..GREY..L["Horn of War"]..HYPHEN..L["Requires Val'kyr Call order advancement"] },
-		{ WHIT.."15) "..I_WORKORDER..((faction == "Alliance") and getCreatureName("Matthew Glensorrow <Recruiter>", 120077) or getCreatureName("Sharak Tor <Recruiter>", 106461)), 10015 },
+		{ WHIT.."15) "..I_WORKORDER..((faction == "Alliance") and getCreatureName("Matthew Glensorrow <Recruiter>", 120077) or 
+			getCreatureName("Sharak Tor <Recruiter>", 106461)), 10015 },
 		{ INDENT..GREY..CAPACITANCE_START_RECRUITMENT..HYPHEN..L["Requires Strike Hard order advancement"] },
 		{ "" },
 		{ LBLU..ACHIEVEMENTS..COLON },
